@@ -2640,12 +2640,6 @@
 		)
 	)
 	(junction
-		(at 115.57 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a715c46-f108-48c0-8d25-bb2a64dce936")
-	)
-	(junction
 		(at 224.79 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2670,19 +2664,25 @@
 		(uuid "20657b24-3a2a-4fa0-892a-193019c1a145")
 	)
 	(junction
-		(at 138.43 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24fb9971-4feb-4d10-aa2c-29fd6a65bbaa")
-	)
-	(junction
-		(at 172.72 43.18)
+		(at 165.1 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fbd2753-1936-4df4-9ba2-76458ccf7962")
 	)
 	(junction
-		(at 115.57 43.18)
+		(at 142.24 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "300cd4ba-18f8-4f70-9318-e74eda43ca29")
+	)
+	(junction
+		(at 165.1 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30f3e96f-d3d2-41fc-ac06-668ddd2dda55")
+	)
+	(junction
+		(at 107.95 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34ce5d56-35eb-474c-b724-1ba6bb64c5ed")
@@ -2692,6 +2692,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34efab2d-0f65-4948-ae96-2ee5ebbb8556")
+	)
+	(junction
+		(at 119.38 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "368c2ba5-5ace-42c8-a17c-5178fa66fc4a")
 	)
 	(junction
 		(at 58.42 158.75)
@@ -2706,7 +2712,7 @@
 		(uuid "3b34aa4e-88db-4c17-8f41-d7dc2a6848bd")
 	)
 	(junction
-		(at 161.29 43.18)
+		(at 153.67 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40f6e443-67a4-4050-8e9f-bbf3402c2af4")
@@ -2736,19 +2742,13 @@
 		(uuid "5a93aa5d-ecca-4bc2-b8b2-e399046bd7d7")
 	)
 	(junction
-		(at 127 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f1af258-c114-457a-a879-f625f402263f")
-	)
-	(junction
 		(at 48.26 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f30f663-ab03-4014-bcde-c5c60cb22597")
 	)
 	(junction
-		(at 149.86 43.18)
+		(at 142.24 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fdd9f96-bf50-4241-9177-12e6e817a180")
@@ -2772,10 +2772,22 @@
 		(uuid "7f95ae27-905e-4a88-bf6a-d2deb14f5285")
 	)
 	(junction
+		(at 153.67 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe542a2-a720-4daf-adb9-d3ee49648c79")
+	)
+	(junction
 		(at 54.61 120.015)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "931244b6-821c-4fe3-91de-5bd20200e827")
+	)
+	(junction
+		(at 176.53 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a64c9e-30c8-411b-82cb-d010d5b6c530")
 	)
 	(junction
 		(at 58.42 168.91)
@@ -2796,10 +2808,16 @@
 		(uuid "a56be8ba-5436-4ea5-b8b2-0267847fef70")
 	)
 	(junction
-		(at 138.43 43.18)
+		(at 130.81 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acbcb9bc-3931-42f7-bfe3-e7ee5aaaef26")
+	)
+	(junction
+		(at 176.53 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af2abd59-45e1-4d56-b0d5-e1ede61af05e")
 	)
 	(junction
 		(at 54.61 109.855)
@@ -2814,28 +2832,22 @@
 		(uuid "bd9595a1-04f3-4fda-8f1b-e65ad874edd3")
 	)
 	(junction
-		(at 127 43.18)
+		(at 119.38 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3410611-210b-4b0e-b6e9-81d6deca575f")
 	)
 	(junction
-		(at 161.29 27.94)
+		(at 130.81 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c4960182-22c7-4154-926c-be4099d57189")
+		(uuid "ce1b8609-b931-4d5c-be75-fae95e3f7622")
 	)
 	(junction
-		(at 184.15 27.94)
+		(at 107.95 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d28eea6c-0f6e-42fa-845c-465616854e9d")
-	)
-	(junction
-		(at 172.72 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2b181d7-9871-43c9-914a-6ed9f9e88a15")
+		(uuid "d9306c06-1a03-48a5-a964-bd1be9917930")
 	)
 	(junction
 		(at 93.98 172.72)
@@ -2850,16 +2862,16 @@
 		(uuid "ddfa5b15-4775-4e97-8993-5133bb7db5d1")
 	)
 	(junction
-		(at 149.86 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec937f3a-0ae3-4636-9374-d291dab842d9")
-	)
-	(junction
 		(at 93.98 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef04ce34-5414-4b5c-887c-7d2718c4f811")
+	)
+	(junction
+		(at 187.96 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f34a574e-d7db-4935-9679-82b86925d57f")
 	)
 	(junction
 		(at 72.39 193.04)
@@ -2882,6 +2894,16 @@
 	(no_connect
 		(at 177.8 96.52)
 		(uuid "f2d81ecb-46ea-4216-93c0-ffea3ed1056a")
+	)
+	(wire
+		(pts
+			(xy 130.81 27.94) (xy 142.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039a1085-ea5c-42f5-af93-ab75fc59f2e7")
 	)
 	(wire
 		(pts
@@ -2935,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 27.94) (xy 161.29 33.02)
+			(xy 153.67 27.94) (xy 153.67 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 27.94) (xy 127 33.02)
+			(xy 119.38 27.94) (xy 119.38 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3012,16 +3034,6 @@
 			(type default)
 		)
 		(uuid "191408de-00eb-4e20-bcbf-877ac5845ad0")
-	)
-	(wire
-		(pts
-			(xy 127 27.94) (xy 138.43 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "198d09cd-04da-4dc8-a416-0422c3786ab8")
 	)
 	(wire
 		(pts
@@ -3105,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 43.18) (xy 184.15 43.18)
+			(xy 165.1 43.18) (xy 176.53 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3165,16 +3177,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 27.94) (xy 127 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab92963-8c28-4fc3-88de-d20a46a66e3b")
-	)
-	(wire
-		(pts
 			(xy 199.39 59.055) (xy 199.39 59.69)
 		)
 		(stroke
@@ -3195,7 +3197,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 43.18) (xy 115.57 43.18)
+			(xy 153.67 27.94) (xy 165.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e28d456-5f62-4df2-8a1c-e249762d483b")
+	)
+	(wire
+		(pts
+			(xy 102.87 43.18) (xy 107.95 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3292,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "39ba126e-a705-4897-8b29-9f6d1c67fb0d")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4a5e11-0e16-48ad-b6d6-8111dbd93242")
 	)
 	(wire
 		(pts
@@ -3465,6 +3487,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 27.94) (xy 119.38 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf31723-081c-4ed9-a605-194fdbdb5c01")
+	)
+	(wire
+		(pts
 			(xy 90.17 120.015) (xy 77.47 120.015)
 		)
 		(stroke
@@ -3515,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 43.18) (xy 172.72 43.18)
+			(xy 153.67 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3575,33 +3607,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 43.18) (xy 161.29 38.1)
+			(xy 176.53 27.94) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0f924a-5364-4160-aa30-fa6421914a1e")
+	)
+	(wire
+		(pts
+			(xy 153.67 43.18) (xy 153.67 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d040337-be07-4a60-8664-dcbd20def94e")
-	)
-	(wire
-		(pts
-			(xy 149.86 27.94) (xy 161.29 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e8ef946-25d9-4e5e-bf3a-b51dfeda6773")
-	)
-	(wire
-		(pts
-			(xy 172.72 27.94) (xy 184.15 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f67318c-8aa0-45f0-997e-c83001dc6e23")
 	)
 	(wire
 		(pts
@@ -3645,7 +3667,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 27.94) (xy 149.86 33.02)
+			(xy 142.24 27.94) (xy 142.24 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3685,7 +3707,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 38.1) (xy 149.86 43.18)
+			(xy 142.24 38.1) (xy 142.24 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3745,7 +3767,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 38.1) (xy 184.15 43.18)
+			(xy 176.53 38.1) (xy 176.53 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3805,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 27.94) (xy 115.57 33.02)
+			(xy 107.95 27.94) (xy 107.95 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3985,7 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 27.94) (xy 184.15 33.02)
+			(xy 176.53 27.94) (xy 176.53 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4015,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 27.94) (xy 115.57 27.94)
+			(xy 102.87 27.94) (xy 107.95 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4025,7 +4047,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 43.18) (xy 172.72 38.1)
+			(xy 165.1 43.18) (xy 165.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4075,7 +4097,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 43.18) (xy 149.86 43.18)
+			(xy 130.81 43.18) (xy 142.24 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4117,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 43.18) (xy 127 43.18)
+			(xy 165.1 27.94) (xy 176.53 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a445d9ef-d67d-4245-ae90-dcec1234ccee")
+	)
+	(wire
+		(pts
+			(xy 107.95 43.18) (xy 119.38 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4105,7 +4137,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 27.94) (xy 138.43 33.02)
+			(xy 130.81 27.94) (xy 130.81 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4125,7 +4157,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 27.94) (xy 172.72 33.02)
+			(xy 165.1 27.94) (xy 165.1 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4155,7 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 127 38.1)
+			(xy 119.38 43.18) (xy 119.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4172,6 +4204,16 @@
 			(type default)
 		)
 		(uuid "aff126c4-639c-4bb8-9980-1ac1f670398d")
+	)
+	(wire
+		(pts
+			(xy 119.38 27.94) (xy 130.81 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34668be-0c66-45a1-9619-3a7927869e16")
 	)
 	(wire
 		(pts
@@ -4205,7 +4247,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 38.1) (xy 138.43 43.18)
+			(xy 130.81 38.1) (xy 130.81 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4275,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 43.18) (xy 161.29 43.18)
+			(xy 142.24 43.18) (xy 153.67 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4345,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 38.1) (xy 115.57 43.18)
+			(xy 107.95 38.1) (xy 107.95 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4355,13 +4397,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 27.94) (xy 172.72 27.94)
+			(xy 142.24 27.94) (xy 153.67 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0105eb0-f19b-4c63-a703-fa90d7420920")
+		(uuid "d23b56df-8cd3-42ca-8ebb-f205e03a5595")
 	)
 	(wire
 		(pts
@@ -4445,6 +4487,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 27.94) (xy 196.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e661968e-0c26-43c7-8526-c1d3c87bc9e8")
+	)
+	(wire
+		(pts
 			(xy 61.595 76.835) (xy 59.055 76.835)
 		)
 		(stroke
@@ -4465,7 +4517,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 138.43 43.18)
+			(xy 119.38 43.18) (xy 130.81 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4475,23 +4527,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 27.94) (xy 149.86 27.94)
+			(xy 187.96 38.1) (xy 187.96 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb41ecf8-a7c9-4cbf-b0cf-8e4aafa9f20e")
-	)
-	(wire
-		(pts
-			(xy 184.15 27.94) (xy 196.85 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec74b443-d107-45c8-81ff-54fc7419d1c3")
+		(uuid "edc8fb62-a2ea-4ff3-9530-cc2333f7fb8f")
 	)
 	(wire
 		(pts
@@ -4582,6 +4624,16 @@
 			(type default)
 		)
 		(uuid "fbc50e7d-038b-43f7-b52d-058f1624e031")
+	)
+	(wire
+		(pts
+			(xy 176.53 43.18) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdadfe35-f85b-4b9b-95e4-0144f1d0bb71")
 	)
 	(wire
 		(pts
@@ -5168,7 +5220,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 110.49 43.18 180)
+		(at 102.87 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5456,7 +5508,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 110.49 27.94 180)
+		(at 102.87 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5606,7 +5658,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 149.86 35.56 0)
+		(at 142.24 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5615,7 +5667,7 @@
 		(dnp no)
 		(uuid "0a260759-78e9-462e-8685-d0cde1fa1365")
 		(property "Reference" "C?"
-			(at 152.4 33.02 0)
+			(at 144.78 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5676,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 152.4 35.56 0)
+			(at 144.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5685,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5694,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5703,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5712,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5721,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5730,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5739,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5748,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5757,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 149.86 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +6677,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 115.57 35.56 0)
+		(at 107.95 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6634,7 +6686,7 @@
 		(dnp no)
 		(uuid "35641e7a-e879-49f9-98c6-6270074a111b")
 		(property "Reference" "C?"
-			(at 118.11 33.02 0)
+			(at 110.49 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6695,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 118.11 35.56 0)
+			(at 110.49 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +6704,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6713,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6722,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6731,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6740,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6749,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +6758,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6767,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6776,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +6785,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 115.57 35.56 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7092,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 127 35.56 0)
+		(at 119.38 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7049,7 +7101,7 @@
 		(dnp no)
 		(uuid "5548c0ed-f041-488f-9b22-7816b5709ee1")
 		(property "Reference" "C?"
-			(at 129.54 33.02 0)
+			(at 121.92 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7110,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 129.54 35.56 0)
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7119,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7128,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7137,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7146,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7155,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7164,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7173,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7182,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7191,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 127 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,7 +7718,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 161.29 35.56 0)
+		(at 153.67 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7675,7 +7727,7 @@
 		(dnp no)
 		(uuid "688f4630-596d-4680-b56b-8788f19f9996")
 		(property "Reference" "C?"
-			(at 163.83 33.02 0)
+			(at 156.21 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +7736,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 163.83 35.56 0)
+			(at 156.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +7745,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +7754,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +7763,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7772,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7781,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7790,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,7 +7799,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,7 +7808,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +7817,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 161.29 35.56 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,6 +7986,130 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 224.79 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71901201-ead3-47d6-9dc7-2f460563ede7")
+		(property "Reference" "C21"
+			(at 223.52 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 223.52 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "768e6c58-adc5-4a86-a90d-44eee61fd78c")
+		)
+		(pin "2"
+			(uuid "e59e9e60-e24b-4a94-a48f-b00d3a2356cd")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8220,7 +8396,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 35.56 0)
+		(at 165.1 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8229,7 +8405,7 @@
 		(dnp no)
 		(uuid "7a73a0f5-c544-4c49-b389-7bef6c0b61a2")
 		(property "Reference" "C?"
-			(at 175.26 33.02 0)
+			(at 167.64 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8414,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 175.26 35.56 0)
+			(at 167.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8423,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8432,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8441,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8450,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8459,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +8468,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +8477,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +8486,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +8495,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 172.72 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8526,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 138.43 35.56 0)
+		(at 130.81 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8359,7 +8535,7 @@
 		(dnp no)
 		(uuid "822b847d-82f0-4f7f-8a62-741d62d52cd7")
 		(property "Reference" "C?"
-			(at 140.97 33.02 0)
+			(at 133.35 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8544,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 140.97 35.56 0)
+			(at 133.35 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8553,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +8562,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8571,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,7 +8580,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +8589,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +8598,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +8607,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +8616,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,7 +8625,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 138.43 35.56 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9046,6 +9222,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 215.9 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b2151bd-2bf9-4467-9d91-20c7be70a8c3")
+		(property "Reference" "C20"
+			(at 214.63 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 214.63 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d5f241f-1dd4-4f87-a5fd-16b446f742a8")
+		)
+		(pin "2"
+			(uuid "c7952646-18e4-43bc-9b4b-a2dfbfcdc31e")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 173.99 78.74 90)
 		(unit 1)
@@ -9176,6 +9476,130 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 187.96 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2aecdfb-edc6-43aa-b0fe-4f7055229109")
+		(property "Reference" "C19"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "058cf565-07b3-49dd-8c66-25268b5d76ac")
+		)
+		(pin "2"
+			(uuid "0f79879e-7192-4a49-b2f9-012cd3a6ef11")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9455,136 +9879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 224.79 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcce2f6a-c2d7-454f-bbd2-0764583f8e5f")
-		(property "Reference" "C?"
-			(at 223.52 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 223.52 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KPX7R9BB104"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.17"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0979a3b3-ee1e-4172-b1ee-79163e15621e")
-		)
-		(pin "2"
-			(uuid "6e088d54-114f-482f-95b9-fc00b4098e9e")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 92.71 158.75 270)
 		(unit 1)
@@ -9852,7 +10146,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 184.15 35.56 0)
+		(at 176.53 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9861,7 +10155,7 @@
 		(dnp no)
 		(uuid "d43502ec-0e44-4194-b680-8b7e8efe47bd")
 		(property "Reference" "C?"
-			(at 186.69 33.02 0)
+			(at 179.07 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,7 +10164,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.69 35.56 0)
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,7 +10173,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +10182,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +10191,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +10200,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,7 +10209,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +10218,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +10227,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +10236,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9951,7 +10245,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 184.15 35.56 0)
+			(at 176.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,136 +10269,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 215.9 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6da92b9-6c4d-46b3-b2e3-b6800adeafb5")
-		(property "Reference" "C?"
-			(at 214.63 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 214.63 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KPX7R9BB104"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.17"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3161716d-bab5-4191-8c4e-fe2247d6e158")
-		)
-		(pin "2"
-			(uuid "97707571-e13b-45f5-b93b-bdbc2d0b0626")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "C19")
 					(unit 1)
 				)
 			)

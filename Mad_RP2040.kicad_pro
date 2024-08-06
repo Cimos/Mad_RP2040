@@ -180,7 +180,10 @@
       ],
       "track_widths": [
         0.0,
-        0.1524
+        0.1524,
+        0.1778,
+        0.2032,
+        0.254
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -212,6 +215,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.635,
+          "drill": 1.27
         }
       ],
       "zones_allow_external_fillets": false
@@ -495,7 +502,16 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/RP2040/USB_D+": "USB",
+      "/RP2040/USB_D-": "USB",
+      "/RP2040a/USB_D+": "USB",
+      "/RP2040a/USB_D-": "USB",
+      "Net-(U1-D+_in)": "USB",
+      "Net-(U1-D-_in)": "USB",
+      "Net-(U5-D+)": "USB",
+      "Net-(U5-D-)": "USB"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
