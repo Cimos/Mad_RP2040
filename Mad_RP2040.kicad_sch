@@ -4093,7 +4093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06f98a27-eab1-4670-9555-977a90006b82")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 225.425 84.455 0)
 			(effects
 				(font
@@ -4250,7 +4250,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4266,7 +4266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c117a08-3cc7-4276-8459-2058d86f56c7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 219.075 89.535 0)
 			(effects
 				(font
@@ -4316,7 +4316,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5093,7 +5093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a860663-f476-4c08-b14a-dd03e3658a63")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 225.425 103.505 0)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5266,7 +5266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b1c5311-3820-456f-8815-6cb6f1f916bc")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 223.52 55.245 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5650,7 +5650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61d65471-a063-45aa-b30b-5e4acf9cfa73")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 224.155 67.945 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6445,7 +6445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e610c6b-b0aa-4cb8-bdca-6e5a1d9f562a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 239.395 118.11 0)
 			(effects
 				(font
@@ -6559,7 +6559,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6855,7 +6855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7d7baa4-d8b8-42cc-833a-cc39bd8ef356")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 150.495 114.935 0)
 			(effects
 				(font
@@ -6969,7 +6969,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7182,7 +7182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "beffbbe5-d35f-43fc-86a6-b321f0ddbb7b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 239.395 99.06 0)
 			(effects
 				(font
@@ -7296,7 +7296,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7442,7 +7442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d26382fa-c74b-4f48-98d9-3a6b048bee80")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 219.075 108.585 0)
 			(effects
 				(font
@@ -7492,7 +7492,7 @@
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
