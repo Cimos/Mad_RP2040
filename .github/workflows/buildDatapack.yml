@@ -1,0 +1,29 @@
+name: buildDatapack
+
+on:
+  push:
+    paths:
+    - '**.sch'
+    - '**.kicad_pcb'
+  pull_request:
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v1.7.0
+      with:
+        # Required - kibot config file
+        config: config.kibot.yaml
+        dir: output
+        schema: 'Mad_RP2040.kicad_sch'
+        board: 'Mad_RP2040.kicad_pcb'
+    - name: upload results
+      uses: actions/upload-artifact@v2
+      with:
+        name: output
+        path: output
