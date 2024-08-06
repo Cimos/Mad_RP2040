@@ -1,0 +1,6795 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7af801c9-4fdd-4534-99e8-4a829bc1ad1b")
+	(paper "A4")
+	(title_block
+		(title "Crumb Catcher")
+		(date "2023-10-25")
+		(rev "A")
+		(company "MadMan")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid -3.0988 -0.0635)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:LL4148"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LL4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MiniMELF"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, MiniMELF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*MiniMELF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LL4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LL4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mad_Symbols:SK6812_Mini_E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -4.572 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+				(at -11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812_Mini_E_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812_Mini_E_1_1"
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 107.95 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0143c9e6-bb17-45c1-8559-f1987009d90f")
+	)
+	(junction
+		(at 77.47 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b86dfa-a92b-44e4-a3a6-be9eb6431a60")
+	)
+	(junction
+		(at 128.27 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ecd85aa-ee75-4d6d-9c08-5037dc6c1dea")
+	)
+	(junction
+		(at 154.94 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f5af977-2f54-483d-8660-98c5e738f7e2")
+	)
+	(junction
+		(at 182.88 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21927fdb-e40b-4e9a-aa53-7fb5f1e14b9d")
+	)
+	(junction
+		(at 213.36 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b50f8d2-c41c-4299-8d86-adcc660ba2fb")
+	)
+	(junction
+		(at 182.88 33.655)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43906fdd-89a8-473c-905b-ce1bb1217dda")
+	)
+	(junction
+		(at 128.27 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43e9ac88-7c9c-4122-b4ec-8927f9c2a56f")
+	)
+	(junction
+		(at 85.09 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54253125-1242-4451-a035-1bc904e67051")
+	)
+	(junction
+		(at 104.14 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd973ab-43ac-4f09-b370-9e35f3f82200")
+	)
+	(junction
+		(at 85.09 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7dc54a-1a55-4ef3-9055-d5d069ec248e")
+	)
+	(junction
+		(at 213.36 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73c7a6a3-52ba-4845-a392-52193f8cdc8c")
+	)
+	(junction
+		(at 135.89 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78827617-6409-4544-82ad-f12cfb2b88f8")
+	)
+	(junction
+		(at 107.95 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c1126fb-df01-4018-a429-d4c20a79216e")
+	)
+	(junction
+		(at 135.89 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c3f6c1-8125-4697-afc3-2cc740e52b10")
+	)
+	(junction
+		(at 182.88 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c474da02-7923-4e41-8a65-3158ddb63f82")
+	)
+	(junction
+		(at 128.27 33.655)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d30e0d3f-d56e-44b8-a0e2-fd538754b683")
+	)
+	(junction
+		(at 158.75 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d38eda01-9ba3-434a-a750-b68be43c824b")
+	)
+	(junction
+		(at 158.75 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e181eec4-edde-4eab-bc74-e307a884b561")
+	)
+	(junction
+		(at 77.47 33.655)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f38b9dca-c1f5-4b91-a8e8-dc83c280f77e")
+	)
+	(junction
+		(at 77.47 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f526d4cd-ac2e-4c69-aabe-2fa9f5e99fe3")
+	)
+	(wire
+		(pts
+			(xy 86.36 31.115) (xy 87.63 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079af9ce-5620-409b-81a8-e2f6c302fb16")
+	)
+	(wire
+		(pts
+			(xy 121.285 131.445) (xy 121.285 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082229da-1112-4889-8c23-4a5d1a23e534")
+	)
+	(wire
+		(pts
+			(xy 205.105 112.395) (xy 219.075 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098e2467-267d-427f-91d0-d55797afe4ee")
+	)
+	(wire
+		(pts
+			(xy 219.075 112.395) (xy 219.075 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1176813c-e569-4856-814e-5b819d8f99a9")
+	)
+	(wire
+		(pts
+			(xy 72.39 123.825) (xy 72.39 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175da830-f279-439c-b192-f0a90c161b21")
+	)
+	(wire
+		(pts
+			(xy 77.47 38.735) (xy 86.36 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1876478a-ac71-468c-9cbd-c4e7f4259b82")
+	)
+	(wire
+		(pts
+			(xy 86.36 28.575) (xy 86.36 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fb0027-c04a-45cc-8e4f-f5fc22363438")
+	)
+	(wire
+		(pts
+			(xy 71.755 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb365a9-a235-4fe7-91e4-48a601f442e6")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 209.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24648958-f68d-4555-8c42-f1a12577aede")
+	)
+	(wire
+		(pts
+			(xy 209.55 36.195) (xy 209.55 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a7f948-3935-4dd1-bd39-9ec9e16c4368")
+	)
+	(wire
+		(pts
+			(xy 135.89 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264f8f6e-526a-4e20-9103-9d1b68c30917")
+	)
+	(wire
+		(pts
+			(xy 81.915 131.445) (xy 88.265 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27600538-8e3d-4dbc-affe-769017cae84f")
+	)
+	(wire
+		(pts
+			(xy 213.36 15.24) (xy 213.36 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d71fbe-8c53-4dd3-965e-28c32152a271")
+	)
+	(wire
+		(pts
+			(xy 107.95 31.115) (xy 107.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2956bdb5-7b17-484a-9fc5-969a27b83628")
+	)
+	(wire
+		(pts
+			(xy 77.47 28.575) (xy 86.36 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6a7472-eed3-41d6-aedd-17fc4fc909c2")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.9) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c61058a-df6f-49d5-a65e-8165f4c08ee3")
+	)
+	(wire
+		(pts
+			(xy 135.89 63.5) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e195ef4-e822-4952-b24a-ade5b4919da6")
+	)
+	(wire
+		(pts
+			(xy 209.55 47.625) (xy 209.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33247986-9c94-445b-b506-0259a19ca522")
+	)
+	(wire
+		(pts
+			(xy 213.36 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35390e21-6a78-460c-aad1-c7c147f181c9")
+	)
+	(wire
+		(pts
+			(xy 137.16 28.575) (xy 137.16 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3655e76d-8d1b-49de-81b9-2c5fd02e1cda")
+	)
+	(wire
+		(pts
+			(xy 154.94 36.195) (xy 154.94 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dead55-b690-451a-a2f9-3fbda630de34")
+	)
+	(wire
+		(pts
+			(xy 172.085 133.985) (xy 189.865 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3939bb03-9a8c-4e19-b763-f02a30a24b01")
+	)
+	(wire
+		(pts
+			(xy 191.77 36.195) (xy 193.04 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395ef4b2-02a4-42d0-b68f-ab3025740fc4")
+	)
+	(wire
+		(pts
+			(xy 152.4 15.24) (xy 158.75 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4038fa1a-55dc-4306-97fa-6534aa34ec64")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43babb99-e530-4491-bfa1-fc5a6711ba50")
+	)
+	(wire
+		(pts
+			(xy 86.36 36.195) (xy 87.63 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441f258c-bc69-4b6c-81fb-3e4d521510f2")
+	)
+	(wire
+		(pts
+			(xy 102.87 31.115) (xy 107.95 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45044a58-5a1d-4cd0-a4a9-3a30aae9cb6d")
+	)
+	(wire
+		(pts
+			(xy 85.09 88.9) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45172ea1-76a4-46fa-b3d3-c457c2458a1c")
+	)
+	(wire
+		(pts
+			(xy 135.89 63.5) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a6c1f3-e097-4e54-b477-4949a38df090")
+	)
+	(wire
+		(pts
+			(xy 71.755 33.655) (xy 77.47 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b191e5-6fd9-49e2-bbe8-dbd7cbe3c0f3")
+	)
+	(wire
+		(pts
+			(xy 153.67 36.195) (xy 154.94 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2a37b6-6c50-49c9-944d-04b5b6e7ee63")
+	)
+	(wire
+		(pts
+			(xy 122.555 33.655) (xy 128.27 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a66c00d-8e3f-4765-bcb4-083740c9e9bc")
+	)
+	(wire
+		(pts
+			(xy 128.27 33.655) (xy 138.43 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cef142-86e9-4778-817b-2d9095a180f2")
+	)
+	(wire
+		(pts
+			(xy 107.95 15.24) (xy 107.95 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5173acbe-df98-4842-9813-d313ddb50fd7")
+	)
+	(wire
+		(pts
+			(xy 77.47 33.655) (xy 87.63 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520b96eb-a147-4cd9-bcf6-1760dc40b960")
+	)
+	(wire
+		(pts
+			(xy 191.77 28.575) (xy 191.77 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555650a7-3946-43e9-ad62-caecbb07254d")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.735) (xy 137.16 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3f36b6-28a3-4ea2-8eb9-56c226f716b2")
+	)
+	(wire
+		(pts
+			(xy 191.77 31.115) (xy 193.04 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db2ba0c-47de-436c-baa1-7f638bd49653")
+	)
+	(wire
+		(pts
+			(xy 158.75 63.5) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efc0f8a-c264-4430-85ed-979a1685a78a")
+	)
+	(wire
+		(pts
+			(xy 122.555 38.735) (xy 128.27 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600543cb-ad74-4e80-99f1-3ee19cce4fcc")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63be7e73-bdcb-4b66-a2bd-c93bacb7c4bb")
+	)
+	(wire
+		(pts
+			(xy 177.165 28.575) (xy 182.88 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651156c8-d948-40ae-9274-f0a1204a0037")
+	)
+	(wire
+		(pts
+			(xy 172.085 112.395) (xy 172.085 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65140c1e-da6f-489b-92af-a5d5b45dce07")
+	)
+	(wire
+		(pts
+			(xy 213.36 63.5) (xy 209.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67269b29-aec7-4e62-8c16-315fb000110e")
+	)
+	(wire
+		(pts
+			(xy 154.305 131.445) (xy 172.085 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6747358d-003c-49c6-96c8-6d6071e9a728")
+	)
+	(wire
+		(pts
+			(xy 153.67 31.115) (xy 158.75 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68737c03-7f5d-45f5-a446-75c9167273a2")
+	)
+	(wire
+		(pts
+			(xy 104.14 36.195) (xy 104.14 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e7100a-c403-47d6-966a-74b5741ac392")
+	)
+	(wire
+		(pts
+			(xy 128.27 28.575) (xy 137.16 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725d2f52-f285-4a55-9402-2ba648aa7d90")
+	)
+	(wire
+		(pts
+			(xy 177.165 38.735) (xy 182.88 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73afab01-f328-4da8-8c9d-1d4a76b11691")
+	)
+	(wire
+		(pts
+			(xy 183.515 112.395) (xy 189.865 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2a4ec1-0b87-44a6-85ed-eaa25f3775c5")
+	)
+	(wire
+		(pts
+			(xy 191.77 38.735) (xy 191.77 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e37f86f-7773-49aa-b6ed-dc387edd15bc")
+	)
+	(wire
+		(pts
+			(xy 85.09 101.6) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee819c3-3589-404e-9a47-5812969ab3af")
+	)
+	(wire
+		(pts
+			(xy 154.305 114.935) (xy 160.655 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8229a355-dda7-4ec3-87e2-9b735817e26d")
+	)
+	(wire
+		(pts
+			(xy 122.555 28.575) (xy 128.27 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dfcf73-0ac4-479a-9024-73014c402244")
+	)
+	(wire
+		(pts
+			(xy 213.36 63.5) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842ca3ec-025f-4dc8-9eb0-b64d7bd38789")
+	)
+	(wire
+		(pts
+			(xy 154.305 112.395) (xy 172.085 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86df7d17-0a91-48c0-ad7c-99002db7c2bd")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87693391-f7a4-46b0-a4ce-836823168f68")
+	)
+	(wire
+		(pts
+			(xy 72.39 133.985) (xy 88.265 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2ff80d-a731-48a3-896c-8e04eb0c65da")
+	)
+	(wire
+		(pts
+			(xy 107.95 15.24) (xy 102.87 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ecf2b7-bbad-4339-893b-f03634333990")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9188781d-a937-4d7f-8e4d-390e0cba8c1a")
+	)
+	(wire
+		(pts
+			(xy 132.715 131.445) (xy 139.065 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c54da6-005a-4ee0-ac04-9b99261cbecd")
+	)
+	(wire
+		(pts
+			(xy 85.09 101.6) (xy 71.755 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dfd193-6e70-44d7-b503-4c5002633158")
+	)
+	(wire
+		(pts
+			(xy 71.755 114.935) (xy 88.265 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e042ee-a01d-49e1-9694-619e1461c984")
+	)
+	(wire
+		(pts
+			(xy 104.14 47.625) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5e5999-7eb5-4402-9c20-6a0188a38988")
+	)
+	(wire
+		(pts
+			(xy 182.88 28.575) (xy 191.77 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a223aa6f-2d73-40cc-b143-d5ad21ec9e09")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 191.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3983865-0ab9-4d4c-8909-e33cb9ade432")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cfe798-c5d7-4b32-a54e-f30415a4ba79")
+	)
+	(wire
+		(pts
+			(xy 183.515 131.445) (xy 189.865 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f42116-41a4-4157-ac98-5bf66be5e390")
+	)
+	(wire
+		(pts
+			(xy 128.27 38.735) (xy 137.16 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa044c9f-f0d0-41d5-a009-7c7baec87034")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 104.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac562643-1329-4337-9f76-557925b82f14")
+	)
+	(wire
+		(pts
+			(xy 71.755 38.735) (xy 77.47 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c7e38d-f032-4e6a-bb63-bad8ef105af2")
+	)
+	(wire
+		(pts
+			(xy 182.88 33.655) (xy 193.04 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40a98a4-1a1c-47a6-9324-12b378fc04e0")
+	)
+	(wire
+		(pts
+			(xy 71.755 112.395) (xy 88.265 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4693e38-dedc-4258-9b07-69f44f5448b4")
+	)
+	(wire
+		(pts
+			(xy 103.505 131.445) (xy 121.285 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fd36f9-4d2b-4906-8460-1377cd9cd3af")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba969d74-23e4-4969-acd8-f2bcd0ae6de7")
+	)
+	(wire
+		(pts
+			(xy 103.505 133.985) (xy 109.855 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3eeff0-173f-4de9-bec0-2a4ea9bbc269")
+	)
+	(wire
+		(pts
+			(xy 103.505 114.935) (xy 109.855 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0f1f5f-40d7-4124-a967-a8b53b2919e4")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd32ef01-a24e-41ed-92d7-140fd566acfa")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 71.755 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf97fd5c-8951-4f17-9b99-dd0f6b274d5a")
+	)
+	(wire
+		(pts
+			(xy 182.88 38.735) (xy 191.77 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a722ea-8f50-41e7-99ad-ac80b80ad892")
+	)
+	(wire
+		(pts
+			(xy 154.305 133.985) (xy 160.655 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c255c542-53f7-4807-b95d-95412d4e16d4")
+	)
+	(wire
+		(pts
+			(xy 121.285 112.395) (xy 121.285 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a17bf1-c311-4bc7-8f74-ed8c9f1e4b60")
+	)
+	(wire
+		(pts
+			(xy 158.75 31.115) (xy 158.75 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c533b779-3703-44b7-a7e9-54ca608f72eb")
+	)
+	(wire
+		(pts
+			(xy 86.36 38.735) (xy 86.36 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1004c6-0ab9-4bb0-b8a9-6ca948706073")
+	)
+	(wire
+		(pts
+			(xy 177.165 33.655) (xy 182.88 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca33a93a-5959-426d-8ea0-93e9be9e04c3")
+	)
+	(wire
+		(pts
+			(xy 137.16 31.115) (xy 138.43 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc85ee48-26ec-48d8-b435-c6de184459d2")
+	)
+	(wire
+		(pts
+			(xy 208.28 31.115) (xy 213.36 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc997466-d9d3-4476-99b3-5759f32259a6")
+	)
+	(wire
+		(pts
+			(xy 137.16 36.195) (xy 138.43 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb38bb2-d936-48f6-8a8b-d7c579603610")
+	)
+	(wire
+		(pts
+			(xy 102.87 36.195) (xy 104.14 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dc3a9b-4340-42d8-a094-8066bc543566")
+	)
+	(wire
+		(pts
+			(xy 154.94 47.625) (xy 154.94 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1916cb3-baaf-4182-94c1-26fd8ff56140")
+	)
+	(wire
+		(pts
+			(xy 104.14 50.8) (xy 154.94 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d5ca20-caf2-4da0-9d94-1faf596eea1d")
+	)
+	(wire
+		(pts
+			(xy 172.085 114.935) (xy 189.865 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8794d16-739d-423c-860e-b0a8c2b61257")
+	)
+	(wire
+		(pts
+			(xy 213.36 31.115) (xy 213.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da315c27-daa3-4e76-a2fd-b93969db548c")
+	)
+	(wire
+		(pts
+			(xy 158.75 15.24) (xy 158.75 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae60fb2-b00a-4225-82f1-87c555f0ac67")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd676c5-2fe1-40ad-b584-7a7f54153036")
+	)
+	(wire
+		(pts
+			(xy 208.28 36.195) (xy 209.55 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1fa527-4861-4405-981a-7611d7e3bd19")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df406617-91c8-479f-bfca-5a34ffa2a62b")
+	)
+	(wire
+		(pts
+			(xy 207.01 15.24) (xy 213.36 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e014afa4-6521-4d19-9bb9-08b17ee9863a")
+	)
+	(wire
+		(pts
+			(xy 85.09 88.9) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e050aabd-61d5-4f2b-9239-9807e4712984")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.9) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f23d30-bb7e-4b22-b20d-6565cab68c1b")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51866ff-8fc1-4efd-b8d9-c6c44e3bdfc0")
+	)
+	(wire
+		(pts
+			(xy 205.105 131.445) (xy 220.345 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8204cc5-e9d2-4be8-a1fc-99b9c9fbf3f5")
+	)
+	(wire
+		(pts
+			(xy 132.715 112.395) (xy 139.065 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e856ae27-477e-4cd6-9bd7-3018cb108096")
+	)
+	(wire
+		(pts
+			(xy 121.285 114.935) (xy 139.065 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e25a85-0d1c-4c68-bddf-656c40efff90")
+	)
+	(wire
+		(pts
+			(xy 219.075 123.825) (xy 72.39 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90bc3ce-45ce-4b04-81f0-fcad0b865b6b")
+	)
+	(wire
+		(pts
+			(xy 71.755 28.575) (xy 77.47 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e23085-a799-46f6-96e0-56e7d11742c1")
+	)
+	(wire
+		(pts
+			(xy 172.085 131.445) (xy 172.085 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4efc090-8274-4de0-9c00-c76b51ec694a")
+	)
+	(wire
+		(pts
+			(xy 103.505 112.395) (xy 121.285 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5961f33-2ec1-4228-9acd-28aec1f1cad6")
+	)
+	(wire
+		(pts
+			(xy 121.285 133.985) (xy 139.065 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c79891-9f4d-41f7-ab51-91c77b308158")
+	)
+	(wire
+		(pts
+			(xy 205.105 133.985) (xy 220.345 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa60048e-ff1b-40b6-a8ca-ae4f9bcd14c1")
+	)
+	(wire
+		(pts
+			(xy 205.105 114.935) (xy 212.09 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf3f9f6-2a6f-445f-8c6f-766fab6ed634")
+	)
+	(wire
+		(pts
+			(xy 158.75 88.9) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe69130e-4880-4a0b-b86c-8ac3388df01c")
+	)
+	(text_box "Diodes:\nCan use either 1N4148W or LL4148."
+		(exclude_from_sim no)
+		(at 19.685 167.005 0)
+		(size 56.515 22.225)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "79ad9816-ab20-4ac7-9db9-27dea4e6a997")
+	)
+	(label "5V"
+		(at 183.515 131.445 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ae7e191-754b-49a1-82eb-a0deedf70bf3")
+	)
+	(label "5V"
+		(at 183.515 112.395 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75cfd435-a41b-4088-b0ed-04b754df2fc9")
+	)
+	(label "5V"
+		(at 132.715 112.395 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "767b14b4-f2dc-46fc-9500-2dcf0343c7d5")
+	)
+	(label "5V"
+		(at 132.715 131.445 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd9e363a-b525-4a5b-ad93-fcb6b0982b21")
+	)
+	(hierarchical_label "ENC3B"
+		(shape bidirectional)
+		(at 177.165 38.735 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06b11fd9-a02d-49e6-ad39-2a2fa44d04ee")
+	)
+	(hierarchical_label "Row2"
+		(shape bidirectional)
+		(at 71.755 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "225a80c3-7410-4854-9d87-6845ac941670")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 212.09 114.935 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d82a10a-a7e7-4c63-b825-e42c8ef96448")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 71.755 114.935 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f8f0fbf-113c-460e-86df-b94d289c3382")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 220.345 133.985 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40e198b8-6119-4e0a-bf75-590c085290ca")
+	)
+	(hierarchical_label "ENC2B"
+		(shape bidirectional)
+		(at 122.555 38.735 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40efac72-3bbb-4672-9297-b46bf4e97889")
+	)
+	(hierarchical_label "Col1"
+		(shape bidirectional)
+		(at 152.4 15.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4395e755-295f-4992-b92a-7742cb4d85f0")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 71.755 33.655 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "531932c2-e5a9-4b8b-8160-649629453472")
+	)
+	(hierarchical_label "ENC1B"
+		(shape bidirectional)
+		(at 71.755 38.735 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bdf6db8-d499-42c6-add4-efa845e06ef8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 177.165 33.655 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7064aeb6-5151-4b5a-bb0b-63a2cb13b8cc")
+	)
+	(hierarchical_label "ENC2A"
+		(shape bidirectional)
+		(at 122.555 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "817a0f82-143f-455e-b4e0-99f48a8ecd7c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 160.655 133.985 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81fa04fc-9536-4fda-be5d-6fd76ce2eb12")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 109.855 133.985 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8678a645-d5b7-4b22-917c-db4aa31172e2")
+	)
+	(hierarchical_label "Row1"
+		(shape bidirectional)
+		(at 71.755 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89757bb6-42c0-4c33-ad2a-25b2da176661")
+	)
+	(hierarchical_label "Col0"
+		(shape bidirectional)
+		(at 102.87 15.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a01aa904-dfae-466d-9def-a79c431883bc")
+	)
+	(hierarchical_label "ENC3A"
+		(shape bidirectional)
+		(at 177.165 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a65f09ac-58a9-4057-b481-24e971a98e3c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 160.655 114.935 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a720a817-29b1-475d-ba6b-43eea2204342")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 81.915 131.445 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac42bdc2-5f63-44b6-beac-8828b1871c85")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 220.345 131.445 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6e4e736-5ffe-4911-b867-25034f6c6f41")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 122.555 33.655 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c450a533-5138-4fe0-a04e-146119623f05")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 71.755 112.395 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5c2d5be-f620-495c-8b86-f2e711337310")
+	)
+	(hierarchical_label "ENC1A"
+		(shape bidirectional)
+		(at 71.755 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4000c0a-ec7a-4983-b23c-d25a90db2855")
+	)
+	(hierarchical_label "Row0"
+		(shape bidirectional)
+		(at 71.755 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f03277ae-f9d4-4898-b664-b4515a3e3702")
+	)
+	(hierarchical_label "Col2"
+		(shape bidirectional)
+		(at 207.01 15.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f628939e-7f2b-43ad-ada2-f2af126f3071")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 109.855 114.935 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8ad663e-b60f-4cc4-8978-7aa5364ea49c")
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 95.885 113.665 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "147e2193-555d-4b71-a675-ae4fccf0aced")
+		(property "Reference" "D5"
+			(at 92.71 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812_MINI_E"
+			(at 95.885 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 95.885 119.253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 95.885 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 84.455 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "SK6812_MINI_E"
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.44"
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" " 3.7...5.3V"
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C5149201 "
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 95.885 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aaf0743-f387-427f-ac3d-1aef1fda083f")
+		)
+		(pin "2"
+			(uuid "43184e46-ba77-46ae-bf4f-5e2efb1c29f0")
+		)
+		(pin "3"
+			(uuid "0bb0bf15-5194-4b4a-bbdb-21d2059043ce")
+		)
+		(pin "4"
+			(uuid "69627b3a-817d-4a6e-9e58-0fb3e2db2cd2")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 31.115 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a38035-f279-40d7-b54e-7f8d5f8424e6")
+		(property "Reference" "C6"
+			(at 80.01 29.8512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 80.01 32.3912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02b33d82-4e79-4907-9d9d-19dbfb0acdcb")
+		)
+		(pin "1"
+			(uuid "506a7c14-b623-4bac-8e1e-f9a7c36f2f89")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 90.17 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bcc85e1-a837-4e11-bce6-5c8a399b1caf")
+		(property "Reference" "D3"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 90.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 90.17 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "204fca2e-9238-438b-94e1-f8da6f80d1e5")
+		)
+		(pin "2"
+			(uuid "b264cf68-20af-490e-ac8a-3d5b1c727ffa")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 149.86 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2d527a-f9a1-4ed6-aa09-ab2ed916be63")
+		(property "Reference" "SW5"
+			(at 149.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch Socket"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a12fa391-8f39-4a3e-a744-8fae3bef5f2f")
+		)
+		(pin "2"
+			(uuid "1664f889-74de-402e-9817-ed737a85af66")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 90.17 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2480ea8d-5295-47b5-a281-3cb48cef168c")
+		(property "Reference" "D4"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 90.17 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de88032d-563e-42aa-b7cf-9e0d22ff2c44")
+		)
+		(pin "2"
+			(uuid "c242b0d8-5730-4f31-a8bc-99fd4d2fb262")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.27 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aaf9593-dd9a-4c6b-94f0-6441dfa70204")
+		(property "Reference" "C9"
+			(at 130.81 34.9312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 130.81 37.4712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 128.27 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1692a7c3-2762-45cc-90c1-ddb3557a40eb")
+		)
+		(pin "1"
+			(uuid "f30aa07e-f1c9-4514-879e-b9306158de7d")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 95.25 33.655 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2abbd368-1ea6-4932-b39e-4ef93f093437")
+		(property "Reference" "SW1"
+			(at 94.996 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC11R"
+			(at 94.996 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
+			(at 91.44 29.591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
+			(at 95.25 27.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
+			(at 95.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$3.37 "
+			(at 95.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 95.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
+			(at 95.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 95.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
+			(at 95.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 95.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PEC11R-4215F-S0024"
+			(at 95.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "99a85e54-8cdd-4011-867d-027a282237fc")
+		)
+		(pin "B"
+			(uuid "eb97ba01-6bd1-4cf7-9c3e-f628079deafe")
+		)
+		(pin "C"
+			(uuid "ca6532f5-5746-44d7-9412-5eaccea6754f")
+		)
+		(pin "S1"
+			(uuid "8650acf0-fce3-402b-889d-40ca627a5c72")
+		)
+		(pin "S2"
+			(uuid "f03a10a0-3f21-4fd7-b3f9-a88967048779")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 99.06 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3152cb7f-9609-4ff5-a71d-f2e15a671f2c")
+		(property "Reference" "SW2"
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch Socket"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d8d3715-a2d6-42cc-b96f-fb87f06791e9")
+		)
+		(pin "2"
+			(uuid "98cc8e44-ebb7-49ed-a724-b9b946a40e4d")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 204.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b29caae-8531-42d3-9d8f-5901fab0a2e4")
+		(property "Reference" "SW8"
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch Socket"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19cec0cc-8f98-4f40-bb12-16cf35152ae1")
+		)
+		(pin "2"
+			(uuid "c2ac826c-6f28-416c-8f8b-1b2131ee33d6")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 195.58 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7d9189-97f3-44a0-8362-c6e742eed111")
+		(property "Reference" "D14"
+			(at 195.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 195.58 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7313f8e3-5144-4f5a-88a1-905a7d85ab32")
+		)
+		(pin "2"
+			(uuid "37e78852-f56a-4ee9-b176-99658ed4ccc8")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 197.485 132.715 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59c50727-aeee-4588-9943-28309f8593ed")
+		(property "Reference" "D16"
+			(at 194.31 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812_MINI_E"
+			(at 197.485 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 197.485 138.303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 197.485 140.081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 186.055 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.44"
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" " 3.7...5.3V"
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C5149201 "
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 197.485 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b737f774-5a7d-4192-836a-4d3da11aacaf")
+		)
+		(pin "2"
+			(uuid "994bb3eb-25c4-4b1b-a52d-31ac8b619d7d")
+		)
+		(pin "3"
+			(uuid "51b8f6c4-314d-4420-85eb-79de5dd295f3")
+		)
+		(pin "4"
+			(uuid "3cfa4f20-1567-4842-bfbc-e2da306cd85e")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 146.685 113.665 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6464b7f9-4725-49b6-8bf9-fafe085a9f85")
+		(property "Reference" "D10"
+			(at 143.51 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812_MINI_E"
+			(at 146.685 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 146.685 119.253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 146.685 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 135.255 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.44"
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" " 3.7...5.3V"
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C5149201 "
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 146.685 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5776285d-d716-48a3-a29b-c821dc7e9177")
+		)
+		(pin "2"
+			(uuid "c1a5aafc-5849-432a-a16f-bd9efb19ef12")
+		)
+		(pin "3"
+			(uuid "87fb3dff-a0e1-4333-9310-ae0344bf7011")
+		)
+		(pin "4"
+			(uuid "5f243b9c-978e-4a09-a65d-dcce31cd58ae")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 146.685 132.715 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6827b743-3973-481c-a424-fe910dc993be")
+		(property "Reference" "D11"
+			(at 143.51 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812_MINI_E"
+			(at 146.685 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 146.685 138.303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 146.685 140.081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 135.255 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.44"
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" " 3.7...5.3V"
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C5149201 "
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 146.685 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fdd9651-2af9-430f-85fb-fded694ce0a3")
+		)
+		(pin "2"
+			(uuid "fe5ff8bf-0e3e-42fc-8091-405292c8a4c5")
+		)
+		(pin "3"
+			(uuid "a62ce174-c43a-4afd-9f83-caa5424e8445")
+		)
+		(pin "4"
+			(uuid "43bb6990-a01c-4553-bc38-edb23da47f6d")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 146.05 33.655 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83b6ad80-0a5e-4ca9-a906-de3db822bbf4")
+		(property "Reference" "SW4"
+			(at 145.796 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC11R"
+			(at 145.796 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
+			(at 142.24 29.591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
+			(at 146.05 27.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
+			(at 146.05 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$3.37 "
+			(at 146.05 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 146.05 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
+			(at 146.05 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 146.05 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
+			(at 146.05 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 146.05 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PEC11R-4215F-S0024"
+			(at 146.05 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "2dd4268d-17c9-4900-81b0-0b9228f6b9a6")
+		)
+		(pin "B"
+			(uuid "3f75f9ba-5a13-476b-926c-fb50592e0fa7")
+		)
+		(pin "C"
+			(uuid "b5e275c3-c6a2-4b68-a6f4-b83a648bf1fb")
+		)
+		(pin "S1"
+			(uuid "7aecddfa-4655-4333-8719-a24a09602755")
+		)
+		(pin "S2"
+			(uuid "dfcc329c-7819-4ac4-aa42-b604a21c626d")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 104.14 43.815 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "851f5812-0bfc-4c97-911d-83a21d69de0f")
+		(property "Reference" "D7"
+			(at 101.6 42.5449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 101.6 45.0849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 99.695 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 104.14 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "accf650a-2806-4a0a-a197-ab1b1f62f3dc")
+		)
+		(pin "2"
+			(uuid "273f817f-13b0-4b9f-bbba-8fa339873817")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 95.885 132.715 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a99b81-04e3-4422-af06-61ec9f5f3306")
+		(property "Reference" "D6"
+			(at 92.71 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812_MINI_E"
+			(at 95.885 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 95.885 138.303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 95.885 140.081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 84.455 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.44"
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" " 3.7...5.3V"
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C5149201 "
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 95.885 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afbf7951-95fb-481e-a70a-05f97e7540b1")
+		)
+		(pin "2"
+			(uuid "bd6af991-6ef5-4c3a-b01c-fa0caaf56653")
+		)
+		(pin "3"
+			(uuid "57179a2a-335a-404d-879e-62c373cafa6c")
+		)
+		(pin "4"
+			(uuid "ed6b31cc-9202-4296-acb8-e3699f63337d")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d18eda-5cfc-48c6-8314-177e8b7202df")
+		(property "Reference" "C7"
+			(at 80.01 34.9312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 80.01 37.4712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 77.47 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ba8905c-aadc-400d-88ec-f05519819a6f")
+		)
+		(pin "1"
+			(uuid "8237170d-1812-4996-ab55-9372758dc882")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 195.58 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c16c373-5816-4b91-9119-89acdbc2fa85")
+		(property "Reference" "D13"
+			(at 195.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 195.58 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d5d965a-c856-4453-987e-423f03fe090a")
+		)
+		(pin "2"
+			(uuid "5cf1e865-9372-458a-9efa-8cacbcb1f602")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 140.97 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9db99bcc-5747-4393-a732-10a202cf0fd5")
+		(property "Reference" "D9"
+			(at 140.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 140.97 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a074d67-37e0-423f-8a66-47b49ba14dd7")
+		)
+		(pin "2"
+			(uuid "5dae9a64-32f5-4376-ade9-449fb6a4d7c0")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 99.06 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f3a8c35-e361-4be6-8ad3-f0ef8de36f27")
+		(property "Reference" "SW3"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch Socket"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772460a4-2472-49f2-a6b6-1e08769a5e1c")
+		)
+		(pin "2"
+			(uuid "43c30cd5-e8d1-4c7c-aa6d-d9d5b6652e98")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 154.94 43.815 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a73505af-abc8-4b42-ab3b-3525d4b35c54")
+		(property "Reference" "D12"
+			(at 152.4 42.5449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 152.4 45.0849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 150.495 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd494d61-25ab-4f7d-b01b-1c68042dbba3")
+		)
+		(pin "2"
+			(uuid "871e863d-6eb6-4a51-91fd-cd1a395d78f4")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 200.66 33.655 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6e01379-18e8-4243-a9ef-e72a0ea24cc4")
+		(property "Reference" "SW7"
+			(at 200.406 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC11R"
+			(at 200.406 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
+			(at 196.85 29.591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
+			(at 200.66 27.051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
+			(at 200.66 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$3.37 "
+			(at 200.66 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 200.66 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
+			(at 200.66 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 200.66 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
+			(at 200.66 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 200.66 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PEC11R-4215F-S0024"
+			(at 200.66 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "ca48ea82-33b6-492e-aae3-292cbd152af5")
+		)
+		(pin "B"
+			(uuid "fb3fcf74-15df-4fae-b1cf-366ed4222541")
+		)
+		(pin "C"
+			(uuid "73bc5470-59ad-45f0-b27e-8f261492c7cb")
+		)
+		(pin "S1"
+			(uuid "b76369d9-d1e9-4c90-b88e-3fba52f7094e")
+		)
+		(pin "S2"
+			(uuid "d13facd9-448f-44aa-acf2-0a84217898da")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 204.47 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf9f55c5-63eb-4fe2-b306-1d329d40a227")
+		(property "Reference" "SW9"
+			(at 204.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 204.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch Socket"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1111411-e952-4d48-ab0e-5548eb76eb7c")
+		)
+		(pin "2"
+			(uuid "be033f0e-df06-411c-a596-7d42cb269e5e")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.27 31.115 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c5f4f1-991a-4330-a6ea-6499ea466dc9")
+		(property "Reference" "C8"
+			(at 130.81 29.8512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 130.81 32.3912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 128.27 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52253580-27ab-44bd-b0c7-a4bb8a1d03ec")
+		)
+		(pin "1"
+			(uuid "25f1ee74-f5df-43f8-9380-e2a6e47007c2")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d862dd82-ec44-44cf-ba5d-8192227f297b")
+		(property "Reference" "C11"
+			(at 185.42 34.9312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 185.42 37.4712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "080a77a2-e1fe-4e8d-8c36-0ebac0feef9b")
+		)
+		(pin "1"
+			(uuid "80aa753d-ec96-4c0e-94c7-5b00de987749")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 197.485 113.665 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de486511-056b-40e8-b6b8-b36756d64ac6")
+		(property "Reference" "D15"
+			(at 194.31 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812_MINI_E"
+			(at 197.485 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 197.485 119.253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 197.485 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 186.055 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.44"
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" " 3.7...5.3V"
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C5149201 "
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 197.485 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e4cada3-7e05-496d-80fc-3ea3bbd1c126")
+		)
+		(pin "2"
+			(uuid "16324914-b568-478f-b118-448141ea877e")
+		)
+		(pin "3"
+			(uuid "475f8041-62aa-4fdf-a6ce-8166da2fce69")
+		)
+		(pin "4"
+			(uuid "a711fc3b-3992-46b8-bbfa-153951ed3524")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 153.67 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2874833-fdee-46d1-80a6-1bc266801836")
+		(property "Reference" "SW6"
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch Socket"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a4b5d81-2569-4f98-b623-25e6e8ddb50e")
+		)
+		(pin "2"
+			(uuid "a5c562f3-481d-4ad4-b300-33bc5b293a7f")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 140.97 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f2309e-2844-4160-90a8-dc86aacd23cb")
+		(property "Reference" "D8"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 140.97 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39139173-f5ee-4625-9c8c-855d9d40324d")
+		)
+		(pin "2"
+			(uuid "7f97f0ff-896a-4ed5-a6f9-3efc075e0701")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 31.115 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb4d3421-2430-4998-b0cd-a624cb903ea1")
+		(property "Reference" "C10"
+			(at 185.42 29.8512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 185.42 32.3912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.17"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 182.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d0c1f21-7427-4636-9ecb-6f92db7c9309")
+		)
+		(pin "1"
+			(uuid "2ae2a52a-878c-418c-b8f7-626df384d202")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 209.55 43.815 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05dd341-2a3b-493c-b6ba-54b1e5ddca84")
+		(property "Reference" "D17"
+			(at 207.01 42.5449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 207.01 45.0849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 205.105 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 209.55 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1d4bfc6-af3e-47be-aa74-7a8fa05fd1c4")
+		)
+		(pin "2"
+			(uuid "79b8a74e-2adb-4d85-a880-bb3bb6698cc5")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

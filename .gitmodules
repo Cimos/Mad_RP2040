@@ -1,0 +1,3 @@
+[submodule "mad_lib"]
+	path = mad_lib
+	url = https://github.com/Cimos/mad_lib.git
