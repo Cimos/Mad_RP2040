@@ -522,7 +522,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "mad_lib/part_library/models/CrumbCatcherLight.step",
+      "step": "mad_lib/part_library/models/Mad_RP2040.step",
       "svg": "",
       "vrml": ""
     },
