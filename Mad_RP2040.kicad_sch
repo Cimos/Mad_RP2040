@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mad RP2040")
-		(date "2023-10-25")
+		(date "2024-08-06")
 		(rev "A")
 		(company "MadMan")
 	)
@@ -3995,7 +3995,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 93.98 67.945 0)
+		(at 94.615 67.945 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4005,7 +4005,7 @@
 		)
 		(uuid "012db034-6035-432b-a7bd-93ff5e9e8834")
 		(property "Netclass" "USB"
-			(at 94.6785 65.405 0)
+			(at 95.3135 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4041,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 93.98 70.485 180)
+		(at 94.615 70.485 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4051,7 +4051,7 @@
 		)
 		(uuid "24c67776-e61d-4eee-ae06-01298139550f")
 		(property "Netclass" "USB"
-			(at 94.6785 73.025 0)
+			(at 95.3135 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)

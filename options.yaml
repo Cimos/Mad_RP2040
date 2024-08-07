@@ -1,0 +1,13 @@
+kibot:
+  version: 1
+  
+# global:
+#   filters:
+#     - filter_msg: "Blah"
+#       number: 11
+#       regex: "*"
+
+preflight:
+  run_erc: false
+  run_drc: false
+  check_zone_fills: false

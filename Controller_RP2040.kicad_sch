@@ -1121,7 +1121,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 46.355) (xy 269.875 46.355)
+			(xy 262.89 46.99) (xy 269.875 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1291,7 +1291,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.875 43.18) (xy 269.875 46.355)
+			(xy 269.875 43.18) (xy 269.875 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +1950,7 @@
 		(uuid "d0283dde-93dd-4060-ac3f-fd3a8b44711a")
 	)
 	(label "3V3"
-		(at 262.89 46.355 0)
+		(at 262.89 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
