@@ -5,10 +5,11 @@
 	(uuid "ba62e47e-9e07-4e97-ab08-24b670d50f97")
 	(paper "A4")
 	(title_block
-		(title "RP2040")
-		(date "2024-03-19")
-		(rev "A")
-		(company "MadMan")
+		(title "${TITLE}")
+		(date "2024-08-08")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+		(comment 1 "${COMMENT1}")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2646,10 +2647,10 @@
 		(uuid "0e8c187c-773a-450d-bb12-521783a53197")
 	)
 	(junction
-		(at 199.39 59.055)
+		(at 196.85 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e8f7fc0-2ef2-4b90-9c15-8a3a601ee459")
+		(uuid "16ac95b1-f533-4122-b8a1-8de7711061f8")
 	)
 	(junction
 		(at 31.75 158.75)
@@ -2724,6 +2725,12 @@
 		(uuid "47a0add3-bc04-4315-bdee-074eed636bf4")
 	)
 	(junction
+		(at 199.39 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b947214-49e1-46e1-9890-13971acf553e")
+	)
+	(junction
 		(at 83.82 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2778,7 +2785,7 @@
 		(uuid "8fe542a2-a720-4daf-adb9-d3ee49648c79")
 	)
 	(junction
-		(at 54.61 120.015)
+		(at 54.61 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "931244b6-821c-4fe3-91de-5bd20200e827")
@@ -2796,7 +2803,7 @@
 		(uuid "9b5cff83-f116-417b-ac0b-d56a2681180b")
 	)
 	(junction
-		(at 54.61 122.555)
+		(at 54.61 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a17d9062-04f7-4442-bcb3-fbc882aac5f2")
@@ -2820,16 +2827,10 @@
 		(uuid "af2abd59-45e1-4d56-b0d5-e1ede61af05e")
 	)
 	(junction
-		(at 54.61 109.855)
+		(at 54.61 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0abd11f-479f-41eb-878f-7d4a91b20c05")
-	)
-	(junction
-		(at 196.85 59.055)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd9595a1-04f3-4fda-8f1b-e65ad874edd3")
 	)
 	(junction
 		(at 119.38 43.18)
@@ -2856,7 +2857,7 @@
 		(uuid "ddd02c0c-3b12-4b82-a2a8-50d1d18e00c2")
 	)
 	(junction
-		(at 144.78 117.475)
+		(at 144.78 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddfa5b15-4775-4e97-8993-5133bb7db5d1")
@@ -2880,13 +2881,13 @@
 		(uuid "fb267302-1c38-400b-938a-7c5f9609929c")
 	)
 	(junction
-		(at 55.245 71.755)
+		(at 55.88 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc8302f5-d61d-43b3-9939-05b3d83db08a")
 	)
 	(junction
-		(at 59.055 71.755)
+		(at 59.69 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff669b5d-1f97-4e1f-b8fb-def1b3de8e7b")
@@ -2907,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 71.755) (xy 87.63 71.755)
+			(xy 82.55 72.39) (xy 87.63 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2937,7 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 117.475) (xy 156.845 117.475)
+			(xy 144.78 118.11) (xy 157.48 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 120.015) (xy 59.69 120.015)
+			(xy 54.61 120.65) (xy 59.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 80.01) (xy 55.245 78.105)
+			(xy 55.88 80.01) (xy 55.88 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3177,17 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 59.055) (xy 199.39 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c0dd76e-70d7-4066-a112-c3d7d2b8643b")
-	)
-	(wire
-		(pts
-			(xy 156.845 109.22) (xy 156.845 110.49)
+			(xy 157.48 109.22) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3227,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 117.475) (xy 77.47 117.475)
+			(xy 90.17 118.11) (xy 77.47 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3367,7 +3358,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 109.855) (xy 77.47 109.855)
+			(xy 90.17 110.49) (xy 77.47 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3377,7 +3368,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 27.94) (xy 196.85 59.055)
+			(xy 196.85 58.42) (xy 196.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4499f77e-7162-4991-b4f0-ef258cc6fd02")
+	)
+	(wire
+		(pts
+			(xy 196.85 27.94) (xy 196.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3387,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 59.055) (xy 201.93 59.69)
+			(xy 201.93 58.42) (xy 201.93 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3417,7 +3418,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 59.055) (xy 199.39 59.055)
+			(xy 196.85 58.42) (xy 199.39 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3427,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 59.055) (xy 201.93 59.055)
+			(xy 199.39 58.42) (xy 201.93 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3447,7 +3448,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 71.755) (xy 55.245 71.755)
+			(xy 49.53 72.39) (xy 55.88 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3467,7 +3468,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 73.025) (xy 55.245 71.755)
+			(xy 55.88 73.66) (xy 55.88 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3477,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.755) (xy 107.315 71.755)
+			(xy 92.71 72.39) (xy 107.95 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3497,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 120.015) (xy 77.47 120.015)
+			(xy 90.17 120.65) (xy 77.47 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3527,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 109.22) (xy 144.78 109.22)
+			(xy 139.7 109.22) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3567,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 122.555) (xy 54.61 122.555)
+			(xy 45.72 123.19) (xy 54.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3637,13 +3638,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 117.475) (xy 54.61 120.015)
+			(xy 54.61 118.11) (xy 54.61 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72892881-5a3b-4a3e-8d4a-d345d271f74a")
+	)
+	(wire
+		(pts
+			(xy 199.39 58.42) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728a2aed-0a32-445d-b292-4b91eaa88f05")
 	)
 	(wire
 		(pts
@@ -3687,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 117.475) (xy 144.78 117.475)
+			(xy 139.7 118.11) (xy 144.78 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3717,7 +3728,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 71.755) (xy 61.595 71.755)
+			(xy 59.69 72.39) (xy 62.23 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3857,7 +3868,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 109.855) (xy 54.61 109.855)
+			(xy 45.72 110.49) (xy 54.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3877,23 +3888,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 109.22) (xy 156.845 109.22)
+			(xy 151.13 109.22) (xy 157.48 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8dc286b1-afd2-439f-8fc6-a8cdb0ff7007")
-	)
-	(wire
-		(pts
-			(xy 196.85 59.055) (xy 196.85 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92fef7d9-6d37-4e8a-ae55-1c7698e49383")
 	)
 	(wire
 		(pts
@@ -3957,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 122.555) (xy 54.61 122.555)
+			(xy 59.69 123.19) (xy 54.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3967,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 115.57) (xy 144.78 117.475)
+			(xy 144.78 115.57) (xy 144.78 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3977,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 71.755) (xy 59.055 76.835)
+			(xy 59.69 72.39) (xy 59.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3997,7 +3998,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 114.935) (xy 77.47 114.935)
+			(xy 90.17 115.57) (xy 77.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4017,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 76.835) (xy 88.265 76.835)
+			(xy 82.55 77.47) (xy 88.9 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4027,7 +4028,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 71.755) (xy 59.055 71.755)
+			(xy 55.88 72.39) (xy 59.69 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4107,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 112.395) (xy 77.47 112.395)
+			(xy 90.17 113.03) (xy 77.47 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4147,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 122.555) (xy 54.61 120.015)
+			(xy 54.61 123.19) (xy 54.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4347,7 +4348,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 122.555) (xy 77.47 122.555)
+			(xy 90.17 123.19) (xy 77.47 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4447,7 +4448,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 115.57) (xy 156.845 117.475)
+			(xy 157.48 115.57) (xy 157.48 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4457,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 80.01) (xy 55.245 80.01)
+			(xy 49.53 80.01) (xy 55.88 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4467,7 +4468,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 109.855) (xy 54.61 109.855)
+			(xy 59.69 110.49) (xy 54.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4497,7 +4498,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 76.835) (xy 59.055 76.835)
+			(xy 62.23 77.47) (xy 59.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4557,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 109.855) (xy 54.61 112.395)
+			(xy 54.61 110.49) (xy 54.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4699,7 +4700,7 @@
 	)
 	(text "Crystal"
 		(exclude_from_sim no)
-		(at 69.85 60.325 0)
+		(at 69.85 60.96 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4733,7 +4734,7 @@
 	)
 	(text "SPI Flash"
 		(exclude_from_sim no)
-		(at 67.31 101.727 0)
+		(at 67.31 101.6 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4777,7 +4778,7 @@
 		(uuid "070deab9-1611-4805-bb41-17d178782b5a")
 	)
 	(label "QSPI_SD3"
-		(at 90.17 122.555 180)
+		(at 90.17 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4788,7 +4789,7 @@
 		(uuid "0dadbf7e-b894-4fc4-9aed-014fefa8f05a")
 	)
 	(label "QSPI_SCLK"
-		(at 90.17 112.395 180)
+		(at 90.17 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4810,7 +4811,7 @@
 		(uuid "209d688d-d7ce-4840-a859-afaa05bc8596")
 	)
 	(label "QSPI_SD2"
-		(at 90.17 120.015 180)
+		(at 90.17 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4821,7 +4822,7 @@
 		(uuid "2986b3d0-5d3a-44f5-a07c-39945849c00e")
 	)
 	(label "QSPI_~{CS}"
-		(at 90.17 109.855 180)
+		(at 90.17 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4843,7 +4844,7 @@
 		(uuid "4aef7873-3ac2-4fe5-b242-913b7c3b4859")
 	)
 	(label "3V3"
-		(at 45.72 109.855 0)
+		(at 45.72 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4865,7 +4866,7 @@
 		(uuid "738d664e-b5d5-4bd4-9a43-cf95decbfede")
 	)
 	(label "GND"
-		(at 45.72 122.555 0)
+		(at 45.72 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4876,7 +4877,7 @@
 		(uuid "8197e8ea-e7d7-4d7a-b6d8-f42fec020512")
 	)
 	(label "1V1"
-		(at 139.065 109.22 0)
+		(at 139.7 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4898,7 +4899,7 @@
 		(uuid "95fc3b81-4750-4332-8837-bac68d4cdb34")
 	)
 	(label "XTAL_IN"
-		(at 107.315 71.755 180)
+		(at 107.95 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4909,7 +4910,7 @@
 		(uuid "964ae132-5df5-4818-856c-758fed82fbf1")
 	)
 	(label "GND"
-		(at 48.895 80.01 0)
+		(at 49.53 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4920,7 +4921,7 @@
 		(uuid "a5eb8111-cc4b-4e5f-83ee-5af1feb02b02")
 	)
 	(label "GND"
-		(at 88.265 76.835 180)
+		(at 88.9 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4975,7 +4976,7 @@
 		(uuid "d05feb43-60f2-463c-884f-aee7db571f18")
 	)
 	(label "QSPI_SD1"
-		(at 90.17 117.475 180)
+		(at 90.17 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4986,7 +4987,7 @@
 		(uuid "d4c81db1-7479-479e-9405-e888412985fd")
 	)
 	(label "QSPI_SD0"
-		(at 90.17 114.935 180)
+		(at 90.17 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5019,7 +5020,7 @@
 		(uuid "db6f1350-2d55-4c39-8148-64a6d2ea477f")
 	)
 	(label "3V3"
-		(at 48.895 71.755 0)
+		(at 49.53 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5208,7 +5209,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 139.065 117.475 180)
+		(at 139.7 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5638,33 +5639,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 93.98 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 93.98 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 93.98 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 93.98 171.45 0)
 			(effects
@@ -5793,33 +5767,6 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 142.24 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 142.24 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 142.24 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 142.24 35.56 0)
 			(effects
 				(font
@@ -5972,33 +5919,6 @@
 			)
 		)
 		(property "MPN" "2N7002VC-7"
-			(at 102.87 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 102.87 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 102.87 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 102.87 172.72 0)
 			(effects
 				(font
@@ -6173,33 +6093,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 58.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 58.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 58.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 58.42 163.83 0)
 			(effects
@@ -6339,33 +6232,6 @@
 			)
 		)
 		(property "MPN" "SC0914(13)"
-			(at 204.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 204.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 204.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 204.47 110.49 0)
 			(effects
 				(font
@@ -6695,33 +6561,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 48.26 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 48.26 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 48.26 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 48.26 187.96 0)
 			(effects
@@ -6862,33 +6701,6 @@
 			)
 		)
 		(property "MPN" "CC0805KKX5R8BB106"
-			(at 93.98 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 93.98 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 93.98 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 93.98 181.61 0)
 			(effects
 				(font
@@ -7045,33 +6857,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 107.95 35.56 0)
 			(effects
@@ -7104,7 +6889,7 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:ECS-2520MV-xxx-xx")
-		(at 71.755 74.295 0)
+		(at 72.39 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7113,7 +6898,7 @@
 		(fields_autoplaced yes)
 		(uuid "48a6864c-0dc5-414a-9c1a-675655498d59")
 		(property "Reference" "X1"
-			(at 71.755 64.77 0)
+			(at 72.39 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +6906,7 @@
 			)
 		)
 		(property "Value" "ECS-2520MVLC-120-CN"
-			(at 71.755 67.31 0)
+			(at 72.39 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +6914,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:Crystal_SMD_ECX-32-4Pin_3.2x2.5mm"
-			(at 74.168 84.582 0)
+			(at 74.803 85.217 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +6923,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
-			(at 58.293 72.517 0)
+			(at 58.928 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +6932,7 @@
 			)
 		)
 		(property "Description" "12 MHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead"
-			(at 62.738 75.692 0)
+			(at 63.373 76.327 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +6941,7 @@
 			)
 		)
 		(property "Price" "$1.99"
-			(at 71.755 74.295 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,7 +6950,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 71.755 74.295 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +6959,7 @@
 			)
 		)
 		(property "Rating" "XTAL OSC XO 12.0000MHZ CMOS SMD"
-			(at 71.755 74.295 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +6968,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 71.755 74.295 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +6977,7 @@
 			)
 		)
 		(property "Supplier PN" "50-ECS-2520MVLC-120-CN-TRCT-ND"
-			(at 71.755 74.295 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +6986,7 @@
 			)
 		)
 		(property "Manufacturer" "ECS Inc."
-			(at 71.755 74.295 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,34 +6995,7 @@
 			)
 		)
 		(property "MPN" "ECS-2520MVLC-120-CN-TR"
-			(at 71.755 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 71.755 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 71.755 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 71.755 74.295 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7004,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 71.755 74.295 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,33 +7143,6 @@
 			)
 		)
 		(property "Interface" ""
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 144.78 113.03 0)
 			(effects
 				(font
@@ -7559,33 +7290,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 119.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 119.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 119.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 119.38 35.56 0)
 			(effects
@@ -7618,7 +7322,7 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:W25Q128JVSIQ")
-		(at 64.77 114.935 0)
+		(at 64.77 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7627,7 +7331,7 @@
 		(dnp no)
 		(uuid "5db02aa0-590f-46d3-b7c1-5f9110f8e3b9")
 		(property "Reference" "U?"
-			(at 62.865 104.14 0)
+			(at 62.865 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +7339,7 @@
 			)
 		)
 		(property "Value" "GD25Q127CWIGR"
-			(at 68.58 106.045 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +7347,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:GD25LQ128DYIGR"
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7356,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.gigadevice.com.cn/Public/Uploads/uploadfile/files/20220714/DS-00291-GD25LQ128D-Rev1.9.pdf"
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7365,7 @@
 			)
 		)
 		(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O 104 MHz 8-WSON (5x6)"
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +7374,7 @@
 			)
 		)
 		(property "Manufacturer" "GigaDevice Semiconductor (HK) Limited"
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,7 +7383,7 @@
 			)
 		)
 		(property "Price" "$3.48"
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,7 +7392,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +7401,7 @@
 			)
 		)
 		(property "Rating" "IC FLASH 128MBIT SPI/QUAD 8WSON"
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +7410,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,7 +7419,7 @@
 			)
 		)
 		(property "Supplier PN" "1970-1048-1-ND"
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,34 +7428,7 @@
 			)
 		)
 		(property "MPN" "GD25Q127CWIGR"
-			(at 64.77 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 64.77 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 64.77 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +7437,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 64.77 114.935 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7864,33 +7541,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 106.68 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 106.68 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 106.68 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 106.68 166.37 0)
 			(effects
@@ -7920,7 +7570,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 54.61 114.935 0)
+		(at 54.61 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7929,7 +7579,7 @@
 		(dnp no)
 		(uuid "5fa27eae-cce5-4ed4-9b78-0c7937e606d4")
 		(property "Reference" "C?"
-			(at 52.705 113.03 0)
+			(at 52.705 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +7588,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 52.705 114.935 0)
+			(at 52.705 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +7597,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +7606,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +7615,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +7624,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +7633,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +7642,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,7 +7651,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +7660,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,34 +7669,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 54.61 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 54.61 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 54.61 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,7 +7678,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 54.61 114.935 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,33 +7814,6 @@
 			)
 		)
 		(property "MPN" "RB520S30T5G"
-			(at 53.34 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 53.34 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 53.34 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 53.34 172.72 0)
 			(effects
 				(font
@@ -8365,33 +7961,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 153.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 153.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 153.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 153.67 35.56 0)
 			(effects
@@ -8526,33 +8095,6 @@
 			)
 		)
 		(property "Supplier PN" "2N7002VC-7DICT-ND"
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 55.88 181.61 0)
 			(effects
 				(font
@@ -8712,33 +8254,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 224.79 35.56 0)
 			(effects
@@ -8889,33 +8404,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 72.39 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 72.39 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 72.39 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 72.39 181.61 0)
 			(effects
@@ -8948,7 +8436,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 55.245 75.565 0)
+		(at 55.88 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8956,7 +8444,7 @@
 		(dnp no)
 		(uuid "77f2f73b-b701-48f4-a758-ed4f460053c7")
 		(property "Reference" "C7"
-			(at 52.705 73.66 0)
+			(at 53.34 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +8453,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 52.705 75.565 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +8462,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +8471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +8480,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +8489,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +8498,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +8507,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +8516,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,7 +8525,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9046,7 +8534,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9055,34 +8543,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 55.245 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 55.245 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 55.245 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,7 +8552,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 55.245 75.565 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,33 +8676,6 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 165.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 165.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 165.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 165.1 35.56 0)
 			(effects
 				(font
@@ -9389,33 +8823,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 130.81 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 130.81 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 130.81 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 130.81 35.56 0)
 			(effects
@@ -9448,7 +8855,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.845 113.03 0)
+		(at 157.48 113.03 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9457,7 +8864,7 @@
 		(dnp no)
 		(uuid "847ba053-a459-4272-ade8-7e874af2ef9c")
 		(property "Reference" "C?"
-			(at 159.385 111.125 0)
+			(at 160.02 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,7 +8873,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 159.385 113.03 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +8882,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +8891,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +8900,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +8909,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX5R8BB105"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +8918,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +8927,7 @@
 			)
 		)
 		(property "Price" "$0.16"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +8936,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 1UF 25V X5R 0603"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +8945,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +8954,7 @@
 			)
 		)
 		(property "Supplier PN" "311-1445-1-ND"
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,34 +8963,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 156.845 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 156.845 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 156.845 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,7 +8972,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 156.845 113.03 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,33 +9110,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 68.58 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 68.58 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 68.58 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 68.58 168.91 0)
 			(effects
 				(font
@@ -9910,33 +9263,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 105.41 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 105.41 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 105.41 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 105.41 162.56 0)
 			(effects
 				(font
@@ -10100,33 +9426,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 64.77 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 64.77 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 64.77 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 64.77 172.72 0)
 			(effects
@@ -10258,33 +9557,6 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -10432,33 +9704,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 173.99 78.74 0)
 			(effects
@@ -10590,33 +9835,6 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 187.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 187.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 187.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -10764,33 +9982,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 173.99 81.28 0)
 			(effects
@@ -10929,33 +10120,6 @@
 			)
 		)
 		(property "MPN" "TL3780AF240QG"
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -11118,33 +10282,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic" ""
-			(at 92.71 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 92.71 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 92.71 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Substitute" ""
 			(at 92.71 158.75 0)
 			(effects
@@ -11177,7 +10314,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 90.17 71.755 270)
+		(at 90.17 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11185,7 +10322,7 @@
 		(dnp no)
 		(uuid "ce75c8c1-66a6-4d6c-ab75-878a37629b34")
 		(property "Reference" "R10"
-			(at 90.17 67.945 90)
+			(at 90.17 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,7 +10330,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 90.17 69.85 90)
+			(at 90.17 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +10338,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +10347,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +10356,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +10365,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-071KL"
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,7 +10374,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +10383,7 @@
 			)
 		)
 		(property "Price" "$0.16"
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,7 +10392,7 @@
 			)
 		)
 		(property "Rating" "RES 1K OHM 1% 1/16W 0402"
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,7 +10401,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,34 +10410,7 @@
 			)
 		)
 		(property "Supplier PN" "311-1.00KLRCT-ND"
-			(at 90.17 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 90.17 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 90.17 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,7 +10419,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 90.17 71.755 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,33 +10543,6 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 176.53 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 176.53 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 176.53 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -11608,33 +10691,6 @@
 			)
 		)
 		(property "MPN" "CC0805KKX5R8BB106"
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" ""
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " ""
 			(at 83.82 181.61 0)
 			(effects
 				(font

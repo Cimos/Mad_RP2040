@@ -422,7 +422,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "ignore",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -510,9 +510,7 @@
       "Net-(U1-D+_in)": "USB",
       "Net-(U1-D-_in)": "USB",
       "Net-(U5-D+)": "USB",
-      "Net-(U5-D-)": "USB",
-      "unconnected-(U1-D+_out-Pad6)": "USB",
-      "unconnected-(U1-D-_out-Pad5)": "USB"
+      "Net-(U5-D-)": "USB"
     },
     "netclass_patterns": []
   },
@@ -568,7 +566,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -592,19 +590,19 @@
           "group_by": false,
           "label": "Interface",
           "name": "Interface",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -622,7 +620,7 @@
           "group_by": false,
           "label": "Rating",
           "name": "Rating",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -634,44 +632,26 @@
           "group_by": false,
           "label": "Supplier PN",
           "name": "Supplier PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Substitute",
           "name": "Substitute",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN ",
-          "name": "MPN ",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "JLC Basic",
-          "name": "JLC Basic",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Value"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -726,5 +706,9 @@
       "RP2040"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "COMPANY": "MADMAN",
+    "REVISION": "A",
+    "TITLE": "Two Key, RP2040 Board"
+  }
 }
