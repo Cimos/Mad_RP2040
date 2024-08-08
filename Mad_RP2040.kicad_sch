@@ -3836,7 +3836,7 @@
 		)
 		(uuid 2a930e63-79b1-41b2-b10f-8adf4c73dbb9)
 	)
-	(text_box "TODO:\n\n* Cleanup bom, remove trailing spaces\n* Get missing 3D models\n* Finish off PCB routing\n* Check LED selection\n* BOM consolidation if possible\n* Create template for page title block"
+	(text_box "TODO:\n\n#* Cleanup bom, remove trailing spaces\n* Get missing 3D models\n* Finish off PCB routing\n* Check LED selection\n* BOM consolidation if possible\n* Create template for page title block"
 		(exclude_from_sim no)
 		(at 151.765 -34.925 0)
 		(size 132.715 45.72)
@@ -4157,43 +4157,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965556"
-			(at 228.6 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " "SK6812_MINI_E"
-			(at 228.6 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Worldsemi "
-			(at 228.6 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" "N"
-			(at 228.6 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" "N"
+		(property "Manufacturer" "Worldsemi"
 			(at 228.6 88.265 0)
 			(effects
 				(font
@@ -4248,6 +4212,42 @@
 			)
 		)
 		(property "MPN" "SK6812MINI-E"
+			(at 228.6 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 228.6 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 228.6 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 228.6 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 228.6 88.265 0)
 			(effects
 				(font
@@ -4527,6 +4527,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Basic" ""
+			(at 103.505 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 103.505 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 103.505 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
+			(at 103.505 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a11d6857-0ba4-4f06-b960-5afe1e49fac2")
 		)
@@ -4717,6 +4753,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Basic" ""
+			(at 232.41 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 232.41 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 232.41 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
+			(at 232.41 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19c78620-f8de-4c28-b90e-af3f59e098d9")
 		)
@@ -4850,7 +4922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$1.29 "
+		(property "Price" "$1.29"
 			(at 32.385 67.945 0)
 			(effects
 				(font
@@ -4905,6 +4977,42 @@
 			)
 		)
 		(property "MPN" "USB4105"
+			(at 32.385 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 32.385 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 32.385 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 32.385 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 32.385 67.945 0)
 			(effects
 				(font
@@ -5090,6 +5198,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Basic" ""
+			(at 66.04 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 66.04 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 66.04 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
+			(at 66.04 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "85651649-89dd-42cf-9b01-55b8d6606517")
 		)
@@ -5157,43 +5301,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965556"
-			(at 228.6 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN " "WS2812C-2020"
-			(at 228.6 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Worldsemi "
-			(at 228.6 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic" "N"
-			(at 228.6 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" "N"
+		(property "Manufacturer" "Worldsemi"
 			(at 228.6 107.315 0)
 			(effects
 				(font
@@ -5248,6 +5356,42 @@
 			)
 		)
 		(property "MPN" "SK6812MINI-E"
+			(at 228.6 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 228.6 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 228.6 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 228.6 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 228.6 107.315 0)
 			(effects
 				(font
@@ -5330,7 +5474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18 "
+		(property "Price" "$0.18"
 			(at 223.52 61.595 0)
 			(effects
 				(font
@@ -5385,6 +5529,42 @@
 			)
 		)
 		(property "MPN" "LL4148"
+			(at 223.52 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 223.52 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 223.52 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 223.52 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 223.52 61.595 0)
 			(effects
 				(font
@@ -5507,6 +5687,42 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
+			(at 233.045 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 233.045 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 233.045 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 233.045 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 233.045 74.295 0)
 			(effects
 				(font
@@ -5646,6 +5862,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Basic" ""
+			(at 79.375 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 79.375 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 79.375 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
+			(at 79.375 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fd8c076-52ce-490f-a736-69bb8a984f91")
 		)
@@ -5714,7 +5966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18 "
+		(property "Price" "$0.18"
 			(at 224.155 74.295 0)
 			(effects
 				(font
@@ -5769,6 +6021,42 @@
 			)
 		)
 		(property "MPN" "LL4148"
+			(at 224.155 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 224.155 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 224.155 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 224.155 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 224.155 74.295 0)
 			(effects
 				(font
@@ -5919,6 +6207,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Basic" ""
+			(at 86.995 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 86.995 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 86.995 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
+			(at 86.995 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e515581-8cd6-43cd-8038-601ff1de168a")
 		)
@@ -6043,6 +6367,42 @@
 			)
 		)
 		(property "MPN" ""
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 166.37 191.77 0)
 			(effects
 				(font
@@ -6638,7 +6998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16 "
+		(property "Price" "$0.16"
 			(at 51.435 60.325 0)
 			(effects
 				(font
@@ -6702,6 +7062,42 @@
 			)
 		)
 		(property "Notes" ""
+			(at 51.435 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 51.435 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 51.435 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 51.435 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 51.435 60.325 0)
 			(effects
 				(font
@@ -6777,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.83 "
+		(property "Price" "$0.83"
 			(at 79.375 70.485 0)
 			(effects
 				(font
@@ -6832,6 +7228,42 @@
 			)
 		)
 		(property "MPN" "ECMF02-2AMX6"
+			(at 79.375 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 79.375 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 79.375 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 79.375 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 79.375 70.485 0)
 			(effects
 				(font
@@ -7103,6 +7535,42 @@
 			)
 		)
 		(property "MPN" "BLM15PX330SN1D"
+			(at 79.375 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 79.375 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 79.375 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 79.375 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 79.375 33.655 0)
 			(effects
 				(font
@@ -7402,7 +7870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16 "
+		(property "Price" "$0.16"
 			(at 51.435 57.785 0)
 			(effects
 				(font
@@ -7430,6 +7898,42 @@
 			)
 		)
 		(property "Supplier PN" "311-5.10KLRCT-ND"
+			(at 51.435 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" ""
+			(at 51.435 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 51.435 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " ""
+			(at 51.435 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
 			(at 51.435 57.785 0)
 			(effects
 				(font

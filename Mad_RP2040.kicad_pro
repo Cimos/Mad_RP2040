@@ -510,7 +510,9 @@
       "Net-(U1-D+_in)": "USB",
       "Net-(U1-D-_in)": "USB",
       "Net-(U5-D+)": "USB",
-      "Net-(U5-D-)": "USB"
+      "Net-(U5-D-)": "USB",
+      "unconnected-(U1-D+_out-Pad6)": "USB",
+      "unconnected-(U1-D-_out-Pad5)": "USB"
     },
     "netclass_patterns": []
   },
@@ -560,7 +562,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -590,7 +592,7 @@
           "group_by": false,
           "label": "Interface",
           "name": "Interface",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -614,25 +616,25 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Rating",
           "name": "Rating",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Supplier PN",
           "name": "Supplier PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -650,19 +652,19 @@
           "group_by": false,
           "label": "MPN ",
           "name": "MPN ",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "JLC Basic",
           "name": "JLC Basic",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
