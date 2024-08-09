@@ -4625,6 +4625,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C5149201"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0287ba7a-7540-4626-b2ac-7f56fb475a87")
 		)
@@ -4992,7 +5001,7 @@
 		(at 62.23 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5131,7 +5140,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-012"
+		(property "Value" "SK6812MINI"
 			(at 228.6 132.08 0)
 			(effects
 				(font
@@ -5219,7 +5228,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812MINI-012"
+		(property "MPN" "SK6812MINI"
+			(at 228.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2886570"
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -5302,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "4958"
+		(property "MPN" "CPG151101S11"
 			(at 232.41 62.23 0)
 			(effects
 				(font
@@ -5357,6 +5375,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2803348"
 			(at 232.41 62.23 0)
 			(effects
 				(font
@@ -5451,7 +5478,7 @@
 		(at 17.78 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5689,6 +5716,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3020560"
 			(at 33.02 68.58 0)
 			(effects
 				(font
@@ -6021,6 +6057,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C5149201"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdad2d28-8b36-4c7e-ac4a-fd834369f106")
 		)
@@ -6167,6 +6212,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C435829"
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cfda1d7-8e0b-40c7-bade-096f40a87fb8")
 		)
@@ -6301,7 +6355,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "4958"
+		(property "MPN" "CPG151101S11"
 			(at 233.68 74.93 0)
 			(effects
 				(font
@@ -6356,6 +6410,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2803348"
 			(at 233.68 74.93 0)
 			(effects
 				(font
@@ -6504,6 +6567,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C160974"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fd8c076-52ce-490f-a736-69bb8a984f91")
 		)
@@ -6644,6 +6716,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C435829"
+			(at 224.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "384bc4a5-a49a-408a-9978-52083a232220")
 		)
@@ -6664,7 +6745,7 @@
 		(at 17.78 178.435 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6942,7 +7023,7 @@
 		(at 91.44 184.785 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6fa5167a-5473-4680-a9fc-aeb99ce24373")
@@ -7732,7 +7813,7 @@
 		(at 35.56 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7987,6 +8068,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C105872"
+			(at 52.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b393142-5698-4be7-93e7-12c38090cef9")
 		)
@@ -8007,7 +8097,7 @@
 		(at 17.78 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8245,6 +8335,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2651144"
 			(at 80.01 71.12 0)
 			(effects
 				(font
@@ -8525,6 +8624,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C160974"
 			(at 80.01 34.29 0)
 			(effects
 				(font
@@ -8861,6 +8969,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C105872"
 			(at 52.07 58.42 0)
 			(effects
 				(font

@@ -68,7 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -99,7 +99,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -505,8 +505,6 @@
     "netclass_assignments": {
       "/RP2040/USB_D+": "USB",
       "/RP2040/USB_D-": "USB",
-      "/RP2040a/USB_D+": "USB",
-      "/RP2040a/USB_D-": "USB",
       "Net-(U1-D+_in)": "USB",
       "Net-(U1-D-_in)": "USB",
       "Net-(U5-D+)": "USB",
@@ -566,7 +564,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -596,13 +594,13 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -632,26 +630,32 @@
           "group_by": false,
           "label": "Supplier PN",
           "name": "Supplier PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Substitute",
           "name": "Substitute",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PN",
+          "name": "LCSC PN",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "MPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -707,6 +711,7 @@
     ]
   ],
   "text_variables": {
+    "COMMENT1": "",
     "COMPANY": "MADMAN",
     "REVISION": "A",
     "TITLE": "Two Key, RP2040 Board"

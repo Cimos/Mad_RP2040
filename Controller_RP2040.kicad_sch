@@ -1706,6 +1706,18 @@
 		)
 		(uuid "98acf54d-b38f-4999-91f9-73b8b68c8e48")
 	)
+	(text "Check Pinout"
+		(exclude_from_sim no)
+		(at 56.515 63.5 90)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "d1a7db6a-4c61-4379-9577-cacbdbb8713a")
+	)
 	(text "TAG Connect"
 		(exclude_from_sim no)
 		(at 30.48 162.052 0)
@@ -2416,6 +2428,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C6848499"
+			(at 270.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5766b3a1-8648-480c-b964-e8f6cc91f850")
 		)
@@ -2556,6 +2577,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C233236"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "530fdc8e-c389-4174-8495-10ae5143d675")
 		)
@@ -2630,6 +2660,69 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 25.4 180.34 0)
 			(effects
 				(font
@@ -2800,6 +2893,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C106235"
+			(at 270.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c97421e-c468-4915-adfa-ef0da1eedfe5")
 		)
@@ -2925,6 +3027,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 199.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C105872"
 			(at 199.39 113.03 0)
 			(effects
 				(font
@@ -3098,7 +3209,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "WS2812C-2020-V1"
 			(at 236.22 36.83 0)
 			(effects
 				(font
@@ -3177,7 +3288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C965555"
+		(property "Supplier PN" "C2976072"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -3186,7 +3297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WS2812B-2020"
+		(property "MPN" "WS2812C-2020-V1"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -3196,6 +3307,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2976072"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -3335,6 +3455,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C105872"
 			(at 199.39 102.87 0)
 			(effects
 				(font

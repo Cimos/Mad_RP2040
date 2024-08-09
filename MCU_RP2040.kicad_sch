@@ -2055,7 +2055,7 @@
 					)
 				)
 			)
-			(property "Value" "GD25LQ128DYIGR"
+			(property "Value" "W25Q128JVSIQ"
 				(at -3.81 8.89 0)
 				(effects
 					(font
@@ -2063,7 +2063,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2072,7 +2072,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.gigadevice.com.cn/Public/Uploads/uploadfile/files/20220714/DS-00291-GD25LQ128D-Rev1.9.pdf"
+			(property "Datasheet" "https://www.winbond.com/resource-files/W25Q128JV%20RevI%2008232021%20Plus.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2081,7 +2081,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O 120 MHz 8-WSON (6x8)"
+			(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O, QPI, DTR 133 MHz 8-SOIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2090,7 +2090,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "GigaDevice Semiconductor (HK) Limited"
+			(property "Manufacturer" "Winbond Electronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2099,7 +2099,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "$3.48 "
+			(property "Price" "$2.72"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2117,7 +2117,7 @@
 					(hide yes)
 				)
 			)
-			(property "Rating" "IC FLASH 128MBIT SPI/QUAD 8WSON"
+			(property "Rating" "IC FLASH 128MBIT SPI/QUAD 8SOIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2135,7 +2135,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier PN" "1970-1088-1-ND"
+			(property "Supplier PN" "W25Q128JVSIQ-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2144,7 +2144,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GD25LQ128DYIGR"
+			(property "MPN" "W25Q128JVSIQ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2240,7 +2240,7 @@
 					)
 				)
 				(pin power_in line
-					(at 5.08 -5.08 180)
+					(at 5.08 -7.62 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2322,24 +2322,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2749,6 +2731,12 @@
 		(uuid "5a93aa5d-ecca-4bc2-b8b2-e399046bd7d7")
 	)
 	(junction
+		(at 58.42 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c031b68-17ba-41b8-a05a-6a213e4b02e1")
+	)
+	(junction
 		(at 48.26 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2785,22 +2773,10 @@
 		(uuid "8fe542a2-a720-4daf-adb9-d3ee49648c79")
 	)
 	(junction
-		(at 54.61 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "931244b6-821c-4fe3-91de-5bd20200e827")
-	)
-	(junction
 		(at 176.53 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a64c9e-30c8-411b-82cb-d010d5b6c530")
-	)
-	(junction
-		(at 58.42 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b5cff83-f116-417b-ac0b-d56a2681180b")
 	)
 	(junction
 		(at 54.61 123.19)
@@ -2978,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 158.75) (xy 58.42 161.29)
+			(xy 58.42 158.75) (xy 58.42 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3005,16 +2981,6 @@
 			(type default)
 		)
 		(uuid "146c080d-e1a1-4f4f-a261-77a089eaac6d")
-	)
-	(wire
-		(pts
-			(xy 54.61 120.65) (xy 59.69 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "163e416b-12d8-423c-9d36-3902b18e2c71")
 	)
 	(wire
 		(pts
@@ -3178,6 +3144,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 167.64) (xy 58.42 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0e9fae-e55f-487b-8694-b94d01053877")
+	)
+	(wire
+		(pts
 			(xy 157.48 109.22) (xy 157.48 110.49)
 		)
 		(stroke
@@ -3238,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 166.37) (xy 58.42 168.91)
+			(xy 58.42 165.1) (xy 58.42 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3638,7 +3614,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 118.11) (xy 54.61 120.65)
+			(xy 54.61 118.11) (xy 54.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3858,7 +3834,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 168.91) (xy 68.58 168.91)
+			(xy 58.42 167.64) (xy 68.58 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4145,16 +4121,6 @@
 			(type default)
 		)
 		(uuid "a6be4d58-41b2-485e-a922-744ae6daf49b")
-	)
-	(wire
-		(pts
-			(xy 54.61 123.19) (xy 54.61 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a781bda0-61a2-4ee5-a34a-c60f05af69ec")
 	)
 	(wire
 		(pts
@@ -4548,16 +4514,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 168.91) (xy 58.42 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f22c2d-534c-4ebf-bb20-265b2d210a12")
-	)
-	(wire
-		(pts
 			(xy 54.61 110.49) (xy 54.61 113.03)
 		)
 		(stroke
@@ -4676,6 +4632,16 @@
 		)
 		(uuid "317dec2d-894c-4d5b-a1ec-ed345e26395d")
 	)
+	(text "C113767"
+		(exclude_from_sim no)
+		(at 83.82 103.505 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ddae3ce-8f3e-4e87-98ec-539c787bd114")
+	)
 	(text "Removed inverter as\nwe don't care about \nbeing backwards \ncompatable."
 		(exclude_from_sim no)
 		(at 26.67 186.69 0)
@@ -4686,6 +4652,42 @@
 			(justify left bottom)
 		)
 		(uuid "5a67a842-39d8-4c20-a87f-45919e402911")
+	)
+	(text "Check Pinout"
+		(exclude_from_sim no)
+		(at 68.58 112.395 90)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "61b28806-17b9-4a92-bbad-8ef8d28e7f62")
+	)
+	(text "Check Pinout"
+		(exclude_from_sim no)
+		(at 105.41 173.355 90)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "74259589-3101-46e5-85f0-07e298878210")
+	)
+	(text "Check Pinout"
+		(exclude_from_sim no)
+		(at 69.215 74.295 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "79ede6b2-b558-4385-b344-9c073e1963f4")
 	)
 	(text "Reset / Boot Circuit"
 		(exclude_from_sim no)
@@ -4720,6 +4722,18 @@
 			(justify left bottom)
 		)
 		(uuid "c174bf17-fee0-43ae-b53d-53ed670a9a20")
+	)
+	(text "Check Pinout"
+		(exclude_from_sim no)
+		(at 202.565 107.95 90)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "c70ea1f3-cdc0-4e9b-906c-95775a70a3ff")
 	)
 	(text "Q1A - pulls ~{RST} to GND"
 		(exclude_from_sim no)
@@ -4888,7 +4902,7 @@
 		(uuid "8eb23253-1cd6-48e0-a9fe-5a1290e4b162")
 	)
 	(label "~{RST}"
-		(at 68.58 168.91 180)
+		(at 68.58 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5809,7 +5823,6 @@
 		(lib_name "FDG6335N_1")
 		(lib_id "Transistor_FET:FDG6335N")
 		(at 102.87 172.72 0)
-		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5817,7 +5830,7 @@
 		(dnp no)
 		(uuid "0c2c0934-af65-47d7-b15f-392b75011bb7")
 		(property "Reference" "Q?"
-			(at 106.172 176.784 0)
+			(at 107.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,8 +5838,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002VC-7"
-			(at 106.172 179.324 0)
+		(property "Value" "2N7002PV,115"
+			(at 107.95 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,8 +5847,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 107.95 170.815 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+			(at 107.95 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,8 +5858,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30639.pdf"
-			(at 107.95 168.91 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2006101914_Nexperia-2N7002PV-115_C551422.pdf"
+			(at 107.95 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mosfet Array 60V 280mA 150mW Surface Mount SOT-563"
+		(property "Description" "Mosfet Array 60V 350mA 330mW Surface Mount SOT-666"
 			(at 102.87 172.72 0)
 			(effects
 				(font
@@ -5882,7 +5895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "MOSFET 2N-CH 60V 0.28A SOT563"
+		(property "Rating" "MOSFET 2N-CH 60V 0.35A SOT666"
 			(at 102.87 172.72 0)
 			(effects
 				(font
@@ -5900,7 +5913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "2N7002VC-7DICT-ND"
+		(property "Supplier PN" "1727-4792-1-ND"
 			(at 102.87 172.72 0)
 			(effects
 				(font
@@ -5918,7 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "2N7002VC-7"
+		(property "MPN" "2N7002PV,115"
 			(at 102.87 172.72 0)
 			(effects
 				(font
@@ -5928,6 +5941,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 102.87 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C551422"
 			(at 102.87 172.72 0)
 			(effects
 				(font
@@ -5971,7 +5993,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 58.42 163.83 180)
+		(at 58.42 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5979,7 +6001,7 @@
 		(dnp no)
 		(uuid "0ce50021-3b45-4672-b50b-aefabfe932a1")
 		(property "Reference" "R?"
-			(at 60.96 162.052 0)
+			(at 60.96 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +6009,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 61.468 163.83 0)
+			(at 61.468 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +6017,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6026,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6035,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +6044,7 @@
 			)
 		)
 		(property "Price" "$0.16"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +6053,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +6062,7 @@
 			)
 		)
 		(property "Rating" "RES 10K OHM 1% 1/16W 0402"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +6071,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +6080,7 @@
 			)
 		)
 		(property "Supplier PN" "311-10.0KLRCT-ND"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6089,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6098,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6107,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6116,16 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 58.42 163.83 0)
+			(at 58.42 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C60490"
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,6 +6272,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 204.47 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2040"
 			(at 204.47 110.49 0)
 			(effects
 				(font
@@ -6562,6 +6602,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 48.26 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C60490"
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -7160,6 +7209,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C14664"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "802a8f6c-3fa8-45e0-8888-3ebf0eead6a5")
 		)
@@ -7321,6 +7379,172 @@
 		)
 	)
 	(symbol
+		(lib_name "FDG6335N_1")
+		(lib_id "Transistor_FET:FDG6335N")
+		(at 55.88 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5603f1f4-f18e-46a7-9221-a2e327b752de")
+		(property "Reference" "Q1"
+			(at 59.182 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002PV,115"
+			(at 58.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+			(at 60.96 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2006101914_Nexperia-2N7002PV-115_C551422.pdf"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mosfet Array 60V 350mA 330mW Surface Mount SOT-666"
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.64"
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "MOSFET 2N-CH 60V 0.35A SOT666"
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1727-4792-1-ND"
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002PV,115"
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" ""
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C551422"
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77704ce1-0118-44e3-a00d-b4f25523cb47")
+		)
+		(pin "4"
+			(uuid "909ef9c7-ca2e-4c49-9b72-1ec043a8c55a")
+		)
+		(pin "5"
+			(uuid "68d5610f-c2a2-4dd0-9050-4f40c7bcf34d")
+		)
+		(pin "3"
+			(uuid "4240b117-5248-48eb-8f39-b77d4d408377")
+		)
+		(pin "1"
+			(uuid "719be897-8c88-4230-b50b-9230d1c549c0")
+		)
+		(pin "6"
+			(uuid "428b4a86-8b5f-4e90-a9c2-0f1e373998e6")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mad_Symbols:W25Q128JVSIQ")
 		(at 64.77 115.57 0)
 		(mirror y)
@@ -7338,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Value" "GD25Q127CWIGR"
+		(property "Value" "W25Q128JVSIQ"
 			(at 68.58 106.68 0)
 			(effects
 				(font
@@ -7346,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mad_Footprints:GD25LQ128DYIGR"
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7355,7 +7579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.gigadevice.com.cn/Public/Uploads/uploadfile/files/20220714/DS-00291-GD25LQ128D-Rev1.9.pdf"
+		(property "Datasheet" "https://www.winbond.com/resource-files/W25Q128JV%20RevI%2008232021%20Plus.pdf"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7364,7 +7588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O 104 MHz 8-WSON (5x6)"
+		(property "Description" "FLASH - NOR Memory IC 128Mbit SPI - Quad I/O, QPI, DTR 133 MHz 8-SOIC"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7373,7 +7597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "GigaDevice Semiconductor (HK) Limited"
+		(property "Manufacturer" "Winbond Electronics"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7382,7 +7606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$3.48"
+		(property "Price" "$2.72"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7400,7 +7624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "IC FLASH 128MBIT SPI/QUAD 8WSON"
+		(property "Rating" "IC FLASH 128MBIT SPI/QUAD 8SOIC"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7418,7 +7642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1970-1048-1-ND"
+		(property "Supplier PN" "W25Q128JVSIQ-ND"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7427,7 +7651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GD25Q127CWIGR"
+		(property "MPN" "W25Q128JVSIQ"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7437,6 +7661,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C97521"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -7468,9 +7701,6 @@
 		)
 		(pin "8"
 			(uuid "96fb8ead-9b56-4e31-bf75-dd53b2e053f5")
-		)
-		(pin "9"
-			(uuid "d810696c-bb8d-4e61-a5be-6e2161d07ffa")
 		)
 		(instances
 			(project "RP2040"
@@ -7831,6 +8061,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C232575"
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a3f4d58-4373-4a91-a8d5-42290043ce44")
 		)
@@ -7986,160 +8225,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "FDG6335N_1")
-		(lib_id "Transistor_FET:FDG6335N")
-		(at 55.88 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aad3bed-8dbb-4fb1-8272-54d4b2f297d0")
-		(property "Reference" "Q?"
-			(at 58.928 186.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002VC-7"
-			(at 58.928 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 60.96 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30639.pdf"
-			(at 60.96 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mosfet Array 60V 280mA 150mW Surface Mount SOT-563"
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2N7002VC-7"
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.64"
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "MOSFET 2N-CH 60V 0.28A SOT563"
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "2N7002VC-7DICT-ND"
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ce31aef2-5658-4c50-8993-2e8215d7a357")
-		)
-		(pin "4"
-			(uuid "5d4152e6-89da-498c-a895-b01ca9bb4614")
-		)
-		(pin "5"
-			(uuid "c7f89def-86f9-4500-bcd7-9a972e016f3b")
-		)
-		(pin "3"
-			(uuid "9f215c05-a89c-435a-9565-755d8f458e76")
-		)
-		(pin "1"
-			(uuid "d1e62981-7f69-47c6-b191-8ed0449082e3")
-		)
-		(pin "6"
-			(uuid "ea19bef6-3191-442c-b78e-97e300ab948c")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8405,6 +8490,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 72.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C60491"
 			(at 72.39 181.61 0)
 			(effects
 				(font
@@ -8980,6 +9074,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C14664"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c0fe5ae-0bc7-4534-ab04-3dd75ac9dc72")
 		)
@@ -9003,7 +9106,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 68.58 168.91 270)
+		(at 68.58 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9011,7 +9114,7 @@
 		(dnp no)
 		(uuid "8edc95a3-b021-4c54-8469-bcdd6bc0fc20")
 		(property "Reference" "TP?"
-			(at 70.104 167.132 90)
+			(at 70.104 165.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9123,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 69.088 165.1 90)
+			(at 69.088 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,7 +9132,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 173.99 0)
+			(at 68.58 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9038,7 +9141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 173.99 0)
+			(at 68.58 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9047,7 +9150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +9159,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +9168,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9177,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +9186,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +9195,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9204,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +9213,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +9222,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 68.58 168.91 0)
+			(at 68.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,6 +9383,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C106235"
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bf74a98-35d3-4ea5-b0f6-36baf5c42e9b")
 		)
@@ -9312,7 +9424,7 @@
 		(dnp no)
 		(uuid "93a77361-241b-4da4-92f5-0cee943c23c2")
 		(property "Reference" "R?"
-			(at 64.77 177.8 90)
+			(at 64.77 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,7 +9432,7 @@
 			)
 		)
 		(property "Value" "51K"
-			(at 64.77 175.26 90)
+			(at 64.77 170.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9427,6 +9539,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C107229"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9713,6 +9834,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C138021"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40b560d4-630c-4643-a31a-b59ae432dd9f")
 		)
@@ -9991,6 +10121,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C138021"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5119226e-1efd-4ab7-af2c-342fa1d443bb")
 		)
@@ -10015,7 +10154,6 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 40.64 172.72 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10030,7 +10168,7 @@
 				)
 			)
 		)
-		(property "Value" "TL3780AF240QG"
+		(property "Value" "EVPAA202K"
 			(at 40.64 176.784 0)
 			(effects
 				(font
@@ -10038,7 +10176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mad_Footprints:SW_TL3780AF240QG"
+		(property "Footprint" "Mad_Footprints:EVP-AA202K"
 			(at 40.64 167.64 0)
 			(effects
 				(font
@@ -10047,7 +10185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/221/TL3780.pdf"
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_3529s.pdf"
 			(at 40.64 167.64 0)
 			(effects
 				(font
@@ -10065,7 +10203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "E-Switch"
+		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -10074,7 +10212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.41"
+		(property "Price" "$1.26"
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -10092,7 +10230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Rating" "SWITCH TACTILE SPST-NO 0.02A 15V"
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -10110,7 +10248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "EG5393CT-ND"
+		(property "Supplier PN" "P13348SCT-ND"
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -10119,7 +10257,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TL3780AF240QG"
+		(property "MPN" "EVPAA202K"
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -10291,6 +10429,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C60490"
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e00d584-f7b7-423d-8879-a32a583dc046")
 		)
@@ -10419,6 +10566,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C106235"
 			(at 90.17 72.39 0)
 			(effects
 				(font
