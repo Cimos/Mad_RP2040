@@ -2944,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 81.28) (xy 171.45 81.28)
+			(xy 158.75 81.28) (xy 184.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3094,16 +3094,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 184.15 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2755e7d7-86f6-4270-b8b4-17384bf69579")
-	)
-	(wire
-		(pts
 			(xy 204.47 27.94) (xy 215.9 27.94)
 		)
 		(stroke
@@ -3191,6 +3181,16 @@
 			(type default)
 		)
 		(uuid "2e864aff-67e0-44ae-95a9-fb888df5a673")
+	)
+	(wire
+		(pts
+			(xy 72.39 191.77) (xy 72.39 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f06d92e-3e2a-48a2-8518-6ae2228ad7f4")
 	)
 	(wire
 		(pts
@@ -3384,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 171.45 78.74)
+			(xy 158.75 78.74) (xy 184.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3434,7 +3434,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 184.15) (xy 72.39 193.04)
+			(xy 72.39 181.61) (xy 72.39 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3824,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 172.72) (xy 72.39 179.07)
+			(xy 72.39 172.72) (xy 72.39 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4541,16 +4541,6 @@
 			(type default)
 		)
 		(uuid "f61b6157-9a67-4892-8133-df1cdcaa94cc")
-	)
-	(wire
-		(pts
-			(xy 176.53 81.28) (xy 184.15 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84d8351-dc1e-4345-9e83-c175d0a4659d")
 	)
 	(wire
 		(pts
@@ -6776,7 +6766,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C472857"
+		(property "LCSC PN" "C2932476"
 			(at 93.98 181.61 0)
 			(effects
 				(font
@@ -7615,7 +7605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Mad_Footprints:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -8437,33 +8427,32 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 72.39 181.61 180)
+		(at 72.39 189.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "77c32527-4086-475c-9716-cde1a04d8afa")
-		(property "Reference" "R?"
-			(at 73.66 179.07 0)
+		(uuid "750ec04c-d091-4d45-b60d-9e63b99c3c0d")
+		(property "Reference" "R15"
+			(at 75.565 187.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100K"
-			(at 73.66 181.61 0)
+		(property "Value" "51K"
+			(at 75.565 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 72.39 181.61 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8461,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 72.39 181.61 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,8 +8469,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 72.39 181.61 0)
+		(property "Description" "51 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8479,7 @@
 			)
 		)
 		(property "Price" "$0.16"
-			(at 72.39 181.61 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +8488,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 72.39 181.61 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,8 +8496,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 100K OHM 1% 1/16W 0402"
-			(at 72.39 181.61 0)
+		(property "Rating" "RES 51K OHM 1% 1/16W 0402"
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,7 +8506,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 72.39 181.61 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8525,8 +8514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-100KLRCT-ND"
-			(at 72.39 181.61 0)
+		(property "Supplier PN" "311-51.0KLRCT-ND"
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8524,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 72.39 181.61 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,8 +8532,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL"
-			(at 72.39 181.61 0)
+		(property "MPN" "RC0402FR-0751KL"
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8542,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 72.39 181.61 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,7 +8551,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 72.39 181.61 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,8 +8559,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C60491"
-			(at 72.39 181.61 0)
+		(property "LCSC PN" "C107229"
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,21 +8569,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c94891a-476c-4a7f-a4d0-948af68da979")
+			(uuid "d27832eb-7276-408d-8d92-1ba716dce057")
 		)
 		(pin "2"
-			(uuid "a525bfd1-b9e4-4036-94ad-0d556e006627")
+			(uuid "b7f09687-6eb8-413b-9957-23733cf31823")
 		)
 		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9819,160 +9802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 173.99 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a17b7ec4-d21c-45d8-800e-1b60a1a1f0ec")
-		(property "Reference" "R?"
-			(at 170.18 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27R"
-			(at 173.99 78.74 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "27 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.16"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 27 OHM 1%  1/16W 0402"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "YAG3086CT-ND"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C138021"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40b560d4-630c-4643-a31a-b59ae432dd9f")
-		)
-		(pin "2"
-			(uuid "8622f1ab-8038-4968-8782-bc6190dee220")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 187.96 35.56 0)
 		(mirror y)
@@ -10116,31 +9945,32 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 173.99 81.28 90)
+		(at 72.39 179.07 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ab9374ae-9988-4ee9-bc8f-de5f61539e5f")
-		(property "Reference" "R?"
-			(at 170.18 80.01 90)
+		(uuid "b3a39d9e-a8fa-4d6d-aba2-218822c70f32")
+		(property "Reference" "R9"
+			(at 75.565 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "27R"
-			(at 173.99 81.28 90)
+		(property "Value" "51K"
+			(at 75.565 179.07 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 81.28 0)
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +9979,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 173.99 81.28 0)
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10157,26 +9987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "27 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 173.99 81.28 0)
+		(property "Description" "51 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,34 +9997,7 @@
 			)
 		)
 		(property "Price" "$0.16"
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 27 OHM 1%  1/16W 0402"
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "YAG3086CT-ND"
-			(at 173.99 81.28 0)
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +10006,61 @@
 			)
 		)
 		(property "Interface" ""
-			(at 173.99 81.28 0)
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "RES 51K OHM 1% 1/16W 0402"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "311-51.0KLRCT-ND"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0751KL"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +10069,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 173.99 81.28 0)
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10238,8 +10077,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C138021"
-			(at 173.99 81.28 0)
+		(property "LCSC PN" "C107229"
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10248,21 +10087,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5119226e-1efd-4ab7-af2c-342fa1d443bb")
+			(uuid "a3ca963a-adbb-4e6d-87b1-e35d0e27b1ec")
 		)
 		(pin "2"
-			(uuid "48b2c62e-b20c-46d9-aeed-20b74204a3f4")
+			(uuid "37d2111a-549c-469f-8eb1-1c0dbf1f630b")
 		)
 		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "R14")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10999,7 +10832,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C472857"
+		(property "LCSC PN" "C2932476"
 			(at 83.82 181.61 0)
 			(effects
 				(font

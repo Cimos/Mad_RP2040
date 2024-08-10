@@ -837,6 +837,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -968,6 +1113,152 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
 					(name "~"
 						(effects
 							(font
@@ -2964,7 +3255,7 @@
 		)
 	)
 	(junction
-		(at 104.14 44.45)
+		(at 125.095 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ff730b5-4d80-4367-964e-960a0909aab1")
@@ -2976,13 +3267,19 @@
 		(uuid "22cabfc9-c53e-429c-86ed-842ae18e0930")
 	)
 	(junction
+		(at 113.665 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23b74b67-dfe9-4ef9-a0a5-2a91b6d62acd")
+	)
+	(junction
 		(at 35.56 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a2ace5c-4392-44d2-8b8b-8880c4c6f29f")
 	)
 	(junction
-		(at 104.14 34.29)
+		(at 125.095 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aa534a8-5d2f-4edf-858a-ff4a020ffc26")
@@ -3024,16 +3321,16 @@
 		(uuid "8bb7cdda-1ef4-4fed-ad12-ae88d8d56a6c")
 	)
 	(junction
-		(at 91.44 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "927c790c-66f1-4017-9f87-be4bfd13736b")
-	)
-	(junction
 		(at 66.04 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a231c585-52ec-4c21-8eb1-5adbd920c1c1")
+	)
+	(junction
+		(at 86.36 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a735b1e1-ad9e-4f9e-ac31-5e374f09df4a")
 	)
 	(junction
 		(at 49.53 34.29)
@@ -3042,16 +3339,10 @@
 		(uuid "cbc3afec-3345-4db4-b9bf-98fff6eddcf6")
 	)
 	(junction
-		(at 93.98 96.52)
+		(at 118.11 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfcb29d6-7b5d-49cf-a3aa-200fe44efca6")
-	)
-	(junction
-		(at 87.63 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d601cdce-0b55-4f0c-9594-f5b7b180d783")
+		(uuid "d8841731-42ab-41a3-bffa-27a7aceeabed")
 	)
 	(junction
 		(at 72.39 93.98)
@@ -3181,17 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 34.29) (xy 104.14 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0315e418-45a5-4b50-9088-eacf8b7a6156")
-	)
-	(wire
-		(pts
-			(xy 93.98 96.52) (xy 93.98 97.79)
+			(xy 93.98 93.98) (xy 93.98 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3241,7 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 93.98) (xy 93.98 93.98)
+			(xy 82.55 93.98) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3421,6 +3702,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.665 34.29) (xy 118.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b6c2e8-c62a-413a-9920-b1a97907d436")
+	)
+	(wire
+		(pts
+			(xy 95.885 34.29) (xy 99.695 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e0b45d-f2d3-4951-970d-404f4261e3cc")
+	)
+	(wire
+		(pts
 			(xy 55.88 60.96) (xy 54.61 60.96)
 		)
 		(stroke
@@ -3458,16 +3759,6 @@
 			(type default)
 		)
 		(uuid "3bfdd821-75c3-4b9e-b39c-18b0eead51cc")
-	)
-	(wire
-		(pts
-			(xy 91.44 34.29) (xy 87.63 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c9778d2-9c73-44c7-b77f-ba51ec20abf5")
 	)
 	(wire
 		(pts
@@ -3511,6 +3802,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 34.29) (xy 125.095 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0d4841-206a-4ec0-8fe2-95775da7f343")
+	)
+	(wire
+		(pts
 			(xy 50.8 68.58) (xy 69.85 68.58)
 		)
 		(stroke
@@ -3551,7 +3852,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 34.29) (xy 87.63 34.29)
+			(xy 82.55 34.29) (xy 90.805 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 44.45) (xy 104.14 44.45)
+			(xy 113.665 44.45) (xy 125.095 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3631,13 +3932,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 31.75) (xy 104.14 34.29)
+			(xy 125.095 31.75) (xy 125.095 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e6d2486-2516-4779-86ed-b21c59e200dc")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74643109-f5b0-42ce-92ec-3337354e5280")
 	)
 	(wire
 		(pts
@@ -3691,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 36.83) (xy 87.63 34.29)
+			(xy 113.665 36.83) (xy 113.665 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3801,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 41.91) (xy 87.63 44.45)
+			(xy 113.665 41.91) (xy 113.665 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3861,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 44.45) (xy 104.14 41.91)
+			(xy 125.095 44.45) (xy 125.095 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3981,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 44.45) (xy 104.14 46.99)
+			(xy 125.095 44.45) (xy 125.095 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3998,6 +4309,16 @@
 			(type default)
 		)
 		(uuid "c7c638fd-dc01-4710-9c12-58b8bf4a91d0")
+	)
+	(wire
+		(pts
+			(xy 107.315 34.29) (xy 113.665 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc252fbd-af24-4189-a671-dcdfec7f76bc")
 	)
 	(wire
 		(pts
@@ -4151,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 34.29) (xy 104.14 36.83)
+			(xy 125.095 34.29) (xy 125.095 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4181,16 +4502,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 93.98 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efebfa65-55f9-4811-89ea-d8d0bc3808ac")
-	)
-	(wire
-		(pts
 			(xy 172.72 105.41) (xy 177.8 105.41)
 		)
 		(stroke
@@ -4211,7 +4522,7 @@
 		)
 		(uuid 2a930e63-79b1-41b2-b10f-8adf4c73dbb9)
 	)
-	(text_box "TODO:\n\n#* Cleanup bom, remove trailing spaces\n#* Get missing 3D models\n* Finish off PCB routing\n#* Check LED selection\n* BOM consolidation if possible\n* Create template for page title block"
+	(text_box "TODO:\n\n#* Cleanup bom, remove trailing spaces\n#* Get missing 3D models\n* Finish off PCB routing\n#* Check LED selection\n* BOM consolidation if possible\n#* Create template for page title block"
 		(exclude_from_sim no)
 		(at 151.765 -34.925 0)
 		(size 132.715 45.72)
@@ -4788,7 +5099,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 39.37 0)
+		(at 125.095 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4797,7 +5108,7 @@
 		(fields_autoplaced yes)
 		(uuid "13b6b26c-a4d7-4227-ab3f-8818be62b205")
 		(property "Reference" "C3"
-			(at 106.68 38.1062 0)
+			(at 127.635 38.1062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +5117,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 106.68 40.6462 0)
+			(at 127.635 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +5144,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +5153,7 @@
 			)
 		)
 		(property "Price" "$0.47"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +5162,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +5171,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 10UF 25V X5R 0805"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +5180,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +5189,7 @@
 			)
 		)
 		(property "Supplier PN" "311-1869-1-ND"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +5198,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +5207,7 @@
 			)
 		)
 		(property "MPN" "CC0805KKX5R8BB106"
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +5216,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 104.14 39.37 0)
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,8 +5224,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C472857"
-			(at 104.14 39.37 0)
+		(property "LCSC PN" "C2932476"
+			(at 125.095 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,6 +5438,74 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.36 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16610fff-ffab-45d1-a042-c65f3cfd28fb")
+		(property "Reference" "#FLG04"
+			(at 86.36 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 86.3599 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59705566-5985-40e7-b8e9-7ce600a7b416")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -6887,7 +7266,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 87.63 39.37 0)
+		(at 113.665 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6896,7 +7275,7 @@
 		(fields_autoplaced yes)
 		(uuid "6629b4d1-8c68-4007-abb2-eed522523807")
 		(property "Reference" "C2"
-			(at 90.17 38.1062 0)
+			(at 116.205 38.1062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +7284,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 90.17 40.6462 0)
+			(at 116.205 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +7293,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +7302,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +7311,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +7320,7 @@
 			)
 		)
 		(property "Price" "$0.17"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +7329,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +7338,7 @@
 			)
 		)
 		(property "Rating" "CAP 0402 50V 100 NF X7R"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +7347,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +7356,7 @@
 			)
 		)
 		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +7365,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +7374,7 @@
 			)
 		)
 		(property "MPN" "CC0402KPX7R9BB104"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +7383,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7013,7 +7392,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +7401,7 @@
 			)
 		)
 		(property "LCSC PN" "C432917"
-			(at 87.63 39.37 0)
+			(at 113.665 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,74 +7560,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 93.98 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7038e1a7-a0d1-4d76-997c-1597b113b485")
-		(property "Reference" "#FLG04"
-			(at 92.075 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 90.17 96.5201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 93.98 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1743ac55-a044-47ea-9eee-b4fb02f29192")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 49.53 31.75 0)
 		(unit 1)
@@ -7379,7 +7690,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 104.14 31.75 0)
+		(at 125.095 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7388,7 +7699,7 @@
 		(fields_autoplaced yes)
 		(uuid "7859db05-243e-4214-8f7f-a67674657d9b")
 		(property "Reference" "#PWR03"
-			(at 104.14 35.56 0)
+			(at 125.095 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7708,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 104.14 26.67 0)
+			(at 125.095 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 31.75 0)
+			(at 125.095 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 31.75 0)
+			(at 125.095 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7734,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 31.75 0)
+			(at 125.095 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 46.99 0)
+		(at 125.095 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7582,7 +7893,7 @@
 		(dnp no)
 		(uuid "80a92c5c-1985-40b7-958b-00014c794126")
 		(property "Reference" "#PWR04"
-			(at 104.14 53.34 0)
+			(at 125.095 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7902,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.172 51.054 0)
+			(at 127.127 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 46.99 0)
+			(at 125.095 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 46.99 0)
+			(at 125.095 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 46.99 0)
+			(at 125.095 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,6 +8268,145 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 103.505 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c84144b-b12f-441f-b0b6-55f68a4d2fa3")
+		(property "Reference" "D9"
+			(at 103.505 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B5817WS"
+			(at 103.505 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/B5817WS-B5819WS(SOD-323).PDF"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 20 V 1A Surface Mount SOD-323"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shikues"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.42"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE SCHOTTKY 20V 1A SOD323"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "B5817WS-TPMSCT-ND"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B5817WS-TP"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C122854"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "665dd228-8d40-452d-bcef-539943cb9518")
+		)
+		(pin "2"
+			(uuid "a3a7ffbf-a509-4ee7-8a10-dae71feca6e7")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8552,7 +9002,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15PX330SN1D"
+		(property "Value" "33 Ohms Ferrite"
 			(at 80.01 31.115 90)
 			(effects
 				(font
@@ -8685,7 +9135,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 91.44 34.29 0)
+		(at 118.11 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8694,7 +9144,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb87e239-7ee3-484a-84c9-f76abb4f9673")
 		(property "Reference" "#FLG03"
-			(at 91.44 32.385 0)
+			(at 118.11 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +9153,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 91.4399 30.48 90)
+			(at 118.1099 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +9163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 34.29 0)
+			(at 118.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +9172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 34.29 0)
+			(at 118.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +9181,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 91.44 34.29 0)
+			(at 118.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9023,6 +9473,146 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 93.345 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7380804-13fe-4e8a-8248-59a7a03a36c5")
+		(property "Reference" "F1"
+			(at 93.345 28.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 93.345 31.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
+			(at 88.265 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b786faf0-de16-4763-9d22-6b8080943caf&filename=low-rho-datasheet-update"
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polymeric PTC Resettable Fuse 6V 500 mA Ih Surface Mount 0402 (1005 Metric), Concave"
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse Inc."
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$3.09"
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "PTC RESET FUSE 6V 500MA 0402"
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "F5759CT-ND"
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402L050SLKR"
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C206938"
+			(at 93.345 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01719e93-ad14-464c-a641-4186974125f3")
+		)
+		(pin "2"
+			(uuid "98e76751-b50f-4e1b-ac45-4c54f869d88e")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
+					(reference "F1")
 					(unit 1)
 				)
 			)
