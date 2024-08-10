@@ -3177,6 +3177,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C472857"
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20973460-62ea-47e4-a999-e5483b9dfd7e")
 		)
@@ -3606,6 +3615,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 71.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C472857"
 			(at 71.12 64.77 0)
 			(effects
 				(font

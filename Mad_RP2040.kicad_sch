@@ -4913,6 +4913,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C472857"
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a11d6857-0ba4-4f06-b960-5afe1e49fac2")
 		)
@@ -5911,6 +5920,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C432917"
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -6995,6 +7013,15 @@
 			)
 		)
 		(property "Substitute" ""
+			(at 87.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C432917"
 			(at 87.63 39.37 0)
 			(effects
 				(font

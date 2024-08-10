@@ -2991,6 +2991,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e5150bd-377a-4f19-ba3b-9379b0b35d94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/0a260759-78e9-462e-8685-d0cde1fa1365")
 		(sheetname "RP2040")
@@ -4015,6 +4029,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C472857"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "005294b6-dc75-469a-9771-64684060a238")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/25d78187-ff7b-4235-b278-e1dc2127491f")
 		(sheetname "RP2040")
@@ -4335,6 +4363,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "22fc7bed-9bb1-4299-893d-192cd7f593b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C472857"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4a78b176-548e-4498-a6d2-1a6de90c4c83")
 			(effects
 				(font
 					(size 1 1)
@@ -5095,6 +5137,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1f156b96-b5a2-498f-b019-22e2633a5c98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57e51e30-e24c-459e-b83a-68ef9c33c372")
 			(effects
 				(font
 					(size 1 1)
@@ -6086,7 +6142,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "B.SilkS")
 			(uuid "f68052a2-e98b-427c-9f5e-07813ec2ee0f")
 			(effects
@@ -6098,7 +6154,7 @@
 			)
 		)
 		(property "Value" "51K"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "B.Fab")
 			(uuid "2433b463-bdbc-4b7a-98c7-280f38f171f7")
 			(effects
@@ -6394,7 +6450,7 @@
 			(uuid "b52eb8d9-e514-4165-bade-82f0adc3a6f2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "0b7a6570-b28d-46e2-a3b1-bae78b6dab65")
 			(effects
@@ -6594,6 +6650,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "32d6d2d8-132e-4dd7-95b3-4b52ba88889c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f999ccb6-31f5-4f23-a552-45dee0df6362")
 			(effects
 				(font
 					(size 1 1)
@@ -7488,6 +7558,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9791e78b-8b2c-450c-924b-e837b01146b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/77f2f73b-b701-48f4-a758-ed4f460053c7")
 		(sheetname "RP2040")
@@ -7808,6 +7892,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b60b0826-d2b5-4397-ac62-8b3cd5c3f9b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C17361989"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48e39fa8-b6a1-4514-bbf6-807382504d31")
 			(effects
 				(font
 					(size 1 1)
@@ -8258,7 +8356,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(uuid "8dafcef9-a13b-471b-9e57-0f2aae5c2d9d")
 			(effects
@@ -8270,7 +8368,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "a2643651-19f9-4190-9f50-3a1b6967ebc5")
 			(effects
@@ -8538,7 +8636,7 @@
 			(uuid "d90256f7-4b1a-4c15-8519-33e8370da8b5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e2bdc743-d28f-4953-9809-11679cf9789c")
 			(effects
@@ -11984,6 +12082,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c6f305f4-840c-4204-807f-e9de7d7cebe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/5548c0ed-f041-488f-9b22-7816b5709ee1")
 		(sheetname "RP2040")
@@ -12562,7 +12674,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "Q1"
-			(at 0 2 270)
+			(at 0 2 -90)
 			(layer "B.SilkS")
 			(uuid "39f4fb4c-24ad-4afd-93cb-6cf48f855617")
 			(effects
@@ -12574,7 +12686,7 @@
 			)
 		)
 		(property "Value" "2N7002PV,115"
-			(at 0 -1.75 270)
+			(at 0 -1.75 -90)
 			(layer "B.Fab")
 			(uuid "ed279d4f-975b-4c82-a92f-35a72b5047cd")
 			(effects
@@ -12888,7 +13000,7 @@
 			(uuid "a2dc7ba8-1419-456b-a8b8-ca3d3de1b321")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "0c3a2ac3-6c77-497e-aa78-44c4803c4c54")
 			(effects
@@ -13490,6 +13602,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f9d376c7-8b83-4815-a6a7-b3598b6cf4cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2786a6a9-cafa-4d17-9d01-9b7ecdaaf76d")
 			(effects
 				(font
 					(size 1 1)
@@ -14202,6 +14328,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C79147"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a2a6076b-9ffa-463e-9612-aac65b1af5a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/bbedb8b6-c33b-41d7-95e3-59a8ca324834")
 		(sheetname "RP2040")
 		(sheetfile "MCU_RP2040.kicad_sch")
@@ -14322,7 +14462,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "B.SilkS")
 			(uuid "304f8ee2-6bde-4724-a45a-809a8f58efcf")
 			(effects
@@ -14334,7 +14474,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "B.Fab")
 			(uuid "069e0554-a985-474e-b652-00b1b75f3344")
 			(effects
@@ -14496,6 +14636,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C472857"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aaca72c5-2a15-4ee2-9326-6a6acc733e7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/e9709939-186a-477e-b59b-a9ec76522b2d")
 		(sheetname "RP2040")
@@ -14602,7 +14756,7 @@
 			(uuid "7e9d020e-d318-4fab-a664-64b300772401")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "aff2efb2-e5cf-4ca6-974b-cb98d9eea62a")
 			(effects
@@ -15026,6 +15180,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2e00f717-6788-42b9-a907-2e8085abbace")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/7a73a0f5-c544-4c49-b389-7bef6c0b61a2")
 		(sheetname "RP2040")
@@ -15332,6 +15500,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a400c812-a178-497a-a6d8-a04ad4d0b0f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C472857"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "150ae25d-f610-4246-a544-a841cbe23793")
 			(effects
 				(font
 					(size 1 1)
@@ -15996,6 +16178,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4421388e-7527-492c-9161-d5605232c6e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/9b2151bd-2bf9-4467-9d91-20c7be70a8c3")
 		(sheetname "RP2040")
@@ -16644,6 +16840,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a5965be9-9b1d-4e2a-9e6d-e5d071cafeab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92b3d019-eac1-463a-ac70-72e0d109d0c7")
 			(effects
 				(font
 					(size 1 1)
@@ -17636,6 +17846,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1943f53f-2546-470e-ae33-ceb7c6e618cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3761ed6-c1bb-4b2e-ac56-52d07f509b37")
 			(effects
 				(font
 					(size 1 1)
@@ -18752,6 +18976,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C472857"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d855a306-9330-4d6f-981e-cf2194742fc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/13b6b26c-a4d7-4227-ab3f-8818be62b205")
 		(sheetname "Root")
@@ -18906,7 +19144,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "B.SilkS")
 			(uuid "b12e3742-49af-40dc-94de-1ac8ade296c8")
 			(effects
@@ -18918,7 +19156,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "B.Fab")
 			(uuid "0452c503-9ab3-404f-9b9c-69db4bee3321")
 			(effects
@@ -19214,7 +19452,7 @@
 			(uuid "6921a348-ae6b-47dd-9c7b-3ba99a3d2779")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "49a3f2fa-89b2-4fae-973c-a54322841871")
 			(effects
@@ -19900,6 +20138,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e865cce7-6fb3-4c24-afcf-f6c06cfc369e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d66dda9c-e558-4a48-837b-6017f4b5dcb7")
 			(effects
 				(font
 					(size 1 1)
@@ -20750,7 +21002,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "B.SilkS")
 			(uuid "3dd49d45-5ad9-41b6-8715-a2ea6fd9fc09")
 			(effects
@@ -20762,7 +21014,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "B.Fab")
 			(uuid "5b74cc1c-ae02-4898-84a3-b2beea335358")
 			(effects
@@ -20910,6 +21162,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fc81005f-8b42-4668-a3c9-3a68a12c1087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/5fa27eae-cce5-4ed4-9b78-0c7937e606d4")
 		(sheetname "RP2040")
@@ -21016,7 +21282,7 @@
 			(uuid "6d99bd37-f3ed-48dc-8586-42eb14a76d5c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "0a084667-6272-4bd4-a2e0-1efcf793ee72")
 			(effects
@@ -21238,6 +21504,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f12daca-51f7-4ba6-a304-d898589b498c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21/35641e7a-e879-49f9-98c6-6270074a111b")
 		(sheetname "RP2040")
@@ -21392,7 +21672,7 @@
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
 		(property "Reference" "D7"
-			(at 0 1.3 270)
+			(at 0 1.3 -90)
 			(layer "B.SilkS")
 			(uuid "c85df31f-e75b-488c-b873-95a7d282e4ab")
 			(effects
@@ -21404,7 +21684,7 @@
 			)
 		)
 		(property "Value" "RB520S30"
-			(at 0 -1.4 270)
+			(at 0 -1.4 -90)
 			(layer "B.Fab")
 			(uuid "309587f7-1b74-43e9-a97f-75091c8a4a13")
 			(effects
@@ -21756,7 +22036,7 @@
 			(uuid "cc896bf3-94ad-437c-88bc-711a36c72b0b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.3 270)
+			(at 0 1.3 -90)
 			(layer "B.Fab")
 			(uuid "de1d1451-d73b-4c1c-886b-3c87de8a2c66")
 			(effects
@@ -22142,7 +22422,7 @@
 			(uuid "260bad1f-803e-436e-9f4a-097d381fa901")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "9df5f627-3625-4572-92d1-92a34d4266b4")
 			(effects
@@ -22686,6 +22966,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1fccffe-1e60-4a50-85b4-b2ca77acc414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC PN" "C432917"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7bd99faa-2453-4f65-b047-6c2cfa493d46")
 			(effects
 				(font
 					(size 1 1)
