@@ -24111,6 +24111,19 @@
 		(layer "Edge.Cuts")
 		(uuid "4d19fa79-1781-4e37-805a-f4e1d2c777db")
 	)
+	(gr_text "TODO: Messure position for Key LED"
+		(at 98.95 107.775 0)
+		(layer "F.Cu")
+		(uuid "1ae1268c-dd7d-4df9-9b44-993ac908e9e9")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(via
 		(at 147.95 102.775)
 		(size 0.8)
