@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -183,7 +183,19 @@
         0.1524,
         0.1778,
         0.2032,
-        0.254
+        0.254,
+        0.2794,
+        0.3048,
+        0.381,
+        0.508,
+        0.635,
+        0.762,
+        0.889,
+        1.016,
+        1.143,
+        1.27,
+        1.397,
+        1.524
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -502,18 +514,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/RP2040/RP2040/USB_D+": "USB",
-      "/RP2040/RP2040/USB_D-": "USB",
-      "/RP2040/USB_D+": "USB",
-      "/RP2040/USB_D-": "USB",
-      "Net-(U1-D+_in)": "USB",
-      "Net-(U1-D-_in)": "USB",
-      "Net-(U5-D+)": "USB",
-      "Net-(U5-D-)": "USB",
-      "unconnected-(U1-D+_out-Pad6)": "USB",
-      "unconnected-(U1-D-_out-Pad5)": "USB"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
