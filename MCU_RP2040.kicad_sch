@@ -2836,12 +2836,6 @@
 		(uuid "5fdd9f96-bf50-4241-9177-12e6e817a180")
 	)
 	(junction
-		(at 109.22 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69775ff6-e3d7-49f1-a9ee-9b9c176716c9")
-	)
-	(junction
 		(at 153.67 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3451,16 +3445,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 166.37) (xy 109.22 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bfb3d0d-d19a-48f2-9801-ee97d12560c0")
-	)
-	(wire
-		(pts
 			(xy 224.79 38.1) (xy 224.79 43.18)
 		)
 		(stroke
@@ -3941,7 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 166.37) (xy 109.22 167.64)
+			(xy 109.22 165.1) (xy 109.22 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4358,16 +4342,6 @@
 			(type default)
 		)
 		(uuid "c0c5969d-85dc-4d2b-9afe-1c9f3e263171")
-	)
-	(wire
-		(pts
-			(xy 109.22 165.1) (xy 109.22 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1fc0d27-a3a3-4142-990d-93c742894df5")
 	)
 	(wire
 		(pts
@@ -7823,97 +7797,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 166.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5eb91285-056b-420b-bf4d-f18d2877967b")
-		(property "Reference" "TP?"
-			(at 115.57 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Boot"
-			(at 115.57 167.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 110.49 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06e44cce-ac16-437a-bb8e-8dca9e3ad17f")
-		)
-		(instances
-			(project "RP2040"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
