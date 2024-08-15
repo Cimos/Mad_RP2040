@@ -5635,7 +5635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Delay"
+		(property "Value" "DELAY"
 			(at 96.52 169.4179 0)
 			(effects
 				(font
@@ -9185,7 +9185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "RESET"
 			(at 73.66 168.9099 90)
 			(effects
 				(font
