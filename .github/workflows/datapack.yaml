@@ -1,8 +1,17 @@
 name: Generate Datapack
-on: [push, pull_request]
+on: 
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
+
     steps:
     - name: Checkout (only last commit)
       uses: actions/checkout@v4
@@ -26,13 +35,14 @@ jobs:
         dir: output
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
-        logfile: 'logfile.log'
+        logfile: 'logfile/logfile.log'
         # verbose: 2
 
     - name: Upload logfile
+      if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.PROJECT_NAME }}-lofile
+        name: ${{ env.PROJECT_NAME }}-logfile
         path: logfile
       
     - name: Upload Results
