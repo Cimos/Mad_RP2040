@@ -1262,6 +1262,217 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "02b4e44b-bd61-4f26-b560-adcd8949c246")
+		(at 140.925 103.775 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T4"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b69c4fb1-b113-473f-ab93-27aa8584448c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "01a7c307-3a2d-4e92-adc3-90053f4a166e")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67d1ce0c-3ace-4a1e-b57f-ac6e9f41c041")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a48cf200-fee8-4f80-b919-3e993b1a5812")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9e3ac4c-dfb0-4f68-9cf5-19b6014de039")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d467ad57-7ff9-4dee-b157-0b74831854d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Interface" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "088644ab-95d5-4c2c-8d9a-9423bc6a52a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "295b9052-fa61-4c94-9958-32032fd166e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d61be21-f93b-488d-ae51-a3e8376b32ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8c85d3f-5088-46d0-a011-e91c98a11348")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bdd6e90-0ac0-42fc-965d-92842e0b4ad3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf736a12-2540-40de-ad67-3ec9c73863b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f7642987-b1bc-475a-a7e9-a53b012dc0b2")
+		(sheetname "Root")
+		(sheetfile "Mad_RP2040.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "5bdc1c1b-58e5-4331-b6d4-a2e876460a7e")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c1aec440-0a4e-4550-a0c8-ec2210dea905")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1e98874c-5ea8-4273-a7a3-3e833f0235ce")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "8c783b36-b335-490d-8109-a5df8d42301a")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 360)
+			(layer "Dwgs.User")
+			(uuid "de8a4372-943c-4680-bd50-b89df950a2e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(footprint "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
 		(locked yes)
 		(layer "F.Cu")
@@ -2075,6 +2286,217 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "160a9aba-d8f8-4aea-aacd-934f69734a5b")
+		(at 121.9 84.725)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T2"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ab306a68-485a-41a3-bf73-88f1f1345bf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "2fa0b68f-7386-4afe-869b-a78731836f7a")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07c37bd3-5d3e-4332-8fb9-2f1d561fb7a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deb8d875-acba-4fbf-8b1f-316474f0c1e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "528ea828-4655-4427-bd02-4014722910f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f528cc29-9a72-49e0-88e2-e21022f46ea5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Interface" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3d222b9-d250-48f7-a68a-012ee3053c79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c35f329-2d23-47b6-9453-7bb19f12b1f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f46d1278-2dac-406c-ab6d-49894a3ed7cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e13a3a0b-9c53-42e4-b949-74e7d3bdf114")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c68f1df-cba9-4124-8ace-24fe022f1484")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f28928dd-6d29-4f9e-a8e8-231fda2a6756")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a7c0151f-07aa-4cf3-991c-f14e51093e55")
+		(sheetname "Root")
+		(sheetfile "Mad_RP2040.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "570d5cdc-c954-45e1-acf4-f15389fcc146")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2e32d6fd-fe50-435a-9164-3b011d7f37d1")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7830003f-bd43-4627-91d1-e5f35514caba")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0629c636-a52d-423b-a896-e883a3ba18ed")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "f48c4c37-ba76-4fda-a912-ebe3baa48985")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965"
 		(layer "F.Cu")
 		(uuid "47af543a-424d-4853-9818-5bf47884fcf8")
@@ -2528,6 +2950,217 @@
 			(uuid "c814d080-cf12-47c7-895f-c87f6217bf58")
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "a6edc05b-561c-4e03-8993-9f9e9b80bd3d")
+		(at 159.95 84.725 180)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T3"
+			(at -0.25 -2 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a746ac34-09f5-429e-a760-1555c522e95a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 360)
+			(layer "Dwgs.User")
+			(uuid "c6aecd0f-e95d-474c-8b23-292ce9374e31")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45d8d251-c2b9-4992-98c2-3a5d8d1e7b2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a070bf7-d8a1-417b-9a95-80d584cd4cb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60e1945e-a634-4f17-be17-1b25a2775df5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d78f217d-5e50-48c9-bc69-58543d4a8d48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Interface" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b53c8857-f069-4b7b-b52f-514aacc3aabd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa88b067-1d03-40bf-95c9-dfae333a9d6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1acdcddd-7a13-4b06-a47c-d4a7cfa404a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e02411d6-3b47-4fa1-9380-bfc7ff66b7e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6c34c5e-f523-42ad-8f61-5fa9f2eb11be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8347c15c-45d8-4a32-830b-354c31490222")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2381a760-aeff-488e-8144-6f07026f2843")
+		(sheetname "Root")
+		(sheetfile "Mad_RP2040.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "693abf74-3182-419e-bcba-b0cebe81bc40")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9d4c8e12-716f-4a48-b196-47fe516d7039")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "51033fb8-34e4-4879-81ff-a522269be80a")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9ec57a63-a32c-49fb-97c6-aeb833f18a04")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "a786b433-57cf-4ff5-be22-7b83531b7e88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "adcce41b-5e8b-411a-b682-6973926c801c")
@@ -2760,6 +3393,217 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "35f021b5-02eb-41ea-8d9c-e38c8207297b")
+		)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "c68dddcd-9a46-4b7a-aba2-ded98817a7e5")
+		(at 140.95 71.725 -90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T1"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3f67531f-b80e-4c87-af10-c0b44b956dea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "1df0ad07-1c35-4efd-8051-203358a06a35")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8539d9cc-9aaf-4105-85c7-ad75f03574aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9a1d46e-7d9e-4b56-94c6-ccd48e28b947")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9469cfb5-56a4-4e0d-a6ce-b401c99670a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7a33022-888f-4ada-bd4e-e7f968b27e8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Interface" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f09ece25-35f7-46ca-8e3c-48097a474bf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbc05c2b-b4ac-49e9-86c0-8c21f9d1ae8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d96f1ea5-e746-4771-93d3-965832b7ca8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74fdfa95-5124-40ea-9a1e-a3d5ea2a8042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a514de7c-a4d2-4b3c-96e0-5ec5a8f73cb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fec991f-849e-4daa-8ebb-970f0b811dc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cec1cd0e-660c-4aa3-bc92-e6dc9e19774a")
+		(sheetname "Root")
+		(sheetfile "Mad_RP2040.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "f466fcac-951c-4bd3-9937-019a079fffc0")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3bec264d-06cc-4c57-b0f5-1c2e3a90f042")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "d2ba7bb0-dc7d-4509-b15e-4f6b808ffdf3")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "5b7ad39e-a3f5-4664-8386-f5a69d4558ad")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 360)
+			(layer "Dwgs.User")
+			(uuid "e4497812-b4b4-46c4-af05-27062c9140cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(footprint "Mad_Footprints:BOM"
