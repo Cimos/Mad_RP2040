@@ -1,4 +1,4 @@
-name: Generate PCB panel datapack
+name: Generate PCB datapack
 on: 
   push:
     branches:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   KiKit:
-    name: Test Build 
+    name: Panel 
     runs-on: ubuntu-latest
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
 
@@ -44,7 +44,7 @@ jobs:
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
         logfile: 'logfile/logfile.log'
-        # verbose: 2
+        verbose: 3
     
     - name: Build panel datapack
       if: steps.check_files.outputs.files_exists == 'true'
