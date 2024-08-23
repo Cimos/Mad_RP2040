@@ -9922,7 +9922,7 @@
 				)
 			)
 		)
-		(property "Value" "33 Ohms Ferrite"
+		(property "Value" "BLM15PX330SN1D"
 			(at 79.9719 30.48 90)
 			(effects
 				(font
