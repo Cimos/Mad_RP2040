@@ -218,3 +218,39 @@
   # V-Cut Panel
 	# (constraint edge_clearance (min 0.4mm))
 )
+
+
+# --- Differential Pair ---
+# https://www.pcbway.com/multi-layer-laminated-structure.html
+#
+# F.Cu, B.Cu: H1=0.1855;Er=4.29
+# In1.Cu, In2.Cu: H1=0.1855;H2=1.03;Er=4.29
+#
+# F.Cu,B.Cu:
+#		11W,9S
+#		90.3Ohms
+#
+# In1.Cu,In2.Cu:
+#		6W,10S
+#		90.8Ohms
+#
+#
+(rule "Differential Pair: Outer"
+	# Differential Pair Rule for a 4 Layer 1.6mm PCB. F.Cu and B.Cu layers only: 100 Ohm
+    (layer outer)
+	(condition "A.NetClass == 'USB")
+	(constraint track_width (min 10.8mil) (opt 11mil) (max 11.2mil))
+	# Define min and max otherwise no errers will be thrown	
+	(constraint diff_pair_gap (min 8.5mil) (opt 9mil) (max 9.5mil))
+#	(constraint clearance (opt 4mil))
+)
+
+(rule "Differential Pair - Inner"
+	# Differential Pair Rule for a 4 Layer 1.6mm PCB. In1.Cu and In2.Cu layers only: 100 Ohm
+    (layer inner)
+	(condition "A.NetClass == 'USB")
+	(constraint track_width (min 5.8mil) (opt 6mil) (max 6.2mil))
+	(constraint diff_pair_gap (min 9.5mil) (opt 10mil) (max 10.5mil))
+#	(constraint clearance (opt 4mil))
+)
+
