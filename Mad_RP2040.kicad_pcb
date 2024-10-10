@@ -1287,7 +1287,7 @@
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "02b4e44b-bd61-4f26-b560-adcd8949c246")
-		(at 140.925 103.775 90)
+		(at 140.9 103.875 90)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T4"
 			(at -0.25 -2 90)
@@ -2333,7 +2333,7 @@
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "160a9aba-d8f8-4aea-aacd-934f69734a5b")
-		(at 121.9 84.725)
+		(at 121.85 84.725)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T2"
 			(at -0.25 -2 0)
@@ -3008,7 +3008,7 @@
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "a6edc05b-561c-4e03-8993-9f9e9b80bd3d")
-		(at 159.95 84.725 180)
+		(at 160.075 84.725 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T3"
 			(at -0.25 -2 0)
@@ -3464,7 +3464,7 @@
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "c68dddcd-9a46-4b7a-aba2-ded98817a7e5")
-		(at 140.95 71.725 -90)
+		(at 140.95 71.625 -90)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T1"
 			(at -0.25 -2 90)
