@@ -8188,7 +8188,7 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:PCB")
-		(at 91.44 184.785 0)
+		(at 91.44 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8197,7 +8197,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fa5167a-5473-4680-a9fc-aeb99ce24373")
 		(property "Reference" "U0"
-			(at 96.52 183.5149 0)
+			(at 96.52 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8206,7 @@
 			)
 		)
 		(property "Value" "PCB"
-			(at 96.52 186.0549 0)
+			(at 96.52 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8215,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:BOM"
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +8224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8242,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8251,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8260,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +8269,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8278,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +8287,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8296,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8305,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8314,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 91.44 184.785 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
