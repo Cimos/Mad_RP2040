@@ -10951,7 +10951,7 @@
 			(uuid "46ddb330-58bd-49b1-9171-0abab0b7c561")
 		)
 		(pin "USB_D+" input
-			(at 153.67 68.58 180)
+			(at 153.67 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,7 +10961,7 @@
 			(uuid "02885d36-7712-42bd-9b79-2070efd098a9")
 		)
 		(pin "USB_D-" input
-			(at 153.67 71.12 180)
+			(at 153.67 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)

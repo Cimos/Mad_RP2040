@@ -2949,6 +2949,10 @@
 		(color 0 0 0 0)
 		(uuid "ff669b5d-1f97-4e1f-b8fb-def1b3de8e7b")
 	)
+	(no_connect
+		(at 184.15 96.52)
+		(uuid "0d4c36f3-d5ce-422e-9521-a6a8a1dd3a7a")
+	)
 	(wire
 		(pts
 			(xy 130.81 27.94) (xy 142.24 27.94)
@@ -4571,16 +4575,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 184.15 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f251a62c-ce92-4e60-b482-8e15d521051c")
-	)
-	(wire
-		(pts
 			(xy 54.61 110.49) (xy 54.61 114.3)
 		)
 		(stroke
@@ -4680,7 +4674,7 @@
 	)
 	(text "Q1B - pulls ~{CS} to GND"
 		(exclude_from_sim no)
-		(at 106.68 182.88 0)
+		(at 111.76 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4688,16 +4682,6 @@
 			(justify left bottom)
 		)
 		(uuid "317dec2d-894c-4d5b-a1ec-ed345e26395d")
-	)
-	(text "C113767"
-		(exclude_from_sim no)
-		(at 83.82 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4ddae3ce-8f3e-4e87-98ec-539c787bd114")
 	)
 	(text "Removed inverter as\nwe don't care about \nbeing backwards \ncompatable."
 		(exclude_from_sim no)
@@ -5030,17 +5014,6 @@
 			(justify left bottom)
 		)
 		(uuid "db2dddc9-44d4-4b23-bd38-2ce5e24b6b74")
-	)
-	(label "GND"
-		(at 171.45 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db6f1350-2d55-4c39-8148-64a6d2ea477f")
 	)
 	(label "3V3"
 		(at 41.91 72.39 0)
@@ -5493,6 +5466,18 @@
 			(justify left)
 		)
 		(uuid "e6e6e3a8-899e-4da6-b1bc-497bd6341e8a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 171.45 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efe709e9-9c18-4ef5-859a-8514b0d73d7c")
 	)
 	(hierarchical_label "GPIO2"
 		(shape bidirectional)
@@ -6990,154 +6975,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 96.52 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a86eab4-8a04-4458-9161-a74a44a9af68")
-		(property "Reference" "TP5"
-			(at 172.72 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XTAL_OUT"
-			(at 172.72 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 177.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fdfd3e4-c532-4054-a041-2332bfa8a976")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/4e3cb99d-3a42-46ca-abb7-444fcb451820/f42afd4d-da97-4905-9d8b-11c28a037c21"
-					(reference "TP5")
 					(unit 1)
 				)
 			)

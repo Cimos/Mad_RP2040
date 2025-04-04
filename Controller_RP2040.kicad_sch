@@ -2311,7 +2311,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 107.95 67.31 90)
+		(at 107.95 64.77 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2319,7 +2320,7 @@
 		(dnp no)
 		(uuid "0909415a-b142-487e-8059-74bb4d6153ff")
 		(property "Reference" "R14"
-			(at 107.95 69.85 90)
+			(at 107.95 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2328,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 107.95 67.31 90)
+			(at 107.95 64.77 90)
 			(effects
 				(font
 					(size 1 1)
@@ -2335,7 +2336,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2345,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2354,7 @@
 			)
 		)
 		(property "Description" "27 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2363,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2372,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2381,7 @@
 			)
 		)
 		(property "Price" "$0.16"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2390,7 @@
 			)
 		)
 		(property "Rating" "RES 27 OHM 1%  1/16W 0402"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2399,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2408,7 @@
 			)
 		)
 		(property "Supplier PN" "YAG3086CT-ND"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2417,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2426,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2435,7 @@
 			)
 		)
 		(property "LCSC" "C138021"
-			(at 107.95 67.31 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "NCP1117LPSTADT3GOSCT-ND"
+		(property "Supplier PN" "NCP1117LPST33T3GOSCT-ND"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -2716,7 +2717,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCP1117LPSTADT3G"
+		(property "MPN" "NCP1117LPST33T3G"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -2734,7 +2735,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C233236"
+		(property "LCSC" "C146799"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -2927,7 +2928,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 107.95 64.77 90)
+		(at 107.95 67.31 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2935,7 +2937,7 @@
 		(dnp no)
 		(uuid "3991d379-1c14-4de9-890f-8b8906ab1daa")
 		(property "Reference" "R13"
-			(at 107.95 62.23 90)
+			(at 107.95 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2945,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 107.95 64.77 90)
+			(at 107.95 67.31 90)
 			(effects
 				(font
 					(size 1 1)
@@ -2951,7 +2953,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +2962,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +2971,7 @@
 			)
 		)
 		(property "Description" "27 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +2980,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2989,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2998,7 @@
 			)
 		)
 		(property "Price" "$0.16"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3007,7 @@
 			)
 		)
 		(property "Rating" "RES 27 OHM 1%  1/16W 0402"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3016,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3025,7 @@
 			)
 		)
 		(property "Supplier PN" "YAG3086CT-ND"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3034,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3043,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +3052,7 @@
 			)
 		)
 		(property "LCSC" "C138021"
-			(at 107.95 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
