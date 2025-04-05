@@ -3746,12 +3746,12 @@
 		(uuid "59e98d75-6101-4530-8416-030186165aa6")
 	)
 	(no_connect
-		(at 271.78 138.43)
-		(uuid "7086abc4-2ae4-46dd-89a7-d06d8f6c96be")
-	)
-	(no_connect
 		(at 177.8 88.9)
 		(uuid "72163da5-fcf7-4a27-b22b-cf18c1f51567")
+	)
+	(no_connect
+		(at 220.98 113.03)
+		(uuid "7e7d1ca4-9904-421c-b38e-c97e4450c764")
 	)
 	(no_connect
 		(at 177.8 97.79)
@@ -3808,16 +3808,6 @@
 			(type default)
 		)
 		(uuid "037bbc8f-9dbb-40ff-b5c6-cf6731b47ea8")
-	)
-	(wire
-		(pts
-			(xy 195.58 125.73) (xy 195.58 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "046cc81d-2472-402e-95d7-6e65a98179db")
 	)
 	(wire
 		(pts
@@ -4001,36 +3991,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 113.03) (xy 240.03 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ac7fef-58bd-4d0c-a72b-a37b888a52d4")
-	)
-	(wire
-		(pts
-			(xy 240.03 113.03) (xy 240.03 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bc05050-9db8-469c-ad78-6e926e10fe34")
-	)
-	(wire
-		(pts
-			(xy 267.97 140.97) (xy 271.78 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c45e87d-fb90-4241-9769-6c0438967c8c")
-	)
-	(wire
-		(pts
 			(xy 248.92 60.96) (xy 257.81 60.96)
 		)
 		(stroke
@@ -4038,16 +3998,6 @@
 			(type default)
 		)
 		(uuid "2cca7b20-28d4-4f4d-88d1-ccbc46ee0849")
-	)
-	(wire
-		(pts
-			(xy 276.86 125.73) (xy 195.58 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1fcf00-5510-47f8-af6d-a5af38ab8da3")
 	)
 	(wire
 		(pts
@@ -4171,16 +4121,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 143.51) (xy 271.78 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4abf8544-75aa-4c3f-956c-63344b6aef88")
-	)
-	(wire
-		(pts
 			(xy 118.11 34.29) (xy 125.73 34.29)
 		)
 		(stroke
@@ -4291,16 +4231,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 138.43) (xy 240.03 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62ef3bd6-5bb7-442d-8833-b5374e9dadc4")
-	)
-	(wire
-		(pts
 			(xy 153.67 92.71) (xy 151.13 92.71)
 		)
 		(stroke
@@ -4321,16 +4251,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 138.43) (xy 205.74 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b65ef84-c28c-4fd1-850f-2a1f9b0b106d")
-	)
-	(wire
-		(pts
 			(xy 125.73 31.75) (xy 125.73 34.29)
 		)
 		(stroke
@@ -4338,16 +4258,6 @@
 			(type default)
 		)
 		(uuid "6e6d2486-2516-4779-86ed-b21c59e200dc")
-	)
-	(wire
-		(pts
-			(xy 267.97 113.03) (xy 276.86 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6edc1e0c-e08e-4f3b-8c02-6eb62966dae5")
 	)
 	(wire
 		(pts
@@ -4401,26 +4311,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 140.97) (xy 205.74 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "812c7dd7-19c0-460b-95b8-424f7ed22644")
-	)
-	(wire
-		(pts
-			(xy 267.97 115.57) (xy 271.78 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82896f39-acc5-4f86-93eb-dbe3d524415a")
-	)
-	(wire
-		(pts
 			(xy 66.04 34.29) (xy 77.47 34.29)
 		)
 		(stroke
@@ -4438,16 +4328,6 @@
 			(type default)
 		)
 		(uuid "86572605-5467-47ad-83a6-cfa3aa75c2ee")
-	)
-	(wire
-		(pts
-			(xy 200.66 137.16) (xy 200.66 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "882e44ce-3093-48c2-83ce-de8152c06cf6")
 	)
 	(wire
 		(pts
@@ -4591,16 +4471,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 113.03) (xy 252.73 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2045eb6-3de4-4f5c-8012-e82f178abbc0")
-	)
-	(wire
-		(pts
 			(xy 172.72 67.31) (xy 175.26 67.31)
 		)
 		(stroke
@@ -4608,16 +4478,6 @@
 			(type default)
 		)
 		(uuid "a2d2181f-fcaf-4589-b7a0-000ad562c15d")
-	)
-	(wire
-		(pts
-			(xy 240.03 115.57) (xy 252.73 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b63c9f-7b17-4836-a1f5-d28c477354f8")
 	)
 	(wire
 		(pts
@@ -4721,16 +4581,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 140.97) (xy 252.73 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "becad2ac-160c-40ae-89c2-28aa11af75a9")
-	)
-	(wire
-		(pts
 			(xy 90.17 68.58) (xy 153.67 68.58)
 		)
 		(stroke
@@ -4771,16 +4621,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 138.43) (xy 271.78 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca630203-1cc5-4a95-8354-e35fb3057e9a")
-	)
-	(wire
-		(pts
 			(xy 107.95 34.29) (xy 114.3 34.29)
 		)
 		(stroke
@@ -4818,16 +4658,6 @@
 			(type default)
 		)
 		(uuid "cf0871ff-d4cc-49b3-a3e0-83d28a6a1bac")
-	)
-	(wire
-		(pts
-			(xy 247.65 111.76) (xy 247.65 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f7e70e-a20e-4f49-81d2-4b0453683573")
 	)
 	(wire
 		(pts
@@ -4878,16 +4708,6 @@
 			(type default)
 		)
 		(uuid "d8b584a5-dc98-4a2e-b977-d572c7012dfd")
-	)
-	(wire
-		(pts
-			(xy 247.65 138.43) (xy 252.73 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f26bc5-0c5e-4acc-8d96-f84f1367b6b9")
 	)
 	(wire
 		(pts
@@ -4961,16 +4781,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 118.11) (xy 271.78 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec6f07b7-3ece-469c-9cfa-273c56a49cb7")
-	)
-	(wire
-		(pts
 			(xy 125.73 34.29) (xy 125.73 36.83)
 		)
 		(stroke
@@ -4978,26 +4788,6 @@
 			(type default)
 		)
 		(uuid "ee5578f7-7787-4b1d-8a31-6addbc557b2d")
-	)
-	(wire
-		(pts
-			(xy 220.98 140.97) (xy 224.79 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee56411a-206a-44eb-8e21-5c83f0fd9e6c")
-	)
-	(wire
-		(pts
-			(xy 240.03 140.97) (xy 240.03 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee92855e-d8c6-47b3-b5fc-be3d98cafd23")
 	)
 	(wire
 		(pts
@@ -5028,36 +4818,6 @@
 			(type default)
 		)
 		(uuid "f0ed090d-164c-4706-aed4-41929398eeba")
-	)
-	(wire
-		(pts
-			(xy 247.65 137.16) (xy 247.65 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7323677-eaae-43b2-89b9-508976dc1289")
-	)
-	(wire
-		(pts
-			(xy 276.86 113.03) (xy 276.86 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4fe696-50e8-4b02-b3b1-3f39401a33cf")
-	)
-	(wire
-		(pts
-			(xy 224.79 143.51) (xy 224.79 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fee7f00b-e5b5-4779-aca9-84b61a88675f")
 	)
 	(label "Out2"
 		(at 199.39 115.57 0)
@@ -5436,135 +5196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 271.78 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08c4071f-ad26-4da0-a710-fe905b952a2e")
-		(property "Reference" "#PWR018"
-			(at 271.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 271.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc741477-1ff6-450e-9861-782200ae7fd1")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 228.6 59.69 0)
 		(unit 1)
@@ -5631,151 +5262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-012")
-		(at 260.35 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ce2e013-01aa-4baa-a76a-f0a5f9401db8")
-		(property "Reference" "D11"
-			(at 260.35 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 260.35 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mad_Footprints:SK6812MINI-012"
-			(at 260.35 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171800_OPSCO-Optoelectronics-SK6812mini_C2886570.pdf"
-			(at 260.35 121.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.5x3.7x1.1mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 248.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.45"
-			(at 260.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" "Backlight LED"
-			(at 260.35 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "3.7V-5.5V (0.2W)"
-			(at 260.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 260.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C2886570"
-			(at 260.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
-			(at 260.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SK6812MINI"
-			(at 260.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2886570"
-			(at 260.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2f5e8e7e-0a14-4307-9aad-ccd8b9a10774")
-		)
-		(pin "4"
-			(uuid "a86072ee-95e3-40e3-924b-3a85c83e702a")
-		)
-		(pin "1"
-			(uuid "e2fa5443-ffe6-4265-ba57-e4a3a5b803a0")
-		)
-		(pin "2"
-			(uuid "8193cc6e-b15a-4d01-9e23-bfe572ea9c0f")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 97.79 0)
 		(unit 1)
@@ -5836,135 +5322,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "117d0e4f-be57-44af-9643-73ff856cd3d7")
-		(property "Reference" "#PWR014"
-			(at 224.79 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 224.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17d5f2b8-b349-49c9-ba63-7ea3bfd728a6")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8012,135 +7369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 271.78 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f73f3c4-289e-4bdd-9002-254316e1145a")
-		(property "Reference" "#PWR016"
-			(at 271.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 271.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bee2dcc5-4040-4115-b81b-9e8fae7e1a5d")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:LL4148")
 		(at 237.49 48.26 0)
 		(unit 1)
@@ -8854,138 +8082,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 247.65 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77c0077b-bcf5-49ca-98fa-87816e9c51b3")
-		(property "Reference" "#PWR017"
-			(at 247.65 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 247.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 247.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2340870-7d16-4978-bcf1-0219ad7753a7")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 200.66 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78271019-1b70-41d5-a941-c631fddae5e5")
-		(property "Reference" "#PWR013"
-			(at 200.66 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 200.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1befe944-1015-4f6f-a82c-9109a35fcace")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10306,72 +9402,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 247.65 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6f48928-f73d-4081-811f-27860760724a")
-		(property "Reference" "#PWR015"
-			(at 247.65 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 247.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 247.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "845a112d-8efc-4813-ad30-1fb7d3dfc280")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 149.86 113.03 0)
 		(unit 1)
@@ -10841,151 +9871,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-012")
-		(at 213.36 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2ad55a5-193a-4eb8-9f64-d36541899bd5")
-		(property "Reference" "D10"
-			(at 213.36 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 213.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mad_Footprints:SK6812MINI-012"
-			(at 213.36 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171800_OPSCO-Optoelectronics-SK6812mini_C2886570.pdf"
-			(at 213.36 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.5x3.7x1.1mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 201.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.45"
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" "Backlight LED"
-			(at 213.36 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "3.7V-5.5V (0.2W)"
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C2886570"
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SK6812MINI"
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2886570"
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f47bfc1a-adc6-4619-bf5d-db0159a8df60")
-		)
-		(pin "4"
-			(uuid "260fad8e-d5ab-4129-b04e-d11a7527b89e")
-		)
-		(pin "1"
-			(uuid "9122dee7-311f-486f-80ec-7f3fd43481a6")
-		)
-		(pin "2"
-			(uuid "16c99c49-6f07-4095-891e-01195ce14d2d")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -11595,151 +10480,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "T4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-012")
-		(at 260.35 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbaa1016-2775-48dc-990d-b2b4f36eb768")
-		(property "Reference" "D12"
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 260.35 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mad_Footprints:SK6812MINI-012"
-			(at 260.35 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171800_OPSCO-Optoelectronics-SK6812mini_C2886570.pdf"
-			(at 260.35 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.5x3.7x1.1mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 248.92 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.45"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" "Backlight LED"
-			(at 260.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "3.7V-5.5V (0.2W)"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C2886570"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SK6812MINI"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2886570"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8bfffab6-777c-4f19-bd25-10b41cce6aad")
-		)
-		(pin "4"
-			(uuid "573abb28-1c50-4792-a3fe-246bea80d8f1")
-		)
-		(pin "1"
-			(uuid "3e59a2a3-6533-48b8-8588-b58b0774d3e5")
-		)
-		(pin "2"
-			(uuid "850da4af-37f7-4a4b-a940-af55589c6c39")
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "D12")
 					(unit 1)
 				)
 			)
