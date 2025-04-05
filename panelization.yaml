@@ -1,0 +1,13 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: simple_panel # Keep this name the same
+    type: panelize
+    dir: Panel
+    options:
+      configs:
+        - name: base # Keep this name the same
+          layout:
+            rows: 3
+            cols: 2
