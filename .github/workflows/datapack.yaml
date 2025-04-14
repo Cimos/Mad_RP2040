@@ -29,7 +29,7 @@ jobs:
         ref: main
 
     - name: Build Datapack
-      uses: Cimos/kibot-config@1-add-penalization-to-build
+      uses: Cimos/kibot-config@master
       with:
         config: kibot-config/build.kibot.yaml
         dir: output

@@ -325,21 +325,19 @@
           2,
           3,
           4,
-          5,
           6,
-          7,
           8,
+          9,
           10,
           11,
+          12,
+          13,
           14,
           15,
-          17,
+          16,
           18,
-          19,
           20,
-          21,
           22,
-          23,
           24,
           25,
           26,
@@ -349,21 +347,25 @@
           30,
           31,
           32,
-          33,
           34,
-          35,
+          36,
+          37,
           38,
           39,
+          40,
           41,
           42,
           43,
+          44,
           45,
           46,
           47,
+          48,
           49,
           50,
           51,
           52,
+          53,
           54,
           55,
           56,
@@ -372,37 +374,91 @@
           62
         ],
         "name": "All",
-        "renderLayers": []
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "conflict_shadows"
+        ]
       },
       {
         "activeLayer": -2,
         "flipBoard": false,
         "layers": [
-          6,
-          8,
-          16,
-          24,
-          32,
-          52,
-          60
+          2,
+          3,
+          7,
+          11,
+          15,
+          25,
+          29
         ],
         "name": "Back",
-        "renderLayers": []
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "conflict_shadows"
+        ]
       },
       {
         "activeLayer": -2,
         "flipBoard": false,
         "layers": [
           0,
-          2,
-          4,
-          12,
-          20,
-          28,
-          52
+          1,
+          5,
+          9,
+          13,
+          25,
+          31
         ],
         "name": "Front",
-        "renderLayers": []
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "conflict_shadows"
+        ]
       }
     ],
     "viewports": []
@@ -701,10 +757,28 @@
       "/RP2040/USB_D-": [
         "USB"
       ],
+      "Net-(U1-D+_in)": [
+        "USB"
+      ],
+      "Net-(U1-D-_in)": [
+        "USB"
+      ],
       "Net-(U2-D+_in)": [
         "USB"
       ],
       "Net-(U2-D-_in)": [
+        "USB"
+      ],
+      "Net-(U5-D+)": [
+        "USB"
+      ],
+      "Net-(U5-D-)": [
+        "USB"
+      ],
+      "unconnected-(U1-D+_out-Pad6)": [
+        "USB"
+      ],
+      "unconnected-(U1-D-_out-Pad5)": [
         "USB"
       ]
     },
@@ -920,7 +994,7 @@
   "text_variables": {
     "COMMENT1": "",
     "COMPANY": "MADMAN",
-    "REVISION": "B",
-    "TITLE": "RP2040 Keyboard Test Board"
+    "REVISION": "A",
+    "TITLE": "Two Key, RP2040 Board"
   }
 }
