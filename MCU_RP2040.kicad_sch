@@ -5562,6 +5562,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 142.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6d59daf-7c11-459e-9a0f-55993ec70db6")
 		)
@@ -5721,6 +5729,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 106.68 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5901,6 +5917,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 58.42 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ba7dba1-e932-4870-8df9-ced86ae2b355")
 		)
@@ -6057,6 +6081,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 204.47 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6390,6 +6422,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 48.26 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21530d7a-6511-4297-9c99-5776e0e06d9f")
 		)
@@ -6545,6 +6585,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6705,6 +6753,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 107.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26f58dfa-602b-49c5-9320-82cabc9e4ab2")
 		)
@@ -6858,6 +6914,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 72.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -7018,6 +7082,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "802a8f6c-3fa8-45e0-8888-3ebf0eead6a5")
 		)
@@ -7165,6 +7237,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 119.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7328,6 +7408,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77704ce1-0118-44e3-a00d-b4f25523cb47")
 		)
@@ -7488,6 +7576,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7657,6 +7753,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 54.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "57167ed5-549f-4574-a76e-24c133b2845b")
 		)
@@ -7812,6 +7916,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a3f4d58-4373-4a91-a8d5-42290043ce44")
 		)
@@ -7961,6 +8073,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "324f9781-fa67-4d40-9969-614746a04d6e")
 		)
@@ -8108,6 +8228,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8271,6 +8399,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 78.74 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d27832eb-7276-408d-8d92-1ba716dce057")
 		)
@@ -8422,6 +8558,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4638a718-623c-4114-9710-1f429eaf46b3")
 		)
@@ -8563,6 +8707,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8712,6 +8864,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 130.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8870,6 +9030,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9038,6 +9206,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9bf74a98-35d3-4ea5-b0f6-36baf5c42e9b")
 		)
@@ -9203,6 +9379,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d164772a-ced1-4c43-9127-c10b282aefe1")
 		)
@@ -9352,6 +9536,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5d5f241f-1dd4-4f87-a5fd-16b446f742a8")
 		)
@@ -9493,6 +9685,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9656,6 +9856,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 78.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a3ca963a-adbb-4e6d-87b1-e35d0e27b1ec")
 		)
@@ -9803,6 +10011,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 40.64 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9969,6 +10185,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e00d584-f7b7-423d-8879-a32a583dc046")
 		)
@@ -10115,6 +10339,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "832c0239-d30f-4cbb-90c0-1a942306da72")
 		)
@@ -10256,6 +10488,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10413,6 +10653,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 90.17 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

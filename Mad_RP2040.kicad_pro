@@ -60,18 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "diff_pair_gap_out_of_range|127459542|85521427|584d12f1-9bd6-4791-86d3-62ef6ee6755f|d0cec2b3-04c0-4464-a889-4bd5ddf10c61",
-          ""
-        ],
-        [
-          "diff_pair_gap_out_of_range|127522110|85755116|3d1e4a30-332a-4689-b1c8-03dc01607164|5664b1c3-a22c-4f8a-92b3-f90809ee2ae1",
-          ""
-        ],
-        [
-          "diff_pair_gap_out_of_range|127522110|85755116|627c0b79-d2f0-4a17-beff-5d495b6e5735|5664b1c3-a22c-4f8a-92b3-f90809ee2ae1",
-          ""
-        ],
-        [
           "footprint_type_mismatch|127250000|75425000|6c264d06-cc99-40a3-adde-bf26ea05d0f6|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -691,7 +679,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "mad_footprints",
-      "Mad_Footprints"
+      "Mad_Footprints",
+      "kbd"
     ],
     "pinned_symbol_libs": [
       "Mad_Symbols"
@@ -934,7 +923,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
