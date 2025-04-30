@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "kbd")(type "KiCad")(uri "E:/git/General/kbd/kicad-symbols/kbd.kicad_sym")(options "")(descr ""))
   (lib (name "Mad_Symbols")(type "KiCad")(uri "${KIPRJMOD}/mad_lib/part_library/symbols/mad_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "keyboard")(type "KiCad")(uri "${KIPRJMOD}/mad_lib/part_library/symbols/keyboard.kicad_sym")(options "")(descr ""))
 )

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.0,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 1.0,
+          "height": 1.2,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -683,7 +683,8 @@
       "kbd"
     ],
     "pinned_symbol_libs": [
-      "Mad_Symbols"
+      "Mad_Symbols",
+      "keyboard"
     ]
   },
   "meta": {
@@ -848,6 +849,12 @@
         },
         {
           "group_by": false,
+          "label": "Config",
+          "name": "Config",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Interface",
           "name": "Interface",
           "show": false
@@ -857,6 +864,12 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PN",
+          "name": "LCSC PN",
+          "show": true
         },
         {
           "group_by": false,
@@ -910,12 +923,6 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "LCSC PN",
-          "name": "LCSC PN",
           "show": true
         }
       ],
