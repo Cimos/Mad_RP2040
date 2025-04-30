@@ -484,7 +484,7 @@
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "20013bb6-47df-47ee-a22d-d769ef7e74cc")
-		(at 84.335 57.234)
+		(at 199.1825 90.275 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T1"
 			(at -0.25 -2 0)
@@ -534,7 +534,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -547,7 +547,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -560,7 +560,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -573,7 +573,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -586,7 +586,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -599,7 +599,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -612,7 +612,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -625,7 +625,7 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -642,14 +642,24 @@
 		(sheetfile "Mad_RP2040.kicad_sch")
 		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
-			(start 0 0)
-			(end -3 0)
+			(start 0 1)
+			(end 0 -1)
 			(stroke
 				(width 0.3)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "3c20093c-42f6-42bf-9a44-08427be16ed8")
+			(uuid "bfd28f6f-df51-43db-a23e-ce910259bbb0")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ee06e9d4-31db-4b2f-986c-adb44baf8620")
 		)
 		(fp_line
 			(start 0 0)
@@ -663,23 +673,13 @@
 		)
 		(fp_line
 			(start 0 0)
-			(end -1 1)
+			(end -3 0)
 			(stroke
 				(width 0.3)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ee06e9d4-31db-4b2f-986c-adb44baf8620")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "bfd28f6f-df51-43db-a23e-ce910259bbb0")
+			(uuid "3c20093c-42f6-42bf-9a44-08427be16ed8")
 		)
 		(fp_text user "KIKIT: width: 3mm"
 			(at -5.5 0 90)
@@ -694,229 +694,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
-		(layer "F.Cu")
-		(uuid "203653ea-a2a5-41be-9695-24cc36a3e2b4")
-		(at 92.21 60.909)
-		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
-		(tags "fiducial")
-		(property "Reference" "FID2"
-			(at 0 -1.95 0)
-			(layer "F.SilkS")
-			(uuid "83a759c0-235e-4aee-bab7-75b76a8b37d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 0 1.95 0)
-			(layer "F.Fab")
-			(uuid "b4c72c53-3447-4c71-95c7-59a322ef8fa9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9da4f2f5-30b7-4fa7-b943-31d0fab67b3a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b798ec11-aeb2-4c35-8d78-3163250bfa50")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "750a7f6e-978f-4fcc-ba21-465292ab730c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Interface" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d849fea-0e03-417c-a23e-90acb6b1d5b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Rating" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68048066-e487-4a1f-b7d6-c8e7a215e23f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ddb5cbaf-fad4-4847-b589-91d732a37d9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b5fc92b-6d9a-4009-93d9-1defc2d121b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8fb7610-4372-4471-937e-307ad3e43bcd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0ba5ce6-0915-4388-af8e-a19028926137")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a865b3f-4e9f-475a-9752-e0f616791e66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf5166b8-85cb-44ab-b4e4-3b70338fcce3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/2f413cf7-7e00-4438-b769-79a3da90e663")
-		(sheetname "/")
-		(sheetfile "Mad_RP2040.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "fb694092-e992-4e62-ba81-9c8f44fb2d4f")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "9a02274a-9ee4-4d36-b5cc-3c32ccf58663")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "cc96b982-1932-463d-87ae-e7caeadf5725")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.5)
-			(uuid "7ee4f16c-1e59-4b72-880c-2cd1a2c478e0")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "50ed6cc4-67f2-42d9-a9c2-a18677a875bc")
-		(at 84.335 60.534)
+		(at 154.9325 42.025 -90)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T2"
-			(at -0.25 -2 0)
+			(at -0.25 -2 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a97aecd6-41bf-46c6-a3df-f126d6fb0a82")
@@ -928,7 +712,7 @@
 			)
 		)
 		(property "Value" "Tab"
-			(at -3 -1 0)
+			(at -3 -1 90)
 			(layer "Dwgs.User")
 			(uuid "d2063ec7-d904-4b04-9242-675f2075e487")
 			(effects
@@ -939,7 +723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7fd9bd27-7982-486e-9ba8-b6c75ca9149e")
@@ -951,7 +735,7 @@
 			)
 		)
 		(property "Description" "KiKit tab annotations"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "830c9487-5cbb-4256-9436-f762bd9a1217")
@@ -963,7 +747,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -976,7 +760,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -989,7 +773,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1002,7 +786,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1015,7 +799,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1028,7 +812,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1041,7 +825,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1054,7 +838,7 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1070,6 +854,26 @@
 		(sheetname "/")
 		(sheetfile "Mad_RP2040.kicad_sch")
 		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "db81b67d-8003-4511-8aad-ac1e73a0284c")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b12cdd5b-4a0d-4a4a-951f-0fee6fca0a87")
+		)
 		(fp_line
 			(start 0 0)
 			(end -3 0)
@@ -1090,28 +894,8 @@
 			(layer "Dwgs.User")
 			(uuid "e28cf0d7-8613-4a00-801b-4ba872c5d628")
 		)
-		(fp_line
-			(start 0 0)
-			(end -1 1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "b12cdd5b-4a0d-4a4a-951f-0fee6fca0a87")
-		)
-		(fp_line
-			(start 0 1)
-			(end 0 -1)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "db81b67d-8003-4511-8aad-ac1e73a0284c")
-		)
 		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 90)
+			(at -5.5 0 0)
 			(layer "Dwgs.User")
 			(uuid "75ec6dbb-2231-4327-84bb-2fec0d6afa14")
 			(effects
@@ -1123,229 +907,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
-		(layer "F.Cu")
-		(uuid "536ce223-8980-42cf-a2a4-06587fba5fd7")
-		(at 92.21 57.359)
-		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
-		(tags "fiducial")
-		(property "Reference" "FID1"
-			(at 0 -1.95 0)
-			(layer "F.SilkS")
-			(uuid "dad2141e-e8c4-43a3-8a06-9da67e6044d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 0 1.95 0)
-			(layer "F.Fab")
-			(uuid "448b10b2-8cdd-448a-92f5-177c7869e3bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75a4259f-21bf-4d16-a2b0-690dcd3a7816")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55bcbcc3-07b4-4f6b-8220-56c66c5f0a03")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ccf79711-fe58-4020-adc7-5dea4a96411b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Interface" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6256b961-694b-4b47-9640-73bcc3d77592")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Rating" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a07a0c2-2a2e-4344-a1a3-0624642dd45e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75a68c33-84d5-4274-871c-ecbd145daed2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b3e339a-3c5c-4939-a779-42bd5219918b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "895a42ac-de1f-403b-9de0-b1f3ce8c63a4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90143280-eb65-492e-af92-6dbcc60d0988")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8caa4cc7-486b-4e4f-8784-510533e3ff95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78f7c6a2-4dd5-43f4-abab-219415a4a38e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/64f4ef0a-0a95-4cec-9289-76f092282c40")
-		(sheetname "/")
-		(sheetfile "Mad_RP2040.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "258d21f7-9baa-4c2d-b5a6-6aac94888c9d")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "be400ee5-024a-4434-86e5-9986dd375d8d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a59eb410-bc01-4513-a3bb-9518911d6170")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.5)
-			(uuid "15a9270d-ad14-4110-9d3e-6f0f47b1d457")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "a938a4dc-e6bb-43d3-9a97-e20299b3ae5c")
-		(at 84.335 67.134)
+		(at 160.4325 129.025 90)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T4"
-			(at -0.25 -2 0)
+			(at -0.25 -2 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "03d9548d-6691-4271-98f1-b6922b57f63d")
@@ -1357,7 +925,7 @@
 			)
 		)
 		(property "Value" "Tab"
-			(at -3 -1 0)
+			(at -3 -1 90)
 			(layer "Dwgs.User")
 			(uuid "35c40398-a463-41bc-a7a1-2c7bfa2c3302")
 			(effects
@@ -1368,7 +936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "13d85e4b-f0a8-4ea9-bb64-0063b09a39ad")
@@ -1380,7 +948,7 @@
 			)
 		)
 		(property "Description" "KiKit tab annotations"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5979bbba-83ba-49f7-b136-8cf4170e2d51")
@@ -1392,7 +960,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1405,7 +973,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1418,7 +986,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1431,7 +999,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1444,7 +1012,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1457,7 +1025,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1470,7 +1038,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1483,7 +1051,7 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1501,16 +1069,6 @@
 		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start 0 0)
-			(end -3 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "489ebe7c-6e29-4f13-b177-f6d78224a328")
-		)
-		(fp_line
-			(start 0 0)
 			(end -1 -1)
 			(stroke
 				(width 0.3)
@@ -1518,6 +1076,16 @@
 			)
 			(layer "Dwgs.User")
 			(uuid "db666642-fb4c-4674-a797-b5bca3cdb76c")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "489ebe7c-6e29-4f13-b177-f6d78224a328")
 		)
 		(fp_line
 			(start 0 0)
@@ -1540,7 +1108,7 @@
 			(uuid "c250f001-778d-4e6c-a87a-8ae542c310e6")
 		)
 		(fp_text user "KIKIT: width: 3mm"
-			(at -5.5 0 90)
+			(at -5.5 0 0)
 			(layer "Dwgs.User")
 			(uuid "d0b44cd5-42d5-48ac-9439-970205581820")
 			(effects
@@ -1770,202 +1338,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Mad_Footprints:BOM"
-		(layer "F.Cu")
-		(uuid "c394c502-a20e-4c33-a3f2-af3449700ca9")
-		(at 92.56 67.9945)
-		(descr "Used for entering parts into the BOM but not actually needed a PCB footprint")
-		(property "Reference" "U1"
-			(at 0 -0.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a55cca42-5343-4142-a6ca-9a568a6c478b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "PCB"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "2edea54e-2df3-4291-9aa3-f72db9733248")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb5b3701-7105-443f-8855-8f01ce59015b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "69fb64a3-747e-48b3-92f5-5d932a770599")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "31d71ceb-e6aa-4ec9-910a-4397440507c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Interface" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a54838a4-767f-4b41-9997-ee85b9857f40")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Rating" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "359ba9d2-6259-432a-931d-74cc53ec188a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25fd1087-a2c1-4e4c-9e8f-d40a5f489ca4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2fdf712-30d8-4ddc-a827-6b80d6d3e9f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2e3ada0-a307-4946-a93d-d1d647c19946")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2368438c-fed1-4609-ba5d-888bd08df764")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f046a84-f3f4-415d-96a0-78a9982b578f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45d5dedf-e024-4851-9edb-3b0259cbd595")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "965dc00c-8de1-49ab-af94-062a3e29cf28")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/6fa5167a-5473-4680-a9fc-aeb99ce24373")
-		(sheetname "/")
-		(sheetfile "Mad_RP2040.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(embedded_fonts no)
-	)
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "c4729770-8a6d-4664-9887-f3d9fd02511a")
-		(at 84.335 63.834)
+		(at 121.4325 90.275)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T3"
 			(at -0.25 -2 0)
@@ -2172,222 +1548,6 @@
 					(thickness 0.15)
 				)
 			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
-		(layer "F.Cu")
-		(uuid "e50b2c62-1de4-47a7-92fe-9a9c7bcfe1a6")
-		(at 92.21 64.459)
-		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
-		(tags "fiducial")
-		(property "Reference" "FID3"
-			(at 0 -1.95 0)
-			(layer "F.SilkS")
-			(uuid "51a254f5-dde5-49e5-b8a8-094d41f68f63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 0 1.95 0)
-			(layer "F.Fab")
-			(uuid "957a4a9b-c690-4b59-a064-c09507e42206")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8c503b7b-e798-4edb-bda3-904e8909716c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1c3997dd-7412-4de1-8aaf-1418f415c75f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a154295-83ae-4c3b-918c-23ee03759740")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Interface" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a1e3f33-19db-468a-98e4-0dfd1849e23e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Rating" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ca7e28d-10ea-48b4-8875-3d7fbd607c49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3a2fbb8-9b5b-48cb-b8a3-81ba6f082da9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "465d2cbf-4ae4-429e-9837-41df9111a605")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4aa1d4f-57dd-4f4c-9c53-f5d3352b73c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7bbd8aa-34c5-497a-9dcc-6e618cfb689e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a9cfd62-f1da-4bcd-979a-c781a8009697")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9363c2c4-1e75-4b3f-aaeb-cc059bbf3e7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/a4491496-2c88-408b-8669-0cf66cb70d2b")
-		(sheetname "/")
-		(sheetfile "Mad_RP2040.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "f5a63232-01da-4796-83d3-9f2ff0ba596f")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "13822904-7b84-4e77-9d6e-fbd680dd355c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "b9f70ab0-ae13-4d2a-a3ba-2c6381d79dce")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.5)
-			(uuid "cdef5a5f-0f67-40d6-9d09-ed338fc3f475")
 		)
 		(embedded_fonts no)
 	)
@@ -17889,7 +17049,7 @@
 			(net 10 "Net-(D1-A)")
 			(pinfunction "S1")
 			(pintype "passive")
-			(uuid "d37aa733-3454-4a80-9a72-bae45d57b410")
+			(uuid "819a861c-84bf-4d37-b6ec-61a33fe00dbd")
 		)
 		(pad "S2" smd rect
 			(at -3.1 -5.9)
@@ -17909,7 +17069,7 @@
 			(net 28 "/Col0")
 			(pinfunction "S2")
 			(pintype "passive")
-			(uuid "4ce05a8c-9961-4031-8c18-8cf7957ffff7")
+			(uuid "cf062558-d7f0-4f1a-acb9-18f8bcab6b7c")
 		)
 		(embedded_fonts no)
 		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
@@ -64580,8 +63740,8 @@
 		)
 		(polygon
 			(pts
-				(xy 121.95 42.4) (xy 121.9325 52.575) (xy 134.7325 52.575) (xy 134.7325 52.575) (xy 134.7325 52.575)
-				(xy 136.9325 54.775) (xy 138.5325 54.775) (xy 138.5325 55.575) (xy 140.7325 55.575) (xy 140.7325 42.375)
+				(xy 121.95 42.4) (xy 121.9325 52.575) (xy 134.7325 52.575) (xy 136.9325 54.775) (xy 138.5325 54.775)
+				(xy 138.5325 55.575) (xy 140.7325 55.575) (xy 140.7325 42.375)
 			)
 		)
 		(filled_polygon
