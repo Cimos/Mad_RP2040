@@ -12,45 +12,32 @@
 		(comment 1 "${COMMENT1}")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+		(symbol "Connector_Generic_MountingPin:Conn_01x05_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 2.54 11.43 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
-				(at 2.54 8.89 0)
+			(property "Value" "Conn_01x05_MountingPin"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*TC2030*"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,11 +64,115 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
-				(pin power_in line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "VCC"
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_MountingPin_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -96,17 +187,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -114,10 +205,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "~{RESET}"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,10 +223,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "SWCLK"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -149,57 +240,41 @@
 							)
 						)
 					)
-					(alternate "TCK" output line)
 				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "SWDIO"
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "TMS" bidirectional line)
 				)
-				(pin input line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "SWO"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
-					)
-					(alternate "TDO" input line)
-				)
-			)
-			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -357,21 +432,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -871,7 +944,7 @@
 	)
 	(rectangle
 		(start 29.21 132.08)
-		(end 57.785 168.91)
+		(end 57.785 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -938,10 +1011,6 @@
 	(no_connect
 		(at 106.68 78.74)
 		(uuid "30e3a92c-9374-4a9f-8852-e6b0dce89ab2")
-	)
-	(no_connect
-		(at 53.34 158.75)
-		(uuid "9a3a523f-6a98-4f93-9315-08cc7b41e091")
 	)
 	(no_connect
 		(at 181.61 88.9)
@@ -1187,13 +1256,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 156.21) (xy 53.34 156.21)
+			(xy 41.91 149.86) (xy 49.53 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d2d3708-69e7-4d8f-a4ca-d1bbdc901e1a")
+	)
+	(wire
+		(pts
+			(xy 36.83 160.02) (xy 48.26 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd8b715-8079-4e26-843d-1722824611b9")
 	)
 	(wire
 		(pts
@@ -1267,7 +1346,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 153.67) (xy 53.34 153.67)
+			(xy 41.91 147.32) (xy 49.53 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1377,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 35.56 142.24)
+			(xy 49.53 142.24) (xy 41.91 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1407,6 +1486,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 152.4) (xy 49.53 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab2ab17-a673-4164-abb6-d2dd6c86f846")
+	)
+	(wire
+		(pts
 			(xy 106.68 58.42) (xy 124.46 58.42)
 		)
 		(stroke
@@ -1414,16 +1503,6 @@
 			(type default)
 		)
 		(uuid "ab808f40-2f2f-4654-b7df-682240c947ae")
-	)
-	(wire
-		(pts
-			(xy 35.56 142.24) (xy 35.56 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d70a90-d4f3-48fb-88f0-ed0d013f92cc")
 	)
 	(wire
 		(pts
@@ -1497,16 +1576,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 165.1) (xy 35.56 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d08132cb-e55b-4558-8e6a-85e938f5fddb")
-	)
-	(wire
-		(pts
 			(xy 35.56 30.48) (xy 43.18 30.48)
 		)
 		(stroke
@@ -1527,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 148.59) (xy 53.34 148.59)
+			(xy 41.91 144.78) (xy 49.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1587,16 +1656,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 158.75) (xy 53.34 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1852014-1dab-411f-a7cf-c6916315a8fe")
-	)
-	(wire
-		(pts
 			(xy 163.83 68.58) (xy 181.61 68.58)
 		)
 		(stroke
@@ -1607,13 +1666,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 165.1) (xy 35.56 163.83)
+			(xy 36.83 160.02) (xy 36.83 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3b8d286-e063-477f-9ee2-75bc3240fc90")
+		(uuid "f4a502e0-15b8-4e4c-9cc3-1c76817f8619")
 	)
 	(wire
 		(pts
@@ -1635,8 +1694,18 @@
 		)
 		(uuid "f9713a8c-7c29-4fcb-a053-72f42ece5227")
 	)
+	(label "GND"
+		(at 48.26 160.02 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "07a3604e-61e3-43d8-9d26-d020cc39fc99")
+	)
 	(label "SWDIO"
-		(at 53.34 156.21 180)
+		(at 49.53 149.86 180)
 		(effects
 			(font
 				(size 1 1)
@@ -1666,7 +1735,7 @@
 		(uuid "16f1159b-b1a2-4162-ac20-ada857f3ab26")
 	)
 	(label "~{RST}"
-		(at 53.34 148.59 180)
+		(at 49.53 144.78 180)
 		(effects
 			(font
 				(size 1 1)
@@ -1726,7 +1795,7 @@
 		(uuid "bcb72bdc-b849-4897-b2f5-54af5fabfec2")
 	)
 	(label "3V3"
-		(at 53.34 142.24 180)
+		(at 49.53 142.24 180)
 		(effects
 			(font
 				(size 1 1)
@@ -1736,17 +1805,17 @@
 		(uuid "be73575b-a054-47b1-ae21-c13883bfb4ed")
 	)
 	(label "GND"
-		(at 53.34 165.1 180)
+		(at 49.53 152.4 180)
 		(effects
 			(font
 				(size 1 1)
 			)
 			(justify right bottom)
 		)
-		(uuid "d0283dde-93dd-4060-ac3f-fd3a8b44711a")
+		(uuid "d2c55252-bc7e-4d59-af56-f2c12d7fce34")
 	)
 	(label "SWCLK"
-		(at 53.34 153.67 180)
+		(at 49.53 147.32 180)
 		(effects
 			(font
 				(size 1 1)
@@ -2120,7 +2189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2129,7 +2198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "27 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2403,26 +2472,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
-		(at 38.1 153.67 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
+		(at 36.83 147.32 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "3806bdaa-178a-4dbe-9805-f3162a454eed")
 		(property "Reference" "J2"
-			(at 31.75 153.6699 0)
+			(at 34.29 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
-			(at 31.75 154.94 0)
+			(at 43.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,8 +2500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 38.1 171.45 0)
+		(property "Footprint" "Connector_JST:JST_SHL_SM05B-SHLS-TF_1x05-1MP_P1.00mm_Horizontal"
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,8 +2509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-			(at 38.1 168.91 0)
+		(property "Datasheet" "~"
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,8 +2518,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 38.1 153.67 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2528,7 @@
 			)
 		)
 		(property "Substitute" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2537,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2546,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2555,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2564,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2573,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2582,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2591,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2600,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,11 +2609,20 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 38.1 153.67 0)
+			(at 36.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Config" ""
+			(at 36.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2562,8 +2640,8 @@
 		(pin "5"
 			(uuid "588840f7-6899-4a12-9eca-2238bdd7a772")
 		)
-		(pin "6"
-			(uuid "df06a552-9109-4c78-8606-7e085fc726e1")
+		(pin "MP"
+			(uuid "e665a4bd-eec0-4d52-8e92-307b50878bfd")
 		)
 		(instances
 			(project "Mad_RP2040"
@@ -2609,7 +2687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2618,7 +2696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "27 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2922,7 +3000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -2931,7 +3009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -3241,7 +3319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -3250,7 +3328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 207.01 82.55 0)
 			(effects
 				(font

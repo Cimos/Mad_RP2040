@@ -164,21 +164,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -633,7 +631,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mad_Symbols:ECS-2520MV-xxx-xx"
+		(symbol "Mad_Symbols:ECS-2520MV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -646,7 +644,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ECS-2520MV-xxx-xx"
+			(property "Value" "ECS-2520MV"
 				(at -7.874 -6.35 0)
 				(effects
 					(font
@@ -656,7 +654,7 @@
 				)
 			)
 			(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
-				(at 2.413 -10.287 0)
+				(at -0.254 -8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -665,7 +663,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
-				(at -13.462 1.778 0)
+				(at 0.508 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -674,7 +672,7 @@
 				)
 			)
 			(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
-				(at -9.017 -1.397 0)
+				(at 4.953 -13.589 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -700,7 +698,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ECS-2520MV-xxx-xx_0_1"
+			(symbol "ECS-2520MV_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -713,7 +711,7 @@
 					)
 				)
 			)
-			(symbol "ECS-2520MV-xxx-xx_1_1"
+			(symbol "ECS-2520MV_1_1"
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -817,7 +815,7 @@
 				)
 			)
 			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 0 0)
+				(at 0 -5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -826,16 +824,17 @@
 				)
 			)
 			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb520s30t1-d.pdf"
-				(at 0 0 0)
+				(at 0.508 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(hide yes)
 				)
 			)
 			(property "Description" "Diode 30 V 200mA Surface Mount SOD-523"
-				(at 0 0 0)
+				(at 0 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -862,7 +861,7 @@
 				)
 			)
 			(property "Rating" "DIODE SCHOTTKY 30V 200MA SOD523"
-				(at 0 0 0)
+				(at 0 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -871,7 +870,7 @@
 				)
 			)
 			(property "Supplier" "Digikey"
-				(at 0 0 0)
+				(at 0.254 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -880,7 +879,7 @@
 				)
 			)
 			(property "Supplier PN" "RB520S30T5GOSCT-ND"
-				(at 0 0 0)
+				(at 0 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5809,7 +5808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -5818,7 +5817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -6314,7 +6313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -6323,7 +6322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -6783,7 +6782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:ECS-2520MV-xxx-xx")
+		(lib_id "Mad_Symbols:ECS-2520MV")
 		(at 72.39 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6808,8 +6807,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Mad_Footprints:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
-			(at 74.803 85.217 0)
+		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+			(at 72.136 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +6817,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
-			(at 58.928 73.152 0)
+			(at 72.898 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,8 +6825,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12 MHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead"
-			(at 63.373 76.327 0)
+		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+			(at 77.343 88.519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,6 +6921,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Config" ""
+			(at 72.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -7809,7 +7817,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 53.34 172.72 0)
+			(at 53.34 178.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,16 +7826,17 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb520s30t1-d.pdf"
-			(at 53.34 172.72 0)
+			(at 53.848 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Diode 30 V 200mA Surface Mount SOD-523"
-			(at 53.34 172.72 0)
+			(at 53.34 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,7 +7863,7 @@
 			)
 		)
 		(property "Rating" "DIODE SCHOTTKY 30V 200MA SOD523"
-			(at 53.34 172.72 0)
+			(at 53.34 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +7872,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 53.34 172.72 0)
+			(at 53.594 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +7881,7 @@
 			)
 		)
 		(property "Supplier PN" "RB520S30T5GOSCT-ND"
-			(at 53.34 172.72 0)
+			(at 53.34 180.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,6 +7931,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Config" ""
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8291,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 187.96 0)
 			(effects
 				(font
@@ -8300,7 +8318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "51 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 78.74 187.96 0)
 			(effects
 				(font
@@ -9098,7 +9116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9107,7 +9125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9271,7 +9289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9280,7 +9298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "51 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9748,7 +9766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -9757,7 +9775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "51 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -10077,7 +10095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10086,7 +10104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10249,7 +10267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -10258,7 +10276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 90.17 72.39 0)
 			(effects
 				(font

@@ -1222,21 +1222,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1892,6 +1890,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mad_Symbols:PCB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1949,296 +2144,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mad_Symbols:SK6812MINI-012"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -4.572 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SK6812MINI-012"
-				(at -0.254 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Mad_Footprints:SK6812MINI-012"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171800_OPSCO-Optoelectronics-SK6812mini_C2886570.pdf"
-				(at 0 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.5x3.7x1.1mm 0.2W Intelligent external control surface mount SMD LED"
-				(at -11.43 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SK6812MINI,SK6812,MINI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812MINI-012_0_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SK6812MINI-012_1_1"
-				(pin power_in line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mad_Symbols:SK6812MINI-E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -4.572 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SK6812MINI-E"
-				(at -0.254 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Mad_Footprints:SK6812MINI-E"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-				(at 0 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
-				(at -11.43 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SK6812MINI,SK6812,MINI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812MINI-E_0_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SK6812MINI-E_1_1"
-				(pin power_in line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2602,9 +2507,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.524 0)
-					(radius 0.0762)
+				(arc
+					(start 1.27 1.27)
+					(mid 2.168 0.898)
+					(end 2.54 0)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2613,10 +2519,9 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 2.54 0)
-					(mid 1.642 0.372)
-					(end 1.27 1.27)
+				(circle
+					(center 1.524 0)
+					(radius 0.0762)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3397,6 +3302,296 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "keyboard:SK6812MINI-012"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -4.572 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812MINI-012"
+				(at -0.254 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Mad_Footprints:SK6812MINI-012"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171800_OPSCO-Optoelectronics-SK6812mini_C2886570.pdf"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.5x3.7x1.1mm 0.2W Intelligent external control surface mount SMD LED"
+				(at -11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SK6812MINI,SK6812,MINI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-012_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-012_1_1"
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard:SK6812MINI-E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -4.572 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at -0.254 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Mad_Footprints:SK6812MINI-E"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+				(at -11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SK6812MINI,SK6812,MINI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -3885,6 +4080,28 @@
 			)
 		)
 		(uuid "aded5f69-3774-4574-93e6-0b328d9c3549")
+	)
+	(text_box "Fix up MCU caps and USB trace routing"
+		(exclude_from_sim no)
+		(at 86.36 99.06 0)
+		(size 100.33 38.1)
+		(margins 0.75 0.75 0.75 0.75)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "f09cdea1-7096-437a-a855-9382693ce845")
 	)
 	(junction
 		(at 134.62 60.96)
@@ -4814,6 +5031,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 78.74) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce9a967-b2e2-47b7-a488-15fd5353b6da")
+	)
+	(wire
+		(pts
 			(xy 297.18 91.44) (xy 304.8 91.44)
 		)
 		(stroke
@@ -4901,6 +5128,16 @@
 			(type default)
 		)
 		(uuid "446d092a-cae8-496d-9ce0-bfec5c239519")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45009c6f-52ae-40e9-b45c-541b0e8bc767")
 	)
 	(wire
 		(pts
@@ -5144,16 +5381,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 140.97 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fbcfc8b-5cf0-4d42-9e6f-2cfbaa9587c0")
-	)
-	(wire
-		(pts
 			(xy 381 173.99) (xy 384.81 173.99)
 		)
 		(stroke
@@ -5331,6 +5558,16 @@
 			(type default)
 		)
 		(uuid "7186aaa1-8914-43b8-81ca-67b8821c7639")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719f515b-e918-4814-93df-9fe0a5b65df1")
 	)
 	(wire
 		(pts
@@ -5621,16 +5858,6 @@
 			(type default)
 		)
 		(uuid "8bf2e7ca-bf8f-4257-9883-752f70057d7f")
-	)
-	(wire
-		(pts
-			(xy 133.35 78.74) (xy 140.97 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c26e5db-c8db-465a-87d5-c60794323d52")
 	)
 	(wire
 		(pts
@@ -6834,6 +7061,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 81.28) (xy 171.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f600c15b-b38b-4e32-8b11-949e3f43bb01")
+	)
+	(wire
+		(pts
 			(xy 313.69 229.87) (xy 350.52 229.87)
 		)
 		(stroke
@@ -6982,16 +7219,6 @@
 		)
 		(uuid "24ad0a1b-8a98-4c28-b493-ac92e5ffeaf4")
 	)
-	(label "TX0"
-		(at 264.16 120.65 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "26e8f4a8-7cfb-48cb-b642-87d8ae649df8")
-	)
 	(label "+5V"
 		(at 288.29 191.77 0)
 		(effects
@@ -7011,6 +7238,16 @@
 			(justify right bottom)
 		)
 		(uuid "2956a88e-3325-4d41-bdbe-53de49679094")
+	)
+	(label "LED"
+		(at 264.16 120.65 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "343acee6-5254-4ddb-95d9-319fc92d409a")
 	)
 	(label "GND"
 		(at 355.6 156.21 180)
@@ -7043,7 +7280,7 @@
 		(uuid "36dab9d9-516a-46e8-b788-def306eca492")
 	)
 	(label "TX"
-		(at 140.97 78.74 180)
+		(at 171.45 78.74 180)
 		(effects
 			(font
 				(size 1 1)
@@ -7163,7 +7400,7 @@
 		(uuid "5da04d39-e1d4-4d4f-b8c0-f0e915ec0fba")
 	)
 	(label "LED"
-		(at 140.97 81.28 180)
+		(at 171.45 81.28 180)
 		(effects
 			(font
 				(size 1 1)
@@ -7822,7 +8059,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 285.75 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7832,7 +8069,7 @@
 		(fields_autoplaced yes)
 		(uuid "06f98a27-eab1-4670-9555-977a90006b82")
 		(property "Reference" "D6"
-			(at 285.75 127 0)
+			(at 285.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7840,7 +8077,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 285.75 129.54 0)
+			(at 285.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +8130,7 @@
 			)
 		)
 		(property "Interface" "SW1 LED"
-			(at 285.75 132.08 0)
+			(at 285.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,6 +8197,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Config" ""
+			(at 285.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8645,7 +8891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-012")
+		(lib_id "keyboard:SK6812MINI-012")
 		(at 299.72 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8775,6 +9021,15 @@
 				)
 			)
 		)
+		(property "Config" ""
+			(at 299.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "29437074-2490-4ab5-9911-4d9632bb746c")
 		)
@@ -8797,7 +9052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 285.75 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8807,7 +9062,7 @@
 		(fields_autoplaced yes)
 		(uuid "18f193ae-b6c4-4f46-9ff1-31b320fa7736")
 		(property "Reference" "D10"
-			(at 285.75 162.56 0)
+			(at 285.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +9070,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 285.75 165.1 0)
+			(at 285.75 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,7 +9123,7 @@
 			)
 		)
 		(property "Interface" "SW3 LED"
-			(at 285.75 167.64 0)
+			(at 285.75 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9181,7 +9436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 373.38 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9191,7 +9446,7 @@
 		(fields_autoplaced yes)
 		(uuid "2268a317-e33f-4e5f-a3cb-9830a1b52c51")
 		(property "Reference" "D50"
-			(at 373.38 127 0)
+			(at 373.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +9454,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 373.38 129.54 0)
+			(at 373.38 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +9507,7 @@
 			)
 		)
 		(property "Interface" "SW16 LED"
-			(at 373.38 132.08 0)
+			(at 373.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,6 +9721,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" ""
+			(at 97.79 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 97.79 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -10596,7 +10869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 344.17 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10761,7 +11034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 373.38 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10771,7 +11044,7 @@
 		(fields_autoplaced yes)
 		(uuid "364424a3-ad89-4125-8688-0ad4cfc4ece3")
 		(property "Reference" "D52"
-			(at 373.38 162.56 0)
+			(at 373.38 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10779,7 +11052,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 373.38 165.1 0)
+			(at 373.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +11105,7 @@
 			)
 		)
 		(property "Interface" "SW18 LED"
-			(at 373.38 167.64 0)
+			(at 373.38 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +11196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 285.75 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10933,7 +11206,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a860663-f476-4c08-b14a-dd03e3658a63")
 		(property "Reference" "D8"
-			(at 285.75 144.78 0)
+			(at 285.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +11214,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 285.75 147.32 0)
+			(at 285.75 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +11267,7 @@
 			)
 		)
 		(property "Interface" "SW2 LED"
-			(at 285.75 149.86 0)
+			(at 285.75 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11712,7 +11985,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-012")
+		(lib_id "keyboard:SK6812MINI-012")
 		(at 299.72 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12480,7 +12753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-012")
+		(lib_id "keyboard:SK6812MINI-012")
 		(at 358.14 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14286,7 +14559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 314.96 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14296,7 +14569,7 @@
 		(fields_autoplaced yes)
 		(uuid "813b85f4-7fe7-4c23-ba3b-01bee5bb8133")
 		(property "Reference" "D24"
-			(at 314.96 162.56 0)
+			(at 314.96 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +14577,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 314.96 165.1 0)
+			(at 314.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14357,7 +14630,7 @@
 			)
 		)
 		(property "Interface" "SW8 LED"
-			(at 314.96 167.64 0)
+			(at 314.96 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 344.17 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14458,7 +14731,7 @@
 		(fields_autoplaced yes)
 		(uuid "846e7cb4-7813-4d6e-9c49-c02348e472a8")
 		(property "Reference" "D36"
-			(at 344.17 127 0)
+			(at 344.17 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14739,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 344.17 129.54 0)
+			(at 344.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14519,7 +14792,7 @@
 			)
 		)
 		(property "Interface" "SW11 LED"
-			(at 344.17 132.08 0)
+			(at 344.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14924,7 +15197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 373.38 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15313,7 +15586,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 285.75 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15637,7 +15910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 314.96 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15959,7 +16232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-012")
+		(lib_id "keyboard:SK6812MINI-012")
 		(at 327.66 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16268,6 +16541,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 153.67 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1aaf0ea-8025-4893-9fd3-61fda21794bf")
+		(property "Reference" "JP3"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1fb3687-679d-4869-aae3-38756a75b8ef")
+		)
+		(pin "2"
+			(uuid "7052da7e-0694-4f74-80b5-dae2c0f5fbb9")
+		)
+		(instances
+			(project "Mad_RP2040"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 60.96 77.47 90)
 		(unit 1)
@@ -16301,7 +16725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -16310,7 +16734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -16433,7 +16857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 373.38 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16738,7 +17162,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 344.17 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16748,7 +17172,7 @@
 		(fields_autoplaced yes)
 		(uuid "a73eed20-a833-4ac0-92c3-fe4a0a28be1b")
 		(property "Reference" "D37"
-			(at 344.17 144.78 0)
+			(at 344.17 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16756,7 +17180,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 344.17 147.32 0)
+			(at 344.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16809,7 +17233,7 @@
 			)
 		)
 		(property "Interface" "SW12 LED"
-			(at 344.17 149.86 0)
+			(at 344.17 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17025,6 +17449,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 97.79 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 97.79 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
@@ -17230,7 +17672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mad_Footprints:SM03B-GHS"
+		(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
 			(at 27.94 173.99 0)
 			(effects
 				(font
@@ -18060,7 +18502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -18069,7 +18511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small symbol"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -18165,6 +18607,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Interface" ""
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18495,7 +18955,158 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-012")
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 153.67 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c912dad4-5ecb-4790-8140-bc4dac2d6d43")
+		(property "Reference" "JP2"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa10d82d-ffda-48dd-81c1-d7e2e8fd4d2c")
+		)
+		(pin "2"
+			(uuid "fda356ad-0c8d-4e57-aeca-e6b2346410c3")
+		)
+		(instances
+			(project ""
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:SK6812MINI-012")
 		(at 358.14 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18623,6 +19234,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Config" ""
+			(at 358.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -18929,6 +19549,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 97.79 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 97.79 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
@@ -19148,7 +19786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 344.17 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19158,7 +19796,7 @@
 		(fields_autoplaced yes)
 		(uuid "df712f8e-3215-48d3-94dc-28bf2c5b869b")
 		(property "Reference" "D38"
-			(at 344.17 162.56 0)
+			(at 344.17 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +19804,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 344.17 165.1 0)
+			(at 344.17 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19219,7 +19857,7 @@
 			)
 		)
 		(property "Interface" "SW13 LED"
-			(at 344.17 167.64 0)
+			(at 344.17 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19310,7 +19948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 314.96 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19320,7 +19958,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2328ed4-7855-4390-a8da-1285a904f25d")
 		(property "Reference" "D23"
-			(at 314.96 144.78 0)
+			(at 314.96 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19328,7 +19966,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 314.96 147.32 0)
+			(at 314.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19381,7 +20019,7 @@
 			)
 		)
 		(property "Interface" "SW7 LED"
-			(at 314.96 149.86 0)
+			(at 314.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20352,6 +20990,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 97.79 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 97.79 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
@@ -20506,7 +21162,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mad_Symbols:SK6812MINI-E")
+		(lib_id "keyboard:SK6812MINI-E")
 		(at 314.96 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20516,7 +21172,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbee566d-e773-4d31-af87-b6237981af08")
 		(property "Reference" "D22"
-			(at 314.96 127 0)
+			(at 314.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20524,7 +21180,7 @@
 			)
 		)
 		(property "Value" "SK6812_MINI_E"
-			(at 314.96 129.54 0)
+			(at 314.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20577,7 +21233,7 @@
 			)
 		)
 		(property "Interface" "SW6 LED"
-			(at 314.96 132.08 0)
+			(at 314.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
