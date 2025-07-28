@@ -60,16 +60,36 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|132282500|49330000|89924c0f-aff4-4164-85df-bff5a0a0d02a|0afd08cd-b694-4501-b15d-850c377d0cc1",
-          ""
+          "track_width|167623000|49030500|8a5926da-3055-47e9-b79f-7a4a80eb8d4c|00000000-0000-0000-0000-000000000000",
+          "Excluded, cant route width needed"
         ],
         [
-          "hole_clearance|132282500|49330000|89924c0f-aff4-4164-85df-bff5a0a0d02a|a33fd0bd-dc30-4825-b67a-dc4e44e4e6d4",
-          ""
+          "track_width|168477662|49040000|2fc2b852-3059-4887-a852-90026e9878a9|00000000-0000-0000-0000-000000000000",
+          "Excluded, cant route width needed"
         ],
         [
-          "hole_clearance|138382500|49330000|7f1aab56-3afe-4ba2-80cf-c3a46d040c4a|adc29072-7986-451b-8b8c-e60f487ae05f",
-          ""
+          "track_width|169061676|49458176|7a5358ff-7d7e-4761-b9f3-1f85d3101d3b|00000000-0000-0000-0000-000000000000",
+          "Excluded, cant route width needed"
+        ],
+        [
+          "track_width|169261310|49387352|fe50c4fb-03f1-4f30-b9b7-1cbccc77774c|00000000-0000-0000-0000-000000000000",
+          "Excluded, cant route width needed"
+        ],
+        [
+          "track_width|169480324|48882500|0b2fdc66-aee5-4f0e-9b93-1c2a23958a53|00000000-0000-0000-0000-000000000000",
+          "Excluded, cant route width needed"
+        ],
+        [
+          "track_width|169521296|49256176|c590ca5d-36e1-44a0-961e-1bcc376b59d7|00000000-0000-0000-0000-000000000000",
+          "Excluded, cant route width needed"
+        ],
+        [
+          "track_width|170362662|48725000|c2bfb560-0f7c-47b4-80c2-3a63b1605717|00000000-0000-0000-0000-000000000000",
+          "Excluded, cant route width needed"
+        ],
+        [
+          "track_width|170369986|49125000|e293c434-d06c-4b0c-ba0d-a5c15ec934f2|00000000-0000-0000-0000-000000000000",
+          "Excluded, cant route width needed"
         ]
       ],
       "meta": {
@@ -91,7 +111,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -110,7 +130,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "warning",
+        "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
@@ -674,7 +694,7 @@
         "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -691,7 +711,7 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -699,7 +719,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "track_width": 0.1524,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -710,6 +730,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/PreFilter_USB_D+": [
+        "USB"
+      ],
+      "/PreFilter_USB_D-": [
+        "USB"
+      ],
       "/RP2040/RP2040/USB_D+": [
         "USB"
       ],
@@ -757,7 +783,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "mad_lib/part_library/models/Mad_RP2040.step",
+      "step": "C:/Users/simad/Desktop/Mad_RP2040.step",
       "svg": "",
       "vrml": ""
     },
@@ -802,7 +828,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

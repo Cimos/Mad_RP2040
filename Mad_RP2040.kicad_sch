@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "${TITLE}")
-		(date "2024-08-13")
+		(date "2025-07-28")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 		(comment 1 "${COMMENT1}")
@@ -4081,28 +4081,6 @@
 		)
 		(uuid "aded5f69-3774-4574-93e6-0b328d9c3549")
 	)
-	(text_box "Fix up MCU caps and USB trace routing"
-		(exclude_from_sim no)
-		(at 86.36 99.06 0)
-		(size 100.33 38.1)
-		(margins 0.75 0.75 0.75 0.75)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "f09cdea1-7096-437a-a855-9382693ce845")
-	)
 	(junction
 		(at 134.62 60.96)
 		(diameter 0)
@@ -7179,6 +7157,17 @@
 		)
 		(uuid "1348428a-d377-48bf-93e6-e26a73567f95")
 	)
+	(label "PreFilter_USB_D+"
+		(at 66.04 87.63 0)
+		(effects
+			(font
+				(face "Calibri Light")
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b8932e3-79f9-4610-8227-262db71cef9e")
+	)
 	(label "REA"
 		(at 140.97 114.3 180)
 		(effects
@@ -7648,6 +7637,17 @@
 			(justify left bottom)
 		)
 		(uuid "ac6cec68-e5de-479f-a96b-994bdbe7fcb8")
+	)
+	(label "PreFilter_USB_D-"
+		(at 66.04 85.09 0)
+		(effects
+			(font
+				(face "Calibri Light")
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b38c5d46-becc-4f73-93d0-a5feda5372f0")
 	)
 	(label "GND"
 		(at 326.39 156.21 180)
@@ -10214,150 +10214,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "SW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 20.32 273.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f413cf7-7e00-4438-b769-79a3da90e663")
-		(property "Reference" "FID2"
-			(at 22.86 271.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 22.86 274.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 20.32 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -13377,7 +13233,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 20.32 266.065 0)
+		(at 20.32 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13386,7 +13242,7 @@
 		(fields_autoplaced yes)
 		(uuid "64f4ef0a-0a95-4cec-9289-76f092282c40")
 		(property "Reference" "FID1"
-			(at 22.86 264.7949 0)
+			(at 22.86 276.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13251,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 22.86 267.3349 0)
+			(at 22.86 279.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,8 +13259,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 20.32 266.065 0)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13413,7 +13269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13422,7 +13278,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,7 +13287,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13440,7 +13296,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13449,7 +13305,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,7 +13314,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,7 +13323,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13332,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13485,7 +13341,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,7 +13350,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13503,11 +13359,20 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 20.32 266.065 0)
+			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Config" ""
+			(at 20.32 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -16725,7 +16590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -17012,150 +16877,6 @@
 			(project "Mad_RP2040"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
 					(reference "D51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 20.32 279.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4491496-2c88-408b-8669-0cf66cb70d2b")
-		(property "Reference" "FID3"
-			(at 22.86 278.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 22.86 280.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 20.32 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Mad_RP2040"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -18502,7 +18223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 60.96 74.93 0)
 			(effects
 				(font
