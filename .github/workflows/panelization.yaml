@@ -43,7 +43,7 @@ jobs:
         dir: output
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
-        logfile: 'logfile/logfile.log'
+        logfile: 'logfile/logfile-panel.log'
         verbose: 3
     
     - name: Build panel datapack
@@ -55,14 +55,14 @@ jobs:
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
         logfile: 'logfile/logfile.log'
-        # verbose: 2
+        verbose: 2
 
     - name: Upload logfile
       if: always()
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.PROJECT_NAME }}-panel-logfile
-        path: logfile/logfile.log
+        path: logfile
 
     - name: Upload datapack results
       uses: actions/upload-artifact@v4
