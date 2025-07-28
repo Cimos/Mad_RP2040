@@ -9,5 +9,5 @@ outputs:
       configs:
         - name: base # Keep this name the same
           layout:
-            rows: 3
-            cols: 2
+            rows: 2
+            cols: 1
