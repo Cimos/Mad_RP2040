@@ -7,5 +7,5 @@ import:
 ...
 definitions:
 
-  LAYOUT_ROWS: 2
-  LAYOUT_COLS: 1
+  LAYOUT_ROWS: 1
+  LAYOUT_COLS: 2
