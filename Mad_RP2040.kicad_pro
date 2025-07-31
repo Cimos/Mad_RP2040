@@ -60,36 +60,88 @@
       ],
       "drc_exclusions": [
         [
-          "track_width|167623000|49030500|8a5926da-3055-47e9-b79f-7a4a80eb8d4c|00000000-0000-0000-0000-000000000000",
-          "Excluded, cant route width needed"
+          "hole_clearance|132282500|49330000|ff38a6f7-1a17-4102-af32-1c7e26716ddb|0afd08cd-b694-4501-b15d-850c377d0cc1",
+          ""
         ],
         [
-          "track_width|168477662|49040000|2fc2b852-3059-4887-a852-90026e9878a9|00000000-0000-0000-0000-000000000000",
-          "Excluded, cant route width needed"
+          "hole_clearance|132282500|49330000|ff38a6f7-1a17-4102-af32-1c7e26716ddb|a33fd0bd-dc30-4825-b67a-dc4e44e4e6d4",
+          ""
         ],
         [
-          "track_width|169061676|49458176|7a5358ff-7d7e-4761-b9f3-1f85d3101d3b|00000000-0000-0000-0000-000000000000",
-          "Excluded, cant route width needed"
+          "hole_clearance|138382500|49330000|a56ebff2-131d-4c51-af91-1e46c251990b|8ae7a678-d0a3-49f4-ae45-6af2dcad371c",
+          ""
         ],
         [
-          "track_width|169261310|49387352|fe50c4fb-03f1-4f30-b9b7-1cbccc77774c|00000000-0000-0000-0000-000000000000",
-          "Excluded, cant route width needed"
+          "hole_clearance|138382500|49330000|a56ebff2-131d-4c51-af91-1e46c251990b|adc29072-7986-451b-8b8c-e60f487ae05f",
+          ""
         ],
         [
-          "track_width|169480324|48882500|0b2fdc66-aee5-4f0e-9b93-1c2a23958a53|00000000-0000-0000-0000-000000000000",
-          "Excluded, cant route width needed"
+          "silk_over_copper|132309049|88014303|7b860420-4cbf-4e37-b646-aa260713f08b|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "track_width|169521296|49256176|c590ca5d-36e1-44a0-961e-1bcc376b59d7|00000000-0000-0000-0000-000000000000",
-          "Excluded, cant route width needed"
+          "silk_over_copper|132935512|104454896|f5d63cc0-168c-4798-83aa-14fc68ed1e8e|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "track_width|170362662|48725000|c2bfb560-0f7c-47b4-80c2-3a63b1605717|00000000-0000-0000-0000-000000000000",
-          "Excluded, cant route width needed"
+          "silk_over_copper|133102603|125628012|4a98e0a8-4a7a-4641-80a8-8c58aeb2f55e|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "track_width|170369986|49125000|e293c434-d06c-4b0c-ba0d-a5c15ec934f2|00000000-0000-0000-0000-000000000000",
-          "Excluded, cant route width needed"
+          "silk_over_copper|134074214|69132961|2d50bb3c-f519-43ce-b389-076ff2368d56|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|139796230|54298730|4ee76a78-f7d6-492d-8f5a-6fc404004f13|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|146359049|104864303|a8421563-3c81-490d-8a8a-1e1b3e225ee2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|146359049|66764303|66100a99-1b68-4097-a05d-9448b6be223e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|152152603|125628012|0266a4bc-d060-464d-955d-955eef3ffef7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|152152603|87528012|dc266962-8d90-47af-a857-460685eb9d91|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|164939348|66801270|13064d5c-1fb8-4ecf-8ecd-1891df68a7f7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|169705950|123185696|94999b92-69f8-47d5-8225-b0e51a106acf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|170409049|107064303|2a8fd021-c94d-4fc8-84bd-54903ec03892|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|171035512|85404896|85ddae2c-b71a-4342-a3d9-4d373e16c37c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|184459049|66764303|f26b46bf-d208-4d13-88b2-0753ab40e034|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|188755950|123185696|8e1d4957-81ee-4d5b-8a5f-b855da1d8e41|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|188755950|85085696|7170467c-660d-4774-8e87-ce8fe8fbdeaf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|189459049|107064303|3a580328-5fc1-44f0-8749-23700de7cacb|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -175,7 +227,7 @@
         "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -834,13 +886,13 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -852,7 +904,7 @@
           "group_by": false,
           "label": "Config",
           "name": "Config",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -894,7 +946,7 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -912,19 +964,19 @@
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier PN",
           "name": "Supplier PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",

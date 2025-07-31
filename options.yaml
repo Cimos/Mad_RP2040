@@ -4,5 +4,4 @@ kibot:
 preflight:
   run_erc: false
   run_drc: false
-  check_zone_fills: false
   

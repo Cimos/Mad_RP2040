@@ -2180,7 +2180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2198,7 +2198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "27 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "RC0603FR-0727RL"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2225,7 +2225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2234,7 +2234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 27 OHM 1%  1/16W 0402"
+		(property "Rating" "RES 27 OHM 1%  1/16W 0603"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2252,7 +2252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "YAG3086CT-ND"
+		(property "Supplier PN" "311-27.0HRCT-ND"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2678,7 +2678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2696,7 +2696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "27 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2705,7 +2705,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "RC0603FR-0727RL"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 27 OHM 1%  1/16W 0402"
+		(property "Rating" "RES 27 OHM 1%  1/16W 0603"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2750,7 +2750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "YAG3086CT-ND"
+		(property "Supplier PN" "311-27.0HRCT-ND"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 205.232 100.33 90)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -3027,7 +3027,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-075K1L"
+		(property "MPN" "RC0603FR-075K1L"
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -3036,7 +3036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -3045,7 +3045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 5.1K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 5.1K OHM 1% 1/10W 0603"
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-5.10KLRCT-ND"
+		(property "Supplier PN" "311-5.10KHRCT-ND"
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -3310,7 +3310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 205.232 82.55 90)
 			(effects
 				(font
@@ -3328,7 +3328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-075K1L"
+		(property "MPN" "RC0603FR-075K1L"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -3355,7 +3355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -3364,7 +3364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 5.1K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 5.1K OHM 1% 1/10W 0603"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-5.10KLRCT-ND"
+		(property "Supplier PN" "311-5.10KHRCT-ND"
 			(at 207.01 82.55 0)
 			(effects
 				(font

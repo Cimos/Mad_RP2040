@@ -2711,6 +2711,19 @@
 		)
 		(uuid "d47e945b-b840-4366-9a1e-36e7f24bb86a")
 	)
+	(text "BOM consolidation: Change 51Ks to 10Ks if possible"
+		(exclude_from_sim no)
+		(at 144.78 184.15 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "e00bcc10-e62b-45f8-a61c-3d4034f08565")
+	)
 	(text "RC delay"
 		(exclude_from_sim no)
 		(at 69.85 172.72 0)
@@ -5462,7 +5475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 35.56 0)
 			(effects
 				(font
@@ -5480,7 +5493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 142.24 35.56 0)
 			(effects
 				(font
@@ -5489,7 +5502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 142.24 35.56 0)
 			(effects
 				(font
@@ -5507,7 +5520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 142.24 35.56 0)
 			(effects
 				(font
@@ -5516,7 +5529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 142.24 35.56 0)
 			(effects
 				(font
@@ -5534,7 +5547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 142.24 35.56 0)
 			(effects
 				(font
@@ -5799,7 +5812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -5817,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -5826,7 +5839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -5844,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 10K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 10K OHM 1% 1/16W 0603"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -5862,7 +5875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-10.0KLRCT-ND"
+		(property "Supplier PN" "311-10.0KHRCT-ND"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -5880,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -6304,7 +6317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -6322,7 +6335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -6331,7 +6344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -6349,7 +6362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 10K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 10K OHM 1% 1/16W 0603"
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -6367,7 +6380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-10.0KLRCT-ND"
+		(property "Supplier PN" "311-10.0KHRCT-ND"
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -6385,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 48.26 187.96 0)
 			(effects
 				(font
@@ -6644,7 +6657,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -6662,7 +6675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -6671,7 +6684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -6689,7 +6702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -6707,7 +6720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -6725,7 +6738,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -7148,7 +7161,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -7166,7 +7179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -7175,7 +7188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -7193,7 +7206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -7202,7 +7215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -7220,7 +7233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -7662,7 +7675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.61 116.84 0)
 			(effects
 				(font
@@ -7680,7 +7693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 54.61 116.84 0)
 			(effects
 				(font
@@ -7689,7 +7702,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 54.61 116.84 0)
 			(effects
 				(font
@@ -7707,7 +7720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 54.61 116.84 0)
 			(effects
 				(font
@@ -7716,7 +7729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 54.61 116.84 0)
 			(effects
 				(font
@@ -7734,7 +7747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 54.61 116.84 0)
 			(effects
 				(font
@@ -7992,7 +8005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -8010,7 +8023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -8019,7 +8032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -8037,7 +8050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -8046,7 +8059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -8064,7 +8077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -8149,7 +8162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 223.52 35.56 0)
 			(effects
 				(font
@@ -8167,7 +8180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 223.52 35.56 0)
 			(effects
 				(font
@@ -8176,7 +8189,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 223.52 35.56 0)
 			(effects
 				(font
@@ -8194,7 +8207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 223.52 35.56 0)
 			(effects
 				(font
@@ -8203,7 +8216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 223.52 35.56 0)
 			(effects
 				(font
@@ -8221,7 +8234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 223.52 35.56 0)
 			(effects
 				(font
@@ -8300,7 +8313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.74 187.96 0)
 			(effects
 				(font
@@ -8318,7 +8331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "51 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 78.74 187.96 0)
 			(effects
 				(font
@@ -8327,7 +8340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 78.74 187.96 0)
 			(effects
 				(font
@@ -8345,7 +8358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 51K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 51K OHM 1% 1/16W 0603"
 			(at 78.74 187.96 0)
 			(effects
 				(font
@@ -8363,7 +8376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-51.0KLRCT-ND"
+		(property "Supplier PN" "311-51.0KHRCT-ND"
 			(at 78.74 187.96 0)
 			(effects
 				(font
@@ -8381,7 +8394,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0751KL"
+		(property "MPN" "RC0603FR-0751KL"
 			(at 78.74 187.96 0)
 			(effects
 				(font
@@ -8468,7 +8481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -8486,7 +8499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -8495,7 +8508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -8513,7 +8526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -8531,7 +8544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -8549,7 +8562,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -8628,7 +8641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 35.56 0)
 			(effects
 				(font
@@ -8646,7 +8659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 165.1 35.56 0)
 			(effects
 				(font
@@ -8655,7 +8668,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 165.1 35.56 0)
 			(effects
 				(font
@@ -8673,7 +8686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 165.1 35.56 0)
 			(effects
 				(font
@@ -8682,7 +8695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 165.1 35.56 0)
 			(effects
 				(font
@@ -8700,7 +8713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 165.1 35.56 0)
 			(effects
 				(font
@@ -8785,7 +8798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -8803,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -8812,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -8830,7 +8843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -8839,7 +8852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -8857,7 +8870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -9107,7 +9120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9125,7 +9138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9134,7 +9147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9152,7 +9165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 1K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 1K OHM 1% 1/16W 0603"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9170,7 +9183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-1.00KLRCT-ND"
+		(property "Supplier PN" "311-1.00KHRCT-ND"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9188,7 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-071KL"
+		(property "MPN" "RC0603FR-071KL"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -9280,7 +9293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9298,7 +9311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "51 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9307,7 +9320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9325,7 +9338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 51K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 51K OHM 1% 1/16W 0603"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9343,7 +9356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-51.0KLRCT-ND"
+		(property "Supplier PN" "311-51.0KHRCT-ND"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9361,7 +9374,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0751KL"
+		(property "MPN" "RC0603FR-0751KL"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -9455,7 +9468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -9473,7 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -9482,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -9500,7 +9513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -9509,7 +9522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -9527,7 +9540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -9606,7 +9619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -9624,7 +9637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -9633,7 +9646,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -9651,7 +9664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -9660,7 +9673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -9678,7 +9691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -9757,7 +9770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -9775,7 +9788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "51 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -9784,7 +9797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -9802,7 +9815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 51K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 51K OHM 1% 1/16W 0603"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -9820,7 +9833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-51.0KLRCT-ND"
+		(property "Supplier PN" "311-51.0KHRCT-ND"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -9838,7 +9851,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0751KL"
+		(property "MPN" "RC0603FR-0751KL"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -10086,7 +10099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10104,7 +10117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10113,7 +10126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10131,7 +10144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 10K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 10K OHM 1% 1/16W 0603"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10149,7 +10162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-10.0KLRCT-ND"
+		(property "Supplier PN" "311-10.0KHRCT-ND"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10167,7 +10180,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10258,7 +10271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -10276,7 +10289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -10285,7 +10298,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-071KL"
+		(property "MPN" "RC0603FR-071KL"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -10303,7 +10316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16"
+		(property "Price" "$0.10 "
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -10312,7 +10325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "RES 1K OHM 1% 1/16W 0402"
+		(property "Rating" "RES 1K OHM 1% 1/16W 0603"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -10330,7 +10343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-1.00KLRCT-ND"
+		(property "Supplier PN" "311-1.00KHRCT-ND"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -10409,7 +10422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -10427,7 +10440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -10436,7 +10449,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KPX7R9BB104"
+		(property "MPN" "CC0603KPX7R9BB104"
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -10454,7 +10467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.17"
+		(property "Price" "$0.10 "
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -10463,7 +10476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP 0402 50V 100 NF X7R"
+		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -10481,7 +10494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+		(property "Supplier PN" "311-3567-1-ND"
 			(at 176.53 35.56 0)
 			(effects
 				(font

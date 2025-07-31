@@ -2,7 +2,7 @@ kibot:
   version: 1
 
 import:
-  - file: kibot-config/build.panelization.base.yaml
+  - file: kibot-config/panelization-base.yaml
 
 ...
 definitions:
