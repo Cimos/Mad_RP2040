@@ -65,6 +65,7 @@ jobs:
         path: logfile
 
     - name: Upload datapack results
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.PROJECT_NAME }}-panel-datapack

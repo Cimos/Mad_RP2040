@@ -44,8 +44,9 @@ jobs:
       with:
         name: ${{ env.PROJECT_NAME }}-logfile
         path: logfile
-      
+
     - name: Upload Results
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.PROJECT_NAME }}-datapack
