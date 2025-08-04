@@ -2711,19 +2711,6 @@
 		)
 		(uuid "d47e945b-b840-4366-9a1e-36e7f24bb86a")
 	)
-	(text "BOM consolidation: Change 51Ks to 10Ks if possible"
-		(exclude_from_sim no)
-		(at 144.78 184.15 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "e00bcc10-e62b-45f8-a61c-3d4034f08565")
-	)
 	(text "RC delay"
 		(exclude_from_sim no)
 		(at 69.85 172.72 0)
