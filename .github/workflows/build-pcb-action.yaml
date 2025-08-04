@@ -32,22 +32,21 @@ jobs:
       uses: Cimos/kibot-config@main
       with:
         config: kibot-config/build-pcb-kibot.yaml
-        dir: output
+        dir: output_pcb
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
-        logfile: 'logfile/logfile.log'
+        logfile: 'logfile_pcb/logfile.log'
         # verbose: 2
 
     - name: Upload logfile
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.PROJECT_NAME }}-logfile
-        path: logfile
+        name: ${{ env.PROJECT_NAME }}-pcb-logfile
+        path: logfile_pcb
 
-    - name: Upload Results
-      if: always()
+    - name: Upload PCB Datapack
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.PROJECT_NAME }}-datapack
-        path: output
+        name: ${{ env.PROJECT_NAME }}-pcb-datapack
+        path: output_pcb
