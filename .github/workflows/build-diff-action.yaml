@@ -1,8 +1,9 @@
 name: Build PCB Diff
 on:
   push:
-    branches:
-      - '**'
+    branches-ignore:
+      - master
+
   pull_request:
     branches:
       - master

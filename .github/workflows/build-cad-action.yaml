@@ -36,7 +36,6 @@ jobs:
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
         logfile: 'logfile_cad/logfile.log'
-        verbose: 2
 
     - name: Upload 3D Models logfile
       if: always()

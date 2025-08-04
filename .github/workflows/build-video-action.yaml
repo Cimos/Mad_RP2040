@@ -2,10 +2,10 @@ name: Generate Video Frames
 on:
   push:
     branches:
-      - '**'
-  pull_request:
-    branches:
       - master
+  # pull_request:
+  #   branches:
+  #     - master
 
 jobs:
   build:
