@@ -18452,7 +18452,7 @@
 			(net 10 "Net-(D1-A)")
 			(pinfunction "S1")
 			(pintype "passive")
-			(uuid "d37aa733-3454-4a80-9a72-bae45d57b410")
+			(uuid "7f459442-dda1-4025-9401-bca9de9aec15")
 		)
 		(pad "S2" smd rect
 			(at -3.1 -5.9)
@@ -18472,7 +18472,7 @@
 			(net 28 "/Col0")
 			(pinfunction "S2")
 			(pintype "passive")
-			(uuid "4ce05a8c-9961-4031-8c18-8cf7957ffff7")
+			(uuid "751b2640-036b-4984-82d6-ae1fd23606fc")
 		)
 		(embedded_fonts no)
 		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"

@@ -7990,15 +7990,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 337.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 337.82 91.44 0)
 			(effects
@@ -8017,15 +8008,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 337.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 337.82 91.44 0)
 			(effects
@@ -8035,12 +8017,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 337.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 337.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8155,25 +8147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 285.75 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 285.75 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 285.75 119.38 0)
 			(effects
 				(font
@@ -8191,15 +8165,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 285.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "C5149201"
+			(at 285.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 285.75 119.38 0)
 			(effects
 				(font
@@ -8327,24 +8311,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 346.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 346.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 346.71 91.44 0)
 			(effects
@@ -8354,20 +8320,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 346.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 346.71 87.63 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 346.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 346.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8542,15 +8518,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-1869-1-ND"
-			(at 134.62 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 134.62 55.88 0)
 			(effects
@@ -8569,15 +8536,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 134.62 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2932476"
 			(at 134.62 55.88 0)
 			(effects
@@ -8587,12 +8545,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1869-1-ND"
 			(at 134.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "603-CC805KKX5R8BB106"
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8769,15 +8737,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 327.66 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 327.66 186.69 0)
 			(effects
@@ -8805,12 +8764,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 327.66 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 327.66 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -8977,15 +8946,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C2886570"
-			(at 299.72 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
 			(at 299.72 193.04 0)
 			(effects
@@ -9013,15 +8973,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 299.72 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "C2886570"
+			(at 299.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 299.72 193.04 0)
 			(effects
 				(font
@@ -9148,25 +9118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 285.75 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 285.75 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 285.75 154.94 0)
 			(effects
 				(font
@@ -9184,12 +9136,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 285.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 285.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9311,24 +9273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 375.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 375.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 375.92 66.04 0)
 			(effects
@@ -9338,20 +9282,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 375.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 375.92 62.23 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 375.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 375.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9532,25 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 373.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 373.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 373.38 119.38 0)
 			(effects
 				(font
@@ -9568,12 +9504,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 373.38 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 373.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9688,15 +9634,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 97.79 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 97.79 273.05 0)
 			(effects
@@ -9715,14 +9652,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 97.79 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 97.79 273.05 0)
 			(effects
@@ -9733,6 +9662,24 @@
 			)
 		)
 		(property "Config" ""
+			(at 97.79 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 97.79 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 97.79 273.05 0)
 			(effects
 				(font
@@ -9839,15 +9786,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 337.82 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 337.82 53.34 0)
 			(effects
@@ -9866,15 +9804,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 337.82 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 337.82 53.34 0)
 			(effects
@@ -9884,12 +9813,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 337.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 337.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10005,24 +9944,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 346.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 346.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 346.71 78.74 0)
 			(effects
@@ -10032,20 +9953,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 346.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 346.71 74.93 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 346.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 346.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10161,24 +10092,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 346.71 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 346.71 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 346.71 66.04 0)
 			(effects
@@ -10188,20 +10101,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 346.71 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 346.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 346.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 346.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10308,15 +10231,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "2073-USB4105-GF-ACT-ND"
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "GCT"
 			(at 41.91 85.09 0)
 			(effects
@@ -10335,15 +10249,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C3020560"
 			(at 41.91 85.09 0)
 			(effects
@@ -10353,12 +10258,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "2073-USB4105-GF-ACT-ND"
 			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "640-USB4105-GF-A-120"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "A1"
@@ -10512,15 +10427,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 74.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 74.93 59.69 0)
 			(effects
@@ -10539,15 +10445,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 74.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 74.93 59.69 0)
 			(effects
@@ -10557,12 +10454,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 74.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10671,15 +10578,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 38.1 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 38.1 270.51 0)
 			(effects
@@ -10707,12 +10605,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 38.1 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 38.1 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -10824,25 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 344.17 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 344.17 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 344.17 172.72 0)
 			(effects
 				(font
@@ -10860,12 +10750,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 344.17 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 344.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10986,25 +10886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 373.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 373.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 373.38 154.94 0)
 			(effects
 				(font
@@ -11022,12 +10904,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 373.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 373.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11148,25 +11040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 285.75 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 285.75 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 285.75 137.16 0)
 			(effects
 				(font
@@ -11184,12 +11058,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 285.75 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 285.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11302,15 +11186,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 279.4 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 279.4 53.34 0)
 			(effects
@@ -11329,15 +11204,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 279.4 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 279.4 53.34 0)
 			(effects
@@ -11347,12 +11213,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 279.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 279.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11459,15 +11335,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 367.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 367.03 78.74 0)
 			(effects
@@ -11486,15 +11353,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 367.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 367.03 78.74 0)
 			(effects
@@ -11504,12 +11362,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 367.03 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 367.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11625,24 +11493,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 288.29 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 288.29 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 288.29 66.04 0)
 			(effects
@@ -11652,20 +11502,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 288.29 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 288.29 62.23 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 288.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 288.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11772,15 +11632,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 367.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 367.03 91.44 0)
 			(effects
@@ -11799,15 +11650,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 367.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 367.03 91.44 0)
 			(effects
@@ -11817,12 +11659,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 367.03 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 367.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11928,15 +11780,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C2886570"
-			(at 299.72 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
 			(at 299.72 228.6 0)
 			(effects
@@ -11964,12 +11807,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C2886570"
 			(at 299.72 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 299.72 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -12083,15 +11936,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "490-5220-1-ND"
-			(at 88.9 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 88.9 110.49 0)
 			(effects
@@ -12110,15 +11954,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 88.9 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C160974"
 			(at 88.9 110.49 0)
 			(effects
@@ -12128,12 +11963,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 88.9 110.49 0)
+		(property "digikey" "490-5220-1-ND"
+			(at 88.9 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "81-BLM18PG330SN1D"
+			(at 88.9 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12242,15 +12087,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 358.14 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 358.14 209.55 0)
 			(effects
@@ -12278,12 +12114,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 358.14 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 358.14 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -12384,15 +12230,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 308.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 308.61 53.34 0)
 			(effects
@@ -12411,15 +12248,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 308.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 308.61 53.34 0)
 			(effects
@@ -12429,12 +12257,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 308.61 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 308.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12550,24 +12388,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 375.92 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 375.92 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 375.92 78.74 0)
 			(effects
@@ -12577,20 +12397,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 375.92 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 375.92 74.93 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 375.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 375.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12696,15 +12526,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C2886570"
-			(at 358.14 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
 			(at 358.14 228.6 0)
 			(effects
@@ -12732,12 +12553,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C2886570"
 			(at 358.14 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 358.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -12850,15 +12681,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 279.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 279.4 91.44 0)
 			(effects
@@ -12877,15 +12699,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 279.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 279.4 91.44 0)
 			(effects
@@ -12895,12 +12708,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 279.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 279.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13016,24 +12839,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 317.5 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 317.5 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 317.5 91.44 0)
 			(effects
@@ -13043,20 +12848,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 317.5 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 317.5 87.63 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 317.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 317.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13163,15 +12978,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 279.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 279.4 66.04 0)
 			(effects
@@ -13190,15 +12996,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 279.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 279.4 66.04 0)
 			(effects
@@ -13208,12 +13005,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 279.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 279.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13322,15 +13129,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 20.32 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 20.32 278.13 0)
 			(effects
@@ -13358,15 +13156,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 20.32 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" ""
+			(at 20.32 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 20.32 278.13 0)
 			(effects
 				(font
@@ -13475,15 +13283,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 123.19 55.88 0)
 			(effects
@@ -13511,15 +13310,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 123.19 55.88 0)
 			(effects
@@ -13529,12 +13319,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 123.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13650,24 +13450,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 288.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 288.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 288.29 78.74 0)
 			(effects
@@ -13677,20 +13459,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 288.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 288.29 74.93 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 288.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 288.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13799,15 +13591,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 74.93 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 74.93 275.59 0)
 			(effects
@@ -13826,15 +13609,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 74.93 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" ""
 			(at 74.93 275.59 0)
 			(effects
@@ -13844,12 +13618,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 74.93 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 74.93 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -14081,15 +13865,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 327.66 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 327.66 222.25 0)
 			(effects
@@ -14117,12 +13892,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 327.66 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 327.66 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -14289,15 +14074,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 337.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 337.82 78.74 0)
 			(effects
@@ -14316,15 +14092,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 337.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 337.82 78.74 0)
 			(effects
@@ -14334,12 +14101,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 337.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 337.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14520,25 +14297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 314.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 314.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 314.96 154.94 0)
 			(effects
 				(font
@@ -14556,12 +14315,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 314.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14682,25 +14451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 344.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 344.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 344.17 119.38 0)
 			(effects
 				(font
@@ -14718,12 +14469,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 344.17 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 344.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14836,15 +14597,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 279.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 279.4 78.74 0)
 			(effects
@@ -14863,15 +14615,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 279.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 279.4 78.74 0)
 			(effects
@@ -14881,12 +14624,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 279.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 279.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14993,15 +14746,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 367.03 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 367.03 66.04 0)
 			(effects
@@ -15020,15 +14764,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 367.03 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 367.03 66.04 0)
 			(effects
@@ -15038,12 +14773,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 367.03 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 367.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15161,25 +14906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 373.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 373.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 373.38 172.72 0)
 			(effects
 				(font
@@ -15197,12 +14924,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 373.38 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 373.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15324,24 +15061,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 288.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 288.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 288.29 91.44 0)
 			(effects
@@ -15351,20 +15070,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 288.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 288.29 87.63 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 288.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 288.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15550,25 +15279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 285.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 285.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 285.75 172.72 0)
 			(effects
 				(font
@@ -15586,12 +15297,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 285.75 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 285.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15706,15 +15427,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 69.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 69.85 59.69 0)
 			(effects
@@ -15733,15 +15445,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 69.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 69.85 59.69 0)
 			(effects
@@ -15751,12 +15454,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15874,25 +15587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 314.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 314.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 314.96 172.72 0)
 			(effects
 				(font
@@ -15910,12 +15605,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 314.96 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 314.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16028,15 +15733,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 367.03 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 367.03 53.34 0)
 			(effects
@@ -16055,15 +15751,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 367.03 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 367.03 53.34 0)
 			(effects
@@ -16073,12 +15760,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 367.03 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 367.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16184,15 +15881,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C2886570"
-			(at 327.66 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
 			(at 327.66 210.82 0)
 			(effects
@@ -16220,12 +15908,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C2886570"
 			(at 327.66 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 327.66 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -16347,24 +16045,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 375.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 375.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 375.92 53.34 0)
 			(effects
@@ -16374,20 +16054,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 375.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 375.92 49.53 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 375.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 375.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16496,15 +16186,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 153.67 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 153.67 81.28 0)
 			(effects
@@ -16533,6 +16214,24 @@
 			)
 		)
 		(property "Config" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 153.67 81.28 0)
 			(effects
 				(font
@@ -16644,15 +16343,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-5.10KHRCT-ND"
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 60.96 77.47 0)
 			(effects
@@ -16680,15 +16370,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C105872"
 			(at 60.96 77.47 0)
 			(effects
@@ -16698,12 +16379,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 60.96 77.47 0)
+		(property "digikey" "311-5.10KHRCT-ND"
+			(at 60.96 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "603-RC0603FR-075K1L"
+			(at 60.96 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16817,25 +16508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 373.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 373.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 373.38 137.16 0)
 			(effects
 				(font
@@ -16853,12 +16526,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 373.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 373.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16979,25 +16662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 344.17 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 344.17 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 344.17 137.16 0)
 			(effects
 				(font
@@ -17015,12 +16680,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 344.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 344.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17135,15 +16810,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 97.79 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 97.79 267.97 0)
 			(effects
@@ -17162,14 +16828,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 97.79 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 97.79 267.97 0)
 			(effects
@@ -17180,6 +16838,24 @@
 			)
 		)
 		(property "Config" ""
+			(at 97.79 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 97.79 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 97.79 267.97 0)
 			(effects
 				(font
@@ -17286,15 +16962,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "497-10773-1-ND"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "STMicroelectronics"
 			(at 88.9 87.63 0)
 			(effects
@@ -17313,15 +16980,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2651144"
 			(at 88.9 87.63 0)
 			(effects
@@ -17331,12 +16989,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "497-10773-1-ND"
 			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "511-ECMF02-2AMX6"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -17456,15 +17124,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "455-SM03B-GHS-TBCT-ND"
-			(at 27.94 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "JST Sales America Inc."
 			(at 27.94 173.99 0)
 			(effects
@@ -17493,6 +17152,24 @@
 			)
 		)
 		(property "Config" ""
+			(at 27.94 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "455-SM03B-GHS-TBCT-ND"
+			(at 27.94 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "306-SM03BGHSTBLFSN"
 			(at 27.94 173.99 0)
 			(effects
 				(font
@@ -17611,15 +17288,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 337.82 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 337.82 66.04 0)
 			(effects
@@ -17638,15 +17306,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 337.82 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 337.82 66.04 0)
 			(effects
@@ -17656,12 +17315,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 337.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 337.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17897,15 +17566,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "490-5220-1-ND"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 88.9 50.8 0)
 			(effects
@@ -17924,15 +17584,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C160974"
 			(at 88.9 50.8 0)
 			(effects
@@ -17942,12 +17593,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 88.9 50.8 0)
+		(property "digikey" "490-5220-1-ND"
+			(at 88.9 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "81-BLM18PG330SN1D"
+			(at 88.9 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18131,24 +17792,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 317.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 317.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 317.5 66.04 0)
 			(effects
@@ -18158,20 +17801,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 317.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 317.5 62.23 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 317.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 317.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18295,24 +17948,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-5.10KHRCT-ND"
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C105872"
 			(at 60.96 74.93 0)
 			(effects
@@ -18320,14 +17955,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Interface" ""
@@ -18341,6 +17968,24 @@
 		)
 		(property "Config" ""
 			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "311-5.10KHRCT-ND"
+			(at 60.96 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "603-RC0603FR-075K1L"
+			(at 60.96 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18461,24 +18106,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 317.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 317.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 317.5 53.34 0)
 			(effects
@@ -18488,20 +18115,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 317.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 317.5 49.53 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 317.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 317.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18617,24 +18254,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 346.71 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 346.71 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 346.71 53.34 0)
 			(effects
@@ -18644,20 +18263,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 346.71 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 346.71 49.53 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18766,15 +18395,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 153.67 78.74 0)
 			(effects
@@ -18803,6 +18423,24 @@
 			)
 		)
 		(property "Config" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 153.67 78.74 0)
 			(effects
 				(font
@@ -18913,15 +18551,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C2886570"
-			(at 358.14 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
 			(at 358.14 193.04 0)
 			(effects
@@ -18949,15 +18578,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 358.14 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "C2886570"
+			(at 358.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 358.14 193.04 0)
 			(effects
 				(font
@@ -19076,15 +18715,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 308.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 308.61 91.44 0)
 			(effects
@@ -19103,15 +18733,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 308.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 308.61 91.44 0)
 			(effects
@@ -19121,12 +18742,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 308.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 308.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19235,15 +18866,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 97.79 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 97.79 262.89 0)
 			(effects
@@ -19262,14 +18884,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 97.79 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 97.79 262.89 0)
 			(effects
@@ -19280,6 +18894,24 @@
 			)
 		)
 		(property "Config" ""
+			(at 97.79 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 97.79 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 97.79 262.89 0)
 			(effects
 				(font
@@ -19453,15 +19085,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 299.72 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 299.72 207.01 0)
 			(effects
@@ -19489,12 +19112,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 299.72 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 299.72 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -19603,25 +19236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 344.17 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 344.17 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 344.17 154.94 0)
 			(effects
 				(font
@@ -19639,12 +19254,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 344.17 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 344.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19765,25 +19390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 314.96 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 314.96 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 314.96 137.16 0)
 			(effects
 				(font
@@ -19801,12 +19408,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 314.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 314.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19928,24 +19545,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 317.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 317.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 317.5 78.74 0)
 			(effects
@@ -19955,20 +19554,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 317.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 317.5 74.93 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 317.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 317.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20204,15 +19813,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 308.61 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 308.61 78.74 0)
 			(effects
@@ -20231,15 +19831,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 308.61 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 308.61 78.74 0)
 			(effects
@@ -20249,12 +19840,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 308.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 308.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20370,24 +19971,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 375.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
-			(at 375.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 375.92 91.44 0)
 			(effects
@@ -20397,20 +19980,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 375.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Config" "-LCSC_BOM"
 			(at 375.92 87.63 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
+			)
+		)
+		(property "digikey" "1528-4958-ND"
+			(at 375.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 375.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20517,15 +20110,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 308.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 308.61 66.04 0)
 			(effects
@@ -20544,15 +20128,6 @@
 				(hide yes)
 			)
 		)
-		(property "Substitute" ""
-			(at 308.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C435829"
 			(at 308.61 66.04 0)
 			(effects
@@ -20562,12 +20137,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 308.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 308.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20676,15 +20261,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 97.79 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 97.79 278.13 0)
 			(effects
@@ -20703,14 +20279,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 97.79 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 97.79 278.13 0)
 			(effects
@@ -20721,6 +20289,24 @@
 			)
 		)
 		(property "Config" ""
+			(at 97.79 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 97.79 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 97.79 278.13 0)
 			(effects
 				(font
@@ -20829,15 +20415,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 38.1 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 38.1 278.13 0)
 			(effects
@@ -20865,12 +20442,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 38.1 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 38.1 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -20979,25 +20566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 314.96 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
-			(at 314.96 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitute" ""
 			(at 314.96 119.38 0)
 			(effects
 				(font
@@ -21015,12 +20584,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C5149201"
 			(at 314.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 314.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21099,14 +20678,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 288.29 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Price" ""
 			(at 288.29 45.72 0)
 			(effects
@@ -21135,15 +20706,6 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 288.29 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" ""
 			(at 288.29 45.72 0)
 			(effects
 				(font
@@ -21181,6 +20743,24 @@
 		)
 		(property "Config" "-LCSC_BOM"
 			(at 288.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 288.29 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 288.29 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
