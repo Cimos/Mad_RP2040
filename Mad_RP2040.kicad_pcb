@@ -425,12 +425,25 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e922da62-1b41-4202-9a7c-15cc796c73fa")
+			(uuid "70fe0ece-6c15-4521-8499-10c569b9cedb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f7e5f37-65a1-4451-af1c-1e2657f53a2f")
 			(effects
 				(font
 					(size 1 1)
@@ -628,19 +641,6 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "474bfae8-c6a3-45e8-849d-f5b012ebb2a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -660,6 +660,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7de77135-612d-4c97-9d52-569bde256b19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49607941-ad23-4922-9b47-beec2c450b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "303f3275-6328-470e-8177-eef92fe775a4")
 			(effects
 				(font
 					(size 1 1)
@@ -867,19 +893,6 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f62bd1a-fb65-41e9-824e-75a8d59009ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -899,6 +912,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0507271-4735-4634-a519-238c7bc10c99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fe64ab1-7d0d-4f09-b4bb-759f8cba8428")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2b100a3-b838-4262-98c9-d2ee0f08bfc9")
 			(effects
 				(font
 					(size 1 1)
@@ -1106,19 +1145,6 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ac637e9-6fe0-41d9-a01e-95201eb0c6af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -1138,6 +1164,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43338e9c-a5c2-40a0-a6ad-0aad0e906901")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5817ff01-2859-4daf-a5a4-aae5bc472704")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a65e1fc-cf25-4ab1-b926-4341d19aaaf7")
 			(effects
 				(font
 					(size 1 1)
@@ -1375,12 +1427,25 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66f588e0-ec61-4442-8906-3b4a8e0ca57c")
+			(uuid "c184126a-b8cf-41e4-b769-e621f3227e54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dffa2dc-141e-419f-921f-fba7b8055bcc")
 			(effects
 				(font
 					(size 1 1)
@@ -1559,6 +1624,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "60a628e9-381a-4c83-99b3-e7d4ec4ed6e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "676edb68-0f99-4e31-bd12-c638f52bfcdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42ae219b-04e0-4dc0-9145-75099c219c2a")
 			(effects
 				(font
 					(size 1 1)
@@ -1963,12 +2054,12 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "addade14-2ca2-4d92-bb17-f295e039418f")
+			(uuid "0a726ea1-0175-4ab4-89e2-25dbe19bcff1")
 			(effects
 				(font
 					(size 1 1)
@@ -1976,12 +2067,25 @@
 				)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a726ea1-0175-4ab4-89e2-25dbe19bcff1")
+			(uuid "ddc4db27-bdbb-4d9a-a7e9-53066702e2bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21a45040-82a7-41ab-8197-e2e0f8bac409")
 			(effects
 				(font
 					(size 1 1)
@@ -2451,19 +2555,6 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d502ad7-490e-4f88-ad19-0f993bc9a920")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2483,6 +2574,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "286e4ae7-4c59-46bd-b074-7020e591f0cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ae5daf6-0ced-43e8-8736-11182a6bc188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e1bc10b-adc3-4b29-92cc-dd17539957f2")
 			(effects
 				(font
 					(size 1 1)
@@ -2706,12 +2823,25 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a719a5ca-827a-4d31-869d-6a42f79d8c5e")
+			(uuid "a96c254b-6556-4a62-a5c1-6f0c3d0d5a4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c2077f7-8b21-46d4-8e79-c0abc4e0132a")
 			(effects
 				(font
 					(size 1 1)
@@ -2931,6 +3061,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "568918c4-3b09-4dac-b5b4-e875f60f2782")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8efe13c0-2ea4-4bfb-b39b-f7881b8f8c47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be960810-bd3a-4b57-a1a0-549b7224b1ff")
 			(effects
 				(font
 					(size 1 1)
@@ -3340,6 +3496,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cf89cb64-26e2-4353-9578-13636af59639")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "digikey" "455-SM03B-GHS-TBCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0e1c4115-24d1-443c-aecc-724b24290c29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "306-SM03BGHSTBLFSN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6f438d41-5ad4-428f-a922-74029ad604d0")
 			(effects
 				(font
 					(size 1 1)
@@ -3877,12 +4061,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b4461d6a-5b65-4f13-b155-31d0b68f029e")
+			(uuid "b376013c-250b-42ae-b2a9-a801e58975e7")
 			(effects
 				(font
 					(size 1 1)
@@ -3891,12 +4075,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b376013c-250b-42ae-b2a9-a801e58975e7")
+			(uuid "72e82210-f35c-4b7c-92c1-eb04a81dc617")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b26e394c-7877-4a66-b959-f940484f9cea")
 			(effects
 				(font
 					(size 1 1)
@@ -4288,12 +4486,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dc49ad3f-bb76-4fbf-b396-a04fdc3ae198")
+			(uuid "c2834806-81aa-4603-b9f3-c3ca76f9ff7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a4c8198-55a0-451b-8784-ac79fb4044d8")
 			(effects
 				(font
 					(size 1 1)
@@ -4634,12 +4846,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "789d362c-61b6-43f4-b992-471cf2a54297")
+			(uuid "378e06d2-6abf-410d-b7b2-4cbd228a7481")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1cb2d63f-5946-4fb9-9036-dd7ffb05bfe4")
 			(effects
 				(font
 					(size 1 1)
@@ -5062,12 +5288,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "56185a08-2135-4cc9-8843-93c4973ff9be")
+			(uuid "7b08eec3-59e7-446e-b8bd-e77a8774775e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d0781c64-caca-45cf-9904-2e96830ba0db")
 			(effects
 				(font
 					(size 1 1)
@@ -5492,12 +5732,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9de431d2-375a-41f0-af09-c2dd481dac20")
+			(uuid "5ac9417b-3594-45e0-a3f9-53409976e548")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc9aff8e-c06e-4b52-bf81-cf7de060b98c")
 			(effects
 				(font
 					(size 1 1)
@@ -5919,12 +6173,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "53f22c32-3c15-40fa-bd9f-99ebc3107f47")
+			(uuid "293556f0-5ef0-4820-8b14-34ec7349e65c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c080c7f5-75e6-4315-b414-876208288d89")
 			(effects
 				(font
 					(size 1 1)
@@ -6265,12 +6533,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6bf19aad-2df9-438b-883d-4bfc21b95c39")
+			(uuid "13b3cd69-7860-49bc-9f9f-fb1292b5d3f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a389b90-4d64-446a-bf86-7b932cfecfdd")
 			(effects
 				(font
 					(size 1 1)
@@ -6678,12 +6960,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1a58524e-d83e-427d-9fac-5fadf5006915")
+			(uuid "3d83c2f8-fc32-47ee-a07a-b4dbee210988")
 			(effects
 				(font
 					(size 1 1)
@@ -6692,12 +6974,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3d83c2f8-fc32-47ee-a07a-b4dbee210988")
+			(uuid "2dc355e9-64b9-4515-a36f-4f998be335e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0844c240-8b70-4ed9-98bf-52d8c3a359f0")
 			(effects
 				(font
 					(size 1 1)
@@ -7107,12 +7403,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1869-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b700143f-b7d3-426f-9c3a-b022d189ac71")
+			(uuid "b3c9903c-cae0-4e58-98b5-b75ff2ab5e29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC805KKX5R8BB106"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b34a6b93-c0f3-460b-8f14-9fa25fb3c185")
 			(effects
 				(font
 					(size 1 1)
@@ -7455,12 +7765,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5671a335-b006-4e75-9b00-98f2c4110386")
+			(uuid "539d48da-1b35-404e-988b-95551b7029d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e52f7136-b8fd-47ef-a449-879f6ce55d67")
 			(effects
 				(font
 					(size 1 1)
@@ -7870,12 +8194,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "497-10773-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dbe3d158-e28c-4564-afa1-713a45191b36")
+			(uuid "6141d0e2-8e6e-47d0-ac2c-d173a89235eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "511-ECMF02-2AMX6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b9092b30-d40c-424c-9dec-04514488c9b6")
 			(effects
 				(font
 					(size 1 1)
@@ -8361,12 +8699,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c8f892ff-fe94-4f47-9c07-806ba0cd0cb1")
+			(uuid "547edb63-e347-49d7-affa-e13a7ea00656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8bb893fd-47a8-4e4d-8238-d0e2df61068b")
 			(effects
 				(font
 					(size 1 1)
@@ -8791,12 +9143,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a8e97f70-fdd4-4419-90e8-c1dcb523c87b")
+			(uuid "93448de9-367f-4c78-bf30-966a12e64fb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5759096a-b7fb-4f6f-b953-149d7c208a0c")
 			(effects
 				(font
 					(size 1 1)
@@ -9218,12 +9584,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-51.0KHRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7d7b3569-1ac7-44fc-9941-c72a1ee378f5")
+			(uuid "1d80758b-fb6d-4923-9b6b-2a2750eda9b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-0751KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a0c0157-62c5-4d46-9c33-a095efede3f2")
 			(effects
 				(font
 					(size 1 1)
@@ -9549,12 +9929,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7e387dcd-6566-4a4f-aaf6-50935dab2d21")
+			(uuid "e56f90fe-43dd-4ccb-86b5-cc77d5b79953")
 			(effects
 				(font
 					(size 1 1)
@@ -9563,12 +9943,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e56f90fe-43dd-4ccb-86b5-cc77d5b79953")
+			(uuid "eefd8706-e791-434e-a3fb-08857caa8ae1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "809951b1-a0a1-4448-ace8-744b3a6e4afc")
 			(effects
 				(font
 					(size 1 1)
@@ -9974,12 +10368,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-27.0HRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7f21b39d-7050-4396-867b-313985239f95")
+			(uuid "0d70b389-cd27-4fa5-a7af-27b0758792da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-0727RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8f69213f-e588-4d0c-a0a7-c73700e4a1d0")
 			(effects
 				(font
 					(size 1 1)
@@ -10322,12 +10730,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d7312f5d-4e8e-4573-a842-023b6599ab79")
+			(uuid "d364dca9-edbb-4f33-9db5-541c8c416dad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a666bbd3-7fa7-4f9e-a1b7-ac3d626d731e")
 			(effects
 				(font
 					(size 1 1)
@@ -10739,12 +11161,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5c0d8f17-e0e0-4b72-8d48-9bd1c37d3bec")
+			(uuid "481f7621-cc8c-49c4-88a3-4c3bda3cbcd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bad76b22-1d60-495d-b6e8-8a1f9534a05c")
 			(effects
 				(font
 					(size 1 1)
@@ -11166,12 +11602,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-51.0KHRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "60db611e-7da7-499b-a6c2-8c5baacf14b5")
+			(uuid "34de3e12-5502-41ac-b3ce-089f5e292743")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-0751KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bbb09a88-2469-4571-87ec-534b7690ffdc")
 			(effects
 				(font
 					(size 1 1)
@@ -11496,12 +11946,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5067efb2-06a0-4393-9ae5-15377655ed81")
+			(uuid "bba2a0ff-ea6d-41a8-852c-745ee50ba36b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be2b881b-e3b4-4aff-8492-01ed3cbda635")
 			(effects
 				(font
 					(size 1 1)
@@ -11843,12 +12307,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1445-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f2275008-ee53-4a15-a553-f12d4289227d")
+			(uuid "28d45280-2666-44b8-ad89-93edc94cb9ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KRX5R8BB105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc53bf0e-1a30-4ad9-8b2f-377d837a0765")
 			(effects
 				(font
 					(size 1 1)
@@ -12174,12 +12652,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "67f2a47a-ec84-4802-96f1-fb40930f0683")
+			(uuid "4309e8d7-09df-414c-b769-99f6d52a9d99")
 			(effects
 				(font
 					(size 1 1)
@@ -12188,12 +12666,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4309e8d7-09df-414c-b769-99f6d52a9d99")
+			(uuid "03e8ab3c-8ff3-410b-8288-abb230d8e0cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6600d186-5e96-44cf-82dc-50b8d66fcabb")
 			(effects
 				(font
 					(size 1 1)
@@ -12600,12 +13092,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ea76befc-67c7-4b80-9674-48b05227d0d1")
+			(uuid "1f1f57df-3360-4a13-91bc-cf53e37e0eeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e5fc662-cfad-4433-95f2-8c15cdcd7543")
 			(effects
 				(font
 					(size 1 1)
@@ -12946,12 +13452,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "be366d94-c78f-4087-ab2c-e6021ab86259")
+			(uuid "a9e1732b-6c0b-402b-bc96-fc09d0bc8cb7")
 			(effects
 				(font
 					(size 1 1)
@@ -12960,12 +13466,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "50-ECS-2520MVLC-120-CN-TRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a9e1732b-6c0b-402b-bc96-fc09d0bc8cb7")
+			(uuid "7bf00832-fe7e-4ee0-b0b0-aa20d189715d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "520-2520MVLC-120CNTR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "79ddd003-2951-4f29-a046-d78bfcd6ea4a")
 			(effects
 				(font
 					(size 1 1)
@@ -13364,12 +13884,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b2c1c0ac-b1e5-4e3a-b28f-6078b2ccf944")
+			(uuid "53011a84-b17d-4eea-a8b9-b8a92a1b1f00")
 			(effects
 				(font
 					(size 1 1)
@@ -13378,12 +13898,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "53011a84-b17d-4eea-a8b9-b8a92a1b1f00")
+			(uuid "043e8632-86bf-4040-aa91-c01dd6e62a62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4c24f7b5-a2df-458d-9d79-c21dc319ae19")
 			(effects
 				(font
 					(size 1 1)
@@ -13793,12 +14327,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "628f0cdd-6e78-4831-9bf9-9506501c6a27")
+			(uuid "c4c11c0b-2c1f-45ba-a517-27f4a7de57e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7623dc53-f4ee-48fc-b15d-ed0e00c5edf5")
 			(effects
 				(font
 					(size 1 1)
@@ -14210,12 +14758,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "515aad21-25cc-4d59-b9a1-8ae8f2c80995")
+			(uuid "0628bf5c-7dc1-49de-be8f-24525c59ff6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9833b4df-9800-46d8-a307-b48405223d69")
 			(effects
 				(font
 					(size 1 1)
@@ -14625,12 +15187,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5fb70f0b-8fc3-4f86-934e-c6bf83876245")
+			(uuid "cf8ff6b5-fc66-40a2-9278-164dd797ce1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "36398999-6e65-4965-8519-17b6a65df3e8")
 			(effects
 				(font
 					(size 1 1)
@@ -15041,12 +15617,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C2886570"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "73445573-d947-4109-8149-e9acd33bc633")
+			(uuid "4ae39cac-9b53-48c2-b7c7-6ec2f5e08f63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "43a79753-e3fc-4529-a1f9-42b2e742c131")
 			(effects
 				(font
 					(size 1 1)
@@ -15469,12 +16059,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e4c39d56-9f44-411d-9463-909ca75fe4fd")
+			(uuid "18f7025c-dfef-4467-80f6-d644f29fd913")
 			(effects
 				(font
 					(size 1 1)
@@ -15483,12 +16073,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "311-5.10KHRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "18f7025c-dfef-4467-80f6-d644f29fd913")
+			(uuid "8244a889-a01d-47d1-bfed-4cd36b144c21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-075K1L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "762dc69d-7359-4b82-9baa-46c8a193137d")
 			(effects
 				(font
 					(size 1 1)
@@ -15831,12 +16435,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e89aa860-714a-48de-ba10-8c35c2995bcc")
+			(uuid "50b20f7a-045f-4f5a-8d19-7c3bd3a722d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e18a5479-52ad-4289-ad75-c3a50eb11b1e")
 			(effects
 				(font
 					(size 1 1)
@@ -16247,12 +16865,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1445-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "857e8938-b88b-4697-9a38-9add4614d526")
+			(uuid "3d435c58-5fc5-4a97-bb32-058746fa9e65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KRX5R8BB105"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "06f582a2-35a8-4c94-9075-683ccd8c3ffd")
 			(effects
 				(font
 					(size 1 1)
@@ -16578,12 +17210,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "df99ff7b-9226-486b-9cc8-6156eaec275b")
+			(uuid "cdb9b5ab-613d-42b4-9a57-89751e45b4ce")
 			(effects
 				(font
 					(size 1 1)
@@ -16592,12 +17224,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cdb9b5ab-613d-42b4-9a57-89751e45b4ce")
+			(uuid "9ed2f4c9-667f-4133-9c8c-8716b7d7a1d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3890d06a-814f-4ae3-994c-440732b2fedc")
 			(effects
 				(font
 					(size 1 1)
@@ -17003,12 +17649,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1869-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "86f21798-12c9-4845-8667-fb27f9966e81")
+			(uuid "58a7fee6-0769-4907-aa25-2402c37a4333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC805KKX5R8BB106"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f2db33c5-ca69-4750-a714-040f420b5453")
 			(effects
 				(font
 					(size 1 1)
@@ -17351,12 +18011,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "16cbbaf2-837c-4dfd-a84b-5712a146eb73")
+			(uuid "868147f3-6b0a-4dd5-ad63-0ed3e6bf2712")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c585102-6995-42a6-a6f4-b9e683f15eec")
 			(effects
 				(font
 					(size 1 1)
@@ -17768,12 +18442,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0a784264-cb9a-4c5c-92d2-b612e639fd0c")
+			(uuid "debbd512-7e30-4bd9-8504-dda3a5d421ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "425a28e0-ac34-475d-88b7-5fba8827675e")
 			(effects
 				(font
 					(size 1 1)
@@ -18056,20 +18744,6 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "60f34ed0-96f2-419f-b326-2528e939dfda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Price" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -18188,6 +18862,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "83a1bd97-d08e-43b0-8984-f7d47e7b6ed7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f2fbb7a3-459f-4b2e-b60e-3442fee66339")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3df1fa4-e3d8-46ee-bc26-c55f216d8d7e")
 			(effects
 				(font
 					(size 1 1)
@@ -18673,12 +19375,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8599e978-c5ff-4189-bef6-352a583e7b22")
+			(uuid "2fff2662-42af-4c34-9a16-5420a605925b")
 			(effects
 				(font
 					(size 1 1)
@@ -18687,12 +19389,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "C5149201"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2fff2662-42af-4c34-9a16-5420a605925b")
+			(uuid "466f71aa-68ec-49b9-9116-e14452d644ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d44e90d5-d9df-4e76-a34d-1b0a88ff4ce1")
 			(effects
 				(font
 					(size 1 1)
@@ -19100,12 +19816,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-27.0HRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1a2b3149-352a-4772-96b4-659fb3a61640")
+			(uuid "8bfeaf9b-b0de-4992-addd-dabdd1c5068a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-0727RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "23124e07-4358-4179-86f9-01aeb44be9bb")
 			(effects
 				(font
 					(size 1 1)
@@ -19446,12 +20176,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "283c3386-ed41-43c8-900d-f1682e464318")
+			(uuid "48a02a57-0783-4561-88cd-732ab6fd17f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "27aeff22-305d-4cf5-8113-51d27cb9536b")
 			(effects
 				(font
 					(size 1 1)
@@ -19859,12 +20603,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1.00KHRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aeca9c3a-f6d2-42df-b3b0-27835ac75b78")
+			(uuid "5c50e493-1f6c-4270-844b-d8ee6016a62d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7b6c601c-0c36-4ae1-9c64-3feac38c5b7a")
 			(effects
 				(font
 					(size 1 1)
@@ -20217,12 +20975,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-10.0KHRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aaae4b3a-a80b-4461-85ec-ac5b7a74bfcf")
+			(uuid "f4bc1029-87b5-4a3c-8135-fc85102158e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "348f6254-8029-4f51-a139-7ef39be49230")
 			(effects
 				(font
 					(size 1 1)
@@ -20575,12 +21347,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-51.0KHRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "73db3297-9f8e-4526-baa6-e375ed33ae7c")
+			(uuid "afcef00d-74c6-4dd0-8bdd-ba06832beb2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-0751KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88c2510d-968d-46b0-8799-9c57d3a50538")
 			(effects
 				(font
 					(size 1 1)
@@ -20906,12 +21692,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fdec4850-4c4d-49fc-953a-359d0c7ac505")
+			(uuid "cf5a7c4c-7666-4099-92a6-52a88b9e7f9b")
 			(effects
 				(font
 					(size 1 1)
@@ -20920,12 +21706,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cf5a7c4c-7666-4099-92a6-52a88b9e7f9b")
+			(uuid "50660356-c2aa-4619-85e5-2e2e383de726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8342163-3578-4faf-bf9c-514f137814c4")
 			(effects
 				(font
 					(size 1 1)
@@ -21335,12 +22135,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4aa1e00e-ba79-4014-8b64-063bab7d10fd")
+			(uuid "b1bb4b0e-3ac2-40b5-b1bc-60e4e3e5c5cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7635ccf9-b825-4475-85b3-17d7dbde3130")
 			(effects
 				(font
 					(size 1 1)
@@ -21753,12 +22567,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "2073-USB4105-GF-ACT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5f2a2229-ad2b-4e19-b88d-bb5154a58f3b")
+			(uuid "60db4815-7fef-4a49-9c17-f97556d586cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "640-USB4105-GF-A-120"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c586758d-0998-4bbc-93e7-bd17d3591705")
 			(effects
 				(font
 					(size 1 1)
@@ -22255,12 +23083,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7d444ce6-b0b4-4936-9788-b7f515287d7a")
+			(uuid "acf2a006-4a3c-40f1-b40a-45f4b22be140")
 			(effects
 				(font
 					(size 1 1)
@@ -22269,12 +23097,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "acf2a006-4a3c-40f1-b40a-45f4b22be140")
+			(uuid "373623bf-d2b0-400b-927c-d9960ed07b75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "11e7e31a-82b8-43c4-a4cf-c9da6b0e9b93")
 			(effects
 				(font
 					(size 1 1)
@@ -22682,12 +23524,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4028ed20-3e09-44c6-a1e9-1ec59a1af14f")
+			(uuid "f2e16fdc-2420-43cf-9723-615208ef56c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8709081-c424-494d-b07a-0cc42a5f57b7")
 			(effects
 				(font
 					(size 1 1)
@@ -23111,12 +23967,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "2648-SC0914(13)CT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "62cd8bd4-1951-4615-8117-0c493adb9a6d")
+			(uuid "e512239f-a7a3-4a1d-bb70-bbea191e5ea4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "358-SC091413"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93a8b0d3-97c0-415d-90a6-5c93e2c530b7")
 			(effects
 				(font
 					(size 1 1)
@@ -24229,12 +25099,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8f38fc67-87d6-4f50-9f6b-9c98d4d5af9d")
+			(uuid "93043d28-c088-4f0f-9152-c78a6ad6ffa6")
 			(effects
 				(font
 					(size 1 1)
@@ -24243,12 +25113,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "C2886570"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "93043d28-c088-4f0f-9152-c78a6ad6ffa6")
+			(uuid "0afe723e-ccd2-4200-ab16-ffcf8329d46e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df92a0d3-8957-4b60-bf0a-d1a7965cb30a")
 			(effects
 				(font
 					(size 1 1)
@@ -24665,6 +25549,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1d8eef7d-ed01-4880-a39b-05ae71dce4dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "digikey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "770fb4e0-0f7d-4053-a25a-0faaf9560145")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "73371220-641d-4c41-b567-f268c0e3d958")
 			(effects
 				(font
 					(size 1 1)
@@ -25108,12 +26020,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "23805df4-ab50-404f-bf6c-e1ef019bf702")
+			(uuid "bcfccb3b-96c9-4999-bb27-3f840b6de796")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee576f7d-ce41-4758-adb9-172c67e30fa5")
 			(effects
 				(font
 					(size 1 1)
@@ -25455,12 +26381,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bebe1108-de1f-43f8-8e3c-040b5bfd498e")
+			(uuid "c2505dfc-63e6-43f5-9700-48ff49942941")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "939ceda4-b471-4f5f-9ae7-11cb42aa31ed")
 			(effects
 				(font
 					(size 1 1)
@@ -25884,12 +26824,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "1727-4792-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6a85b561-e54d-4254-b971-d73e6f8ad7b7")
+			(uuid "f642f20e-e4e8-48eb-8430-914da82e6bed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "771-2N7002PV-115"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7b99e5cb-70a8-4754-a3d1-b0288e8fb00a")
 			(effects
 				(font
 					(size 1 1)
@@ -26288,12 +27242,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e1369084-0023-4f17-9f24-25c9091427cd")
+			(uuid "8fee4ab3-9f63-4c34-bbcd-ad2a0229ea2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5a8633f-7f8e-4e79-bd15-a8b1af946e8f")
 			(effects
 				(font
 					(size 1 1)
@@ -26619,12 +27587,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a4f10d42-764d-42e7-9739-04cfff7f4e27")
+			(uuid "f009e1d2-5b02-40f1-9e19-e8a64ce3e827")
 			(effects
 				(font
 					(size 1 1)
@@ -26633,12 +27601,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f009e1d2-5b02-40f1-9e19-e8a64ce3e827")
+			(uuid "125ffb3b-5a00-4e30-b172-22faa92c41d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0e13591d-0a12-4e1c-ab5e-ae8f0b3dd125")
 			(effects
 				(font
 					(size 1 1)
@@ -27031,12 +28013,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8ecea6e7-b158-4229-8474-79c2b458eaeb")
+			(uuid "af1573b2-4041-4edd-b3ab-daa6fd1386a4")
 			(effects
 				(font
 					(size 1 1)
@@ -27045,12 +28027,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "af1573b2-4041-4edd-b3ab-daa6fd1386a4")
+			(uuid "6227317c-97cc-4b46-ad5d-5eff0968cbd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e384b2c-24cc-49ed-a241-17f99d4a5444")
 			(effects
 				(font
 					(size 1 1)
@@ -27446,12 +28442,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C2886570"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "89491ed3-a73c-4073-a5e3-c27d014a8378")
+			(uuid "3e81a8b7-86f3-4aed-b124-260cda70f00f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d0c84303-b8f3-4310-8a0a-9b5ff150ab96")
 			(effects
 				(font
 					(size 1 1)
@@ -27877,12 +28887,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1869-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a4f87820-916b-434a-9a45-3efa800d1948")
+			(uuid "4fbc02a3-7031-4007-b8f2-483f1994e7bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC805KKX5R8BB106"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f228dfac-bac1-4d0e-9d4a-2f6d66fdfeae")
 			(effects
 				(font
 					(size 1 1)
@@ -28208,12 +29232,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "afb5f532-81e4-40dd-901f-075d5975e8dd")
+			(uuid "3f467731-956a-4f05-96f7-8b0d7e3b01fe")
 			(effects
 				(font
 					(size 1 1)
@@ -28222,12 +29246,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3f467731-956a-4f05-96f7-8b0d7e3b01fe")
+			(uuid "bee9ba5d-8e1c-4d99-9c90-03294928f70e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9de2860-aaa7-42ed-9e4a-f6a4ddeed7d8")
 			(effects
 				(font
 					(size 1 1)
@@ -28620,12 +29658,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "deed9655-a8b4-4f27-8c27-93b6ad8e3060")
+			(uuid "a02928d8-9094-47ac-a028-8f0cb10d668b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4bbe2ed4-8e86-4c48-a465-b20fdeda61e4")
 			(effects
 				(font
 					(size 1 1)
@@ -28951,12 +30003,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4fd26246-7534-4368-8d98-a96ed2af97c2")
+			(uuid "ddcb8670-f28e-4e62-af54-e5ff38396a41")
 			(effects
 				(font
 					(size 1 1)
@@ -28965,12 +30017,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ddcb8670-f28e-4e62-af54-e5ff38396a41")
+			(uuid "cd8bc2da-385f-4ced-aed3-9c854134285b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "034bf7e7-84da-4db0-8bb9-2a0051ad4687")
 			(effects
 				(font
 					(size 1 1)
@@ -29376,12 +30442,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c562856e-a58f-4346-a34f-d88e81b2165b")
+			(uuid "08b57ee4-c273-4d7c-bc6d-0e526cc19b4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5931b47e-0762-4ef4-bba3-3220d1b9ea09")
 			(effects
 				(font
 					(size 1 1)
@@ -29709,12 +30789,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1869-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "18a399ee-ee54-4451-b350-e5e9bd4d4254")
+			(uuid "54e87e25-3bfc-4c84-b885-5fb40ba7a7a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC805KKX5R8BB106"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e7b08d2b-4236-4181-a749-0e18936b7b4b")
 			(effects
 				(font
 					(size 1 1)
@@ -30053,20 +31147,6 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "20f0e68b-465d-42fd-bd60-90c2b14b8ead")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Interface" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -30087,6 +31167,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c328a493-537b-4f58-834c-ab412584a830")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "digikey" "311-5.10KHRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5063def8-dba0-4f08-9056-5bddf7fe4027")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "acf80389-6563-4698-b905-658e5ccf7b3b")
 			(effects
 				(font
 					(size 1 1)
@@ -30412,12 +31520,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2bb48a70-d7dd-4ab2-be25-4962f091ab6f")
+			(uuid "496a5bce-060a-48f3-8952-7559d9735f0f")
 			(effects
 				(font
 					(size 1 1)
@@ -30426,12 +31534,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "496a5bce-060a-48f3-8952-7559d9735f0f")
+			(uuid "fbac2c0e-4ed2-4569-87a9-9e8015cd3618")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4631c37e-4a94-49c3-8ea5-a204567ce18e")
 			(effects
 				(font
 					(size 1 1)
@@ -30824,12 +31946,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "26b4cf16-2f5a-44bc-9a41-8ce179b5b3da")
+			(uuid "d95feecd-bdfc-440e-a516-0a03c8334a8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5046fdb7-ce3b-490a-9bc7-3fc817922f66")
 			(effects
 				(font
 					(size 1 1)
@@ -31154,12 +32290,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-5.10KHRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8f73822f-4a7a-4a00-8984-ef09ac619f3b")
+			(uuid "98abc5a3-7480-43ba-9285-5aeef6b6329e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-075K1L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e372fed2-3ce4-4d3c-ae35-96a0a2ca22a0")
 			(effects
 				(font
 					(size 1 1)
@@ -31485,12 +32635,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8a86e41d-bd53-4a2b-88fe-7b1dd8676fa6")
+			(uuid "b7cd5e5c-7ef2-45ff-81c0-85c8b6037ab2")
 			(effects
 				(font
 					(size 1 1)
@@ -31499,12 +32649,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b7cd5e5c-7ef2-45ff-81c0-85c8b6037ab2")
+			(uuid "de66e189-11f4-425c-92c5-a8596d9805bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d8fed4f5-ca2d-4f50-94ac-3d9a5b4ade0a")
 			(effects
 				(font
 					(size 1 1)
@@ -31897,12 +33061,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "60a51d3c-be3e-48a4-a092-5ae391c7de6c")
+			(uuid "6e5fa08b-480e-4932-a309-3e6d7dc40d39")
 			(effects
 				(font
 					(size 1 1)
@@ -31911,12 +33075,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6e5fa08b-480e-4932-a309-3e6d7dc40d39")
+			(uuid "207e2b2e-3ecd-4b1e-a422-435ec26b937c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c35840c-84b2-4913-b5fc-f7aba91b2ebf")
 			(effects
 				(font
 					(size 1 1)
@@ -32156,12 +33334,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4c9ab66c-bf03-4f0a-bab8-20e7918a5b00")
+			(uuid "d11f5c28-655c-43c0-9b6a-e59500910817")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6f69ac67-c254-4825-a354-fd607790e41e")
 			(effects
 				(font
 					(size 1 1)
@@ -32490,12 +33682,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 180)
+		(property "digikey" ""
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "327aa3e7-6c71-4faf-8cf8-69ceaea55902")
+			(uuid "19715952-c35d-4355-87a2-4969e6fd29a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6ec37cc8-b71c-4583-b287-26c2abed2ade")
 			(effects
 				(font
 					(size 1 1)
@@ -32734,12 +33940,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "490-5220-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7e147c86-1970-4b31-85ff-0ca4ffe07e56")
+			(uuid "f051ff6a-a300-4168-a5af-911f032bebd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "81-BLM18PG330SN1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5eaa3f27-7884-450d-8416-0e2e7eca4d5f")
 			(effects
 				(font
 					(size 1 1)
@@ -33081,12 +34301,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8c8a638c-78c9-4d0a-8d37-2f89c17624a6")
+			(uuid "45d25527-d73b-4b70-84f5-fb44a0c17994")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0657f42c-922c-4e1f-bbcb-8da0db806b31")
 			(effects
 				(font
 					(size 1 1)
@@ -33511,12 +34745,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "94dae7d0-87b0-4b40-b358-feb9c1b5a658")
+			(uuid "27ef67bb-c830-4518-aa6d-21ec95944615")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d327137-7314-4eea-8c7e-129ea0b4427e")
 			(effects
 				(font
 					(size 1 1)
@@ -33938,12 +35186,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-10.0KHRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3debe7d1-b674-4d00-903b-a72ce602c58e")
+			(uuid "514f6452-c981-4c74-b48f-6cd0614dfd74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-0710KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "008a07db-c6e8-4fb3-ba67-48a478b6ee53")
 			(effects
 				(font
 					(size 1 1)
@@ -34286,12 +35548,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9e8a518c-37aa-4e8e-b8a5-25f6a0494c17")
+			(uuid "7b6b7a97-c15b-4aa1-bc01-23a949f35e6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "42c550da-425b-4e2f-8129-1a477647917b")
 			(effects
 				(font
 					(size 1 1)
@@ -34685,12 +35961,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "74d22e99-a785-4903-9ad6-9af8c983d2fd")
+			(uuid "a017ac2f-aa12-402a-933f-08a0b51b22a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4689be1c-12ae-4e08-b10f-37ed77f5d268")
 			(effects
 				(font
 					(size 1 1)
@@ -35018,12 +36308,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" ""
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "513bac0c-bb73-4b81-b0af-ce403f9e32f8")
+			(uuid "1a30e5da-6732-4fd5-96c2-f5c71a9ffd5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4c3fbe7e-601d-4090-9f84-9acb3853f000")
 			(effects
 				(font
 					(size 1 1)
@@ -35252,12 +36556,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "C2886570"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "28269eaf-40a8-4c36-bc8f-6ce4b385dbf6")
+			(uuid "4a8b8f08-29a1-4ee4-b88a-1a2ce22ff7ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a8761f9-c065-42b7-bdeb-a193acd1805c")
 			(effects
 				(font
 					(size 1 1)
@@ -35682,12 +37000,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aafe509c-4562-4f3e-be63-8a14003ee479")
+			(uuid "7dd2f2f3-57ed-49a5-b683-e8f92784be1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "76e64863-9f25-4f2a-b834-478f510f5269")
 			(effects
 				(font
 					(size 1 1)
@@ -36122,12 +37454,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-10.0KHRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9da38fba-32d4-44b3-99d1-7e130008b7d5")
+			(uuid "7b41efcc-0473-40fa-9d89-ae44d388a74a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d4593fb-ffa8-46e4-8166-789c777bd449")
 			(effects
 				(font
 					(size 1 1)
@@ -36468,12 +37814,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b6555b1e-6343-4c16-b490-595353a8d2c4")
+			(uuid "96c1eb97-35c4-40e8-925a-3d7eccf7342a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "43dc46d8-4009-4aa8-a279-47aac8a390b3")
 			(effects
 				(font
 					(size 1 1)
@@ -36897,12 +38257,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c3f40a3f-652b-488b-9b67-69170dc3f574")
+			(uuid "e459f8c3-cf33-4872-bf96-7641b4238f73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "383b3081-6fd1-460e-84e7-305a0f861745")
 			(effects
 				(font
 					(size 1 1)
@@ -37326,12 +38700,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1869-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b8632a7d-1911-4359-8e86-23e881f74eca")
+			(uuid "5ea9957d-6629-4d43-95d3-d06459789a50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC805KKX5R8BB106"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e547ec71-6a32-44df-acc5-2e236641a21c")
 			(effects
 				(font
 					(size 1 1)
@@ -37672,12 +39060,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e313b6d2-1987-477d-a5c0-935ba19e4c93")
+			(uuid "86545d1f-c1a8-41e0-8cea-203ad38c1430")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81cbd1c2-214b-4564-a97b-30ad262573b0")
 			(effects
 				(font
 					(size 1 1)
@@ -38101,12 +39503,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "W25Q128JVSIQ-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "92c44613-1968-4de3-8686-59be9ad065df")
+			(uuid "cb5fc7ae-0c0f-48b5-97df-687b1c1e5398")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2f3c401e-6a5a-423c-9398-1ec82343f99c")
 			(effects
 				(font
 					(size 1 1)
@@ -38576,12 +39992,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "Config" "-LCSC_BOM"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4ca61dfe-aa72-489f-a3af-09f3977ff73d")
+			(uuid "745b9593-cb51-49ee-852c-880a34d84cc9")
 			(effects
 				(font
 					(size 1 1)
@@ -38590,12 +40006,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "-LCSC_BOM"
+		(property "digikey" "1528-4958-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "745b9593-cb51-49ee-852c-880a34d84cc9")
+			(uuid "6133f194-0eea-4991-8245-d853250f6c08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "14ca6978-6866-4171-9634-3c8afe015224")
 			(effects
 				(font
 					(size 1 1)
@@ -38987,12 +40417,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dfb687ba-bae8-4b60-955d-7f054fc54180")
+			(uuid "3d64f1a3-4f46-4197-b7fe-8322f18c2ebd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce99d36d-6496-4d39-bd64-34bcbc8645af")
 			(effects
 				(font
 					(size 1 1)
@@ -39345,12 +40789,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-1.00KHRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "df07253b-e520-4759-8ae7-2504ce3a218d")
+			(uuid "25f319b7-854c-43fa-add7-c6e20cbc0181")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "25e18b11-bc21-4ca7-8a08-cfc1d29d9d44")
 			(effects
 				(font
 					(size 1 1)
@@ -39691,12 +41149,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5d6794bd-86e8-4729-bcd6-2da10c06b9df")
+			(uuid "a0699027-f7be-401b-9916-e13b64b8efb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0d6fa07-21e1-4f0e-a5aa-80973ee42ee9")
 			(effects
 				(font
 					(size 1 1)
@@ -40119,12 +41591,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "020d5051-78ed-4e47-a66e-1c3aa28325ed")
+			(uuid "93572165-a4fc-4551-89e3-771caacf7871")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b09bbcb6-708e-4e04-a754-c59f1549b5d2")
 			(effects
 				(font
 					(size 1 1)
@@ -40531,12 +42017,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b98655d5-36ef-4738-b9d2-2638749675db")
+			(uuid "733cde62-0ce6-4531-8e62-b9d3c47c50c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f66f4d96-49d3-4f0c-86aa-6251645d97ec")
 			(effects
 				(font
 					(size 1 1)
@@ -40879,12 +42379,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "525b3e33-9415-4a58-b586-d5989ce819a0")
+			(uuid "b14c9ef4-bb19-47f3-8255-cdacbcd6037c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "58baeff6-c5a4-4a38-8fbf-b14ffea74959")
 			(effects
 				(font
 					(size 1 1)
@@ -41293,12 +42807,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0ccb3509-5efd-4c16-a33a-198ddb4022a9")
+			(uuid "54005b72-9341-4631-8d21-0834ff304c82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da51975b-4740-4a89-935b-e2470e5016d9")
 			(effects
 				(font
 					(size 1 1)
@@ -41626,12 +43154,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 180)
+		(property "digikey" ""
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d70163a6-d69f-440d-96d6-9b19ba80948a")
+			(uuid "22a32789-35f2-4277-8275-63d938bc1675")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "377bca3d-16e8-41c7-b148-b8ccb9e125e7")
 			(effects
 				(font
 					(size 1 1)
@@ -41874,12 +43416,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "P13348SCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "096ae44b-3fb9-44ce-b87f-7709b07c7de6")
+			(uuid "4b4caa5a-1786-4321-8cf4-9293b0186b0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "667-EVP-AA202K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39163ec2-2cb1-4799-b7f5-aa6921326f94")
 			(effects
 				(font
 					(size 1 1)
@@ -42178,12 +43734,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "855073fe-bd9f-4685-b8fa-fea03aed8844")
+			(uuid "6dcbaf06-00ed-4242-a6f7-30f61d5ec143")
 			(effects
 				(font
 					(size 1 1)
@@ -42192,12 +43748,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "RB520S30T5GOSCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6dcbaf06-00ed-4242-a6f7-30f61d5ec143")
+			(uuid "3432a694-d475-4dd2-aff3-8dc707e9353d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "863-RB520S30T5G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1abaaed-1c4d-44ee-9816-6e3215b8c5f5")
 			(effects
 				(font
 					(size 1 1)
@@ -42611,12 +44181,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "LL4148FSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "251e7338-1f7a-4444-b1cb-461a3791f0cd")
+			(uuid "1b9a95e1-edb2-4a7a-a55c-80af2fc487ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "512-LL4148"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0b3c8d2-967f-4876-ba67-8e4df2e9d982")
 			(effects
 				(font
 					(size 1 1)
@@ -43027,12 +44611,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "Config" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dcb45511-6b81-464a-a255-c17658a41e24")
+			(uuid "9c429e32-5b77-4700-90f6-28b9021d155d")
 			(effects
 				(font
 					(size 1 1)
@@ -43041,12 +44625,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" ""
+		(property "digikey" "C2886570"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9c429e32-5b77-4700-90f6-28b9021d155d")
+			(uuid "e62e2228-a0ff-49ec-b720-7ed401725f12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "87e9d87a-b49c-4f90-b6f2-0ba487d1538d")
 			(effects
 				(font
 					(size 1 1)
@@ -43472,12 +45070,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "NCP1117LPST33T3GOSCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "000efe84-9073-437d-9493-4e39c7ef9e2d")
+			(uuid "e580d12b-8d2a-4072-aa19-0517e9a8af8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "863-NCP1117LPST33T3G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9734eac1-811b-45d7-98fd-d94313fd562f")
 			(effects
 				(font
 					(size 1 1)
@@ -43880,12 +45492,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "490-5220-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cd73bd23-aa95-43d9-9408-13998379fbde")
+			(uuid "3773d795-4276-4729-a4ed-d484fef7c730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "81-BLM18PG330SN1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "26fd31b0-7570-4bcd-b1f1-868eb5e27a42")
 			(effects
 				(font
 					(size 1 1)
@@ -44213,12 +45839,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 180)
+		(property "digikey" ""
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d379322c-0509-4c38-b08e-be53ce7e47fb")
+			(uuid "29935237-4300-446b-8e82-f3d7d9b2a805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef78fd42-c8de-473f-925e-1418052ea019")
 			(effects
 				(font
 					(size 1 1)
@@ -44443,12 +46083,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-3567-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2e14fbe1-99fd-47c4-8ed9-a19273c62226")
+			(uuid "a99864ac-597a-418a-b918-61b64279e2af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-CC603KPX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ea332c52-8f9e-48c0-89a3-35cc92ca112d")
 			(effects
 				(font
 					(size 1 1)
@@ -44791,12 +46445,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
-			(at 0 0 0)
+		(property "digikey" "C5149201"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b72d3e4d-ea6b-465b-a25f-b2f7ceb06e14")
+			(uuid "497d2ddb-38a4-43b0-8206-3602a9f63726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c863fc29-ed16-4363-9d7b-10405b05a99a")
 			(effects
 				(font
 					(size 1 1)
@@ -45218,12 +46886,26 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "digikey" "311-5.10KHRCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6b1d1bd2-5b39-4728-96c3-4b49de9887c5")
+			(uuid "afbe57d1-0312-47fd-ae96-54ac336b0e58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "mouser" "603-RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd502b91-3e3b-4c12-b587-2a495f358fb8")
 			(effects
 				(font
 					(size 1 1)
