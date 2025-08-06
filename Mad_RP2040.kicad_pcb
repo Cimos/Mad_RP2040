@@ -287,6 +287,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3e740822-fd83-4f92-b9f2-07ae370565ea")
 			(effects
 				(font
@@ -1480,6 +1481,7 @@
 		(property "Value" "SolderJumper_2_Bridged"
 			(at 0 1.9 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fbcaca2a-0795-495a-b270-775f1a291562")
 			(effects
 				(font
@@ -1905,6 +1907,7 @@
 		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a590a1d9-a4a1-498f-836e-55c5cd69c3a5")
 			(effects
 				(font
@@ -2685,6 +2688,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 2.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4bc09918-8c9e-4dc7-9b3b-b0c8427962bc")
 			(effects
 				(font
@@ -2917,6 +2921,7 @@
 		(property "Value" "SolderJumper_2_Bridged"
 			(at 0 1.9 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0dfccd2c-ff93-4619-8de5-eb0d5be14559")
 			(effects
 				(font
@@ -25392,13 +25397,14 @@
 			)
 		)
 		(property "Value" "Split Hand Detect Selector"
-			(at 0 -1.9 0)
+			(at 0 0 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "fc975071-5da6-43db-b687-450b4e996d68")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.2 0.2)
+					(thickness 0.05)
 				)
 				(justify mirror)
 			)
@@ -32914,11 +32920,12 @@
 		(property "Value" "Fiducial"
 			(at 0 -1.7 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "afe5ffc0-a7d8-45ff-bacc-6bc49ad506d4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.2 0.2)
+					(thickness 0.05)
 				)
 				(justify mirror)
 			)
@@ -33533,11 +33540,12 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 -2.9 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "794d3a0f-8f1d-4016-b175-32c689352669")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.2 0.2)
+					(thickness 0.05)
 				)
 				(justify mirror)
 			)
@@ -36159,11 +36167,12 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 -2.9 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "53f84262-2036-443b-919e-140bf6c3d7a8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.2 0.2)
+					(thickness 0.05)
 				)
 				(justify mirror)
 			)
@@ -43005,11 +43014,12 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 -2.9 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "4fbe0a35-e4a6-4940-827b-db2bfea52bf3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.2 0.2)
+					(thickness 0.05)
 				)
 				(justify mirror)
 			)
@@ -45690,11 +45700,12 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 -2.9 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "dca00809-b543-4def-9970-a413e79767aa")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.2 0.2)
+					(thickness 0.05)
 				)
 				(justify mirror)
 			)
