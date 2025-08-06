@@ -374,19 +374,6 @@
 				)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "97ade3fb-b388-47c1-b3dd-b68f37b4fbc0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -596,19 +583,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b52f6cd4-6230-409b-a348-eef596010957")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55419070-a3c1-45e2-a880-266cdd4f24f6")
 			(effects
 				(font
 					(size 1 1)
@@ -855,19 +829,6 @@
 				)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6dfd0cee-0760-4bd1-acd6-b25833ad3958")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -1100,19 +1061,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "60770126-a526-4692-8f1c-ccf8d55daa3f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b08aa0c6-83bf-4063-a878-12f8c7a3ef65")
 			(effects
 				(font
 					(size 1 1)
@@ -1363,19 +1311,6 @@
 				)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3fd2a56-9e43-4329-9033-5fb6ade21f7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -1395,19 +1330,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f4c2269c-d24f-49ea-bbf7-111f94e340ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65d9a7ac-7ff5-4e07-814f-ed815ecb9cc0")
 			(effects
 				(font
 					(size 1 1)
@@ -1561,19 +1483,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ab70ec4-bc8d-429a-ba85-599c18b0dda2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d6122aa-9010-4fe9-ab02-214c2726fd3e")
 			(effects
 				(font
 					(size 1 1)
@@ -1940,19 +1849,6 @@
 				)
 			)
 		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a23a5ea-7e80-45b9-a4a4-893139ab0082")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Price" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1998,19 +1894,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b39d0fa-79a7-4a3d-9f34-fc0befb7845a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ee69a29-bada-445f-b4e6-92ffa4a857b5")
 			(effects
 				(font
 					(size 1 1)
@@ -2519,19 +2402,6 @@
 				)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a21a677-d510-4852-8650-9bf418b925d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2775,19 +2645,6 @@
 				)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9c7b64d-b084-4ad2-a18c-617fbd5dc3fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3001,19 +2858,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "306f3e50-a7e9-4ed5-b237-edf95ed9a5c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4bdd251-579f-4d56-973f-832538933292")
 			(effects
 				(font
 					(size 1 1)
@@ -3431,20 +3275,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "57ed5974-dd08-4cda-87f9-7e5c2d9bd40b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "455-SM03B-GHS-TBCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ea6a3c77-4620-4578-ab22-a02e1a3ee064")
 			(effects
 				(font
 					(size 1 1)
@@ -4024,34 +3854,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dc8b448b-0be3-4e23-88f0-f8073e4c0985")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a01dfa1c-b3d7-4f32-97a6-389c0ed1293c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4449,34 +4251,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "af3456a4-3e65-46c0-9e85-bf7a8c6474f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ed4d0212-e8fa-4aa5-ab70-536d4bccbd76")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4781,20 +4555,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6c4a84c8-483b-4b64-a1a7-f71cf178d4ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -4815,20 +4575,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7f5f08c1-2ebe-4652-beca-587f057f35a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "eb12e156-b4a4-467d-bfdf-f74d98e3d952")
 			(effects
 				(font
 					(size 1 1)
@@ -5223,20 +4969,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d38b78a1-6b11-4d7b-ab68-08a6b0e1514c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -5257,20 +4989,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fc191f1a-6d92-498f-aea0-3a1c1aed4e7f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "209bb1ce-0479-4d67-9545-86009f0c8d4c")
 			(effects
 				(font
 					(size 1 1)
@@ -5681,40 +5399,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a89a9f36-b992-4375-b68c-0da193492c62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e010adc7-bba3-40af-ba37-d092ffe2066e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c83be31a-ad51-4795-903f-3361709ae103")
 			(effects
 				(font
 					(size 1 1)
@@ -6094,20 +5784,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "af2ef197-a28e-40f7-a13b-e127bca72863")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -6142,20 +5818,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee5fb0eb-cc96-4de8-903f-45acc2462f5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e8771af8-abb8-4610-9394-9de074e1f31e")
 			(effects
 				(font
 					(size 1 1)
@@ -6468,20 +6130,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7f8b77cf-f763-4ef6-851f-ccfcab08331c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 270)
 			(unlocked yes)
@@ -6502,20 +6150,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b69c2097-2c3f-48d7-85a9-8000e283b143")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dc4be310-4683-454d-bc96-aafb552518de")
 			(effects
 				(font
 					(size 1 1)
@@ -6915,34 +6549,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d6bac07a-bc04-4cbc-b816-ff7eab21565a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ac3358e6-5796-4c5d-a736-4605b55b0afa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8f419ba9-5037-47fa-8285-3279f0537c9d")
 			(effects
 				(font
 					(size 1 1)
@@ -7351,40 +6957,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-1869-1-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1e35d524-0fe8-43c8-a0cc-449ab5878bfb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Interface" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "048b5248-9d42-41a3-b306-f1f682e4fae3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1479c61d-1ac6-4dcd-95a7-71594b79f159")
 			(effects
 				(font
 					(size 1 1)
@@ -7713,40 +7291,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b2d7a5fe-5c41-4590-9e09-d962f8fa60ac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2f3db518-22e1-419f-9c5e-f87a6281fc47")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "87c5ce76-c4b2-40cf-8b11-fa31637eef38")
 			(effects
 				(font
 					(size 1 1)
@@ -8128,20 +7678,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "497-10773-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8d260281-5cdd-4314-8899-0c6297c87192")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "STMicroelectronics"
 			(at 0 0 180)
 			(unlocked yes)
@@ -8162,20 +7698,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ef2b413c-bae8-4ed6-ab7e-6b5c11f3795b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fc445f98-6313-4623-a68d-1797f3a392b5")
 			(effects
 				(font
 					(size 1 1)
@@ -8633,20 +8155,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "aa0474fc-d05b-4880-92ad-7d9705b1ebf9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -8667,20 +8175,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "952e2905-a948-4e70-9cba-d1dd951e2ca9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d66ffa2f-343d-4c58-98eb-75b286a8c127")
 			(effects
 				(font
 					(size 1 1)
@@ -9091,40 +8585,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "358548fb-7d05-47fe-b5bc-5e8efc5a889f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "769f7859-fcd2-4365-9e52-42d2bdd70bd0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "043da069-a742-407c-afdc-63d2b538453d")
 			(effects
 				(font
 					(size 1 1)
@@ -9504,20 +8970,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-51.0KHRCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "41dd1c78-9f6d-4bb4-b076-7f151527d203")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -9552,20 +9004,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f8e64a91-0223-4d96-ac6a-cf29e328c0ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ac6894a9-2313-499e-a11f-72a5c8d482e0")
 			(effects
 				(font
 					(size 1 1)
@@ -9883,34 +9321,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cd3a2478-bbe2-4150-8d9b-298986619455")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8ccbf4b4-8457-4ae0-bb8d-c614e85913be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c46cf237-5da9-4770-9715-9ce2e912fd99")
 			(effects
 				(font
 					(size 1 1)
@@ -10316,40 +9726,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-27.0HRCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "75c11dbb-0888-40d8-9858-2144ca073be2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Interface" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6c3b18d2-48d8-41af-b911-1985d4fac840")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ac8bafae-36ef-42db-8ba3-ecf803024588")
 			(effects
 				(font
 					(size 1 1)
@@ -10678,40 +10060,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2bd4c21c-4fb0-42b3-8b52-701e07a520ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "65d32fbc-243e-4efc-8343-32a3450bad6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d96b5df1-23cd-4e66-8c49-f9b05088d6c3")
 			(effects
 				(font
 					(size 1 1)
@@ -11109,40 +10463,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0d2d752a-ea0f-483c-a54f-17329def64f5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "117202a0-5b8b-4919-a0b6-79c253651f78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cdb4b14b-1673-414f-ba1c-7b0f53c493cf")
 			(effects
 				(font
 					(size 1 1)
@@ -11522,20 +10848,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-51.0KHRCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d2c125d1-f9b0-4ede-bb1d-12e1e16c17bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -11570,20 +10882,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2839aa43-f549-488e-bce9-9dcebbfd3567")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9d8c572b-ccd6-4eb1-8163-2e9fa01c817d")
 			(effects
 				(font
 					(size 1 1)
@@ -11908,34 +11206,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f09b640a-d5a7-4274-8974-3d0f877f2ea6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5b111a8d-65c7-4b20-8d11-b84fd4c37d1a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 180)
 			(unlocked yes)
@@ -12240,20 +11510,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-1445-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b08f183f-b6b5-4d44-b652-e9dfa9a23931")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
@@ -12274,20 +11530,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f7c38d75-b674-4164-befe-ee25da7c197a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3351b98f-4b50-448b-9e4f-6e0bc5b00638")
 			(effects
 				(font
 					(size 1 1)
@@ -12605,34 +11847,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee610713-39b3-4a1d-b852-71ac11b98d0b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "89999285-6322-4c64-82cd-d48b22e5504c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c6ef4c5a-b900-4fb6-9db0-145b2f3bdd1c")
 			(effects
 				(font
 					(size 1 1)
@@ -13025,20 +12239,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3441027d-1542-4751-960e-ce27edc7f7e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
@@ -13059,20 +12259,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "000a0630-412b-4ac2-839b-290b3abb123c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e454cd12-3176-4686-8901-10c67ef62d95")
 			(effects
 				(font
 					(size 1 1)
@@ -13385,20 +12571,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "50-ECS-2520MVLC-120-CN-TRCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4915b46b-6d11-4e1a-8191-a317ce4083ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "ECS Inc."
 			(at 0 0 180)
 			(unlocked yes)
@@ -13419,20 +12591,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5d821e87-01e5-4a0c-998d-f77660fb1173")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5370c468-2763-42a9-8ced-db663dd4a38d")
 			(effects
 				(font
 					(size 1 1)
@@ -13845,34 +13003,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "71373f24-b2d7-44ce-bd55-27f04118942c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ab7b36d3-249a-4bf8-89a6-cdb3967883f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
@@ -14274,40 +13404,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "59fa662d-38c6-41c9-907d-2576e1af0486")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "263161df-2f4d-42e7-a857-2e9f0300bda4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c928797e-52ad-42a4-8ca0-4654220005b6")
 			(effects
 				(font
 					(size 1 1)
@@ -14705,40 +13807,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a5b7e98a-94d7-4856-b690-01d8f6f391ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cc1b25c1-9b91-404b-af8c-d0fa9a53b27a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b511eaf1-7bbc-4759-9373-1c7cb9a89817")
 			(effects
 				(font
 					(size 1 1)
@@ -15120,20 +14194,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f4f844f3-c265-4b9b-a21c-c8b97c416a37")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -15154,20 +14214,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b954174a-5825-4144-b262-cb0d8278cd51")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9d2c1c6f-9864-41f7-97b0-bb52909a3a57")
 			(effects
 				(font
 					(size 1 1)
@@ -15556,20 +14602,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "14bd0c1e-922a-414f-b709-de6686d180c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "C2886570"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a0a8406c-8318-448e-93f4-2b5330caeb56")
 			(effects
 				(font
 					(size 1 1)
@@ -16006,34 +15038,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-5.10KHRCT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "95e2a801-b0ff-4ed2-873f-8824e8c63917")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "535d3720-9993-42f6-952f-5b939b06b32a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C105872"
 			(at 0 0 270)
 			(unlocked yes)
@@ -16382,40 +15386,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f65a8098-5d63-4adc-8b38-90c701d18a25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9ea759f0-991a-45b5-8d71-beb0504c69a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e5bc452f-2105-46a0-b346-ab02d740b661")
 			(effects
 				(font
 					(size 1 1)
@@ -16811,40 +15787,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-1445-1-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1b7098e7-5405-437b-b97d-fde9231becae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Interface" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3d515653-9d59-4351-9766-91ed18565ad4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "04c7f84d-b134-4622-8330-edd08fefa594")
 			(effects
 				(font
 					(size 1 1)
@@ -17162,34 +16110,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "513bcea0-1482-4c0a-825a-cd5c29b04571")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ac21ed57-1282-4e26-8acf-5250a5726c87")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bdc89d7f-98a8-4260-b1e1-d0b537dedcd7")
 			(effects
 				(font
 					(size 1 1)
@@ -17595,40 +16515,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-1869-1-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "41c80103-13fd-4d4d-9204-2a162a82fe0e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Interface" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5964243f-b202-4831-931c-7d14f2317c7e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "192ddd46-23d7-45b6-80e4-6a5ca641c873")
 			(effects
 				(font
 					(size 1 1)
@@ -17957,40 +16849,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "68d387b5-f9b8-4f24-bdd7-fa0e95735328")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "95205281-8540-4ade-83dc-56cda56ed086")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d3df58e0-4dd1-4e72-97e6-9352ab9b44ec")
 			(effects
 				(font
 					(size 1 1)
@@ -18388,40 +17252,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6a0096bb-0f8e-45ec-9d59-3e96f3252c77")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7bae8a97-227c-4986-8a2f-53f13b813738")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8999ecca-6191-4d05-a523-4799d2211235")
 			(effects
 				(font
 					(size 1 1)
@@ -18794,20 +17630,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0cc28305-b988-4633-a640-159c605315f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f9cbe74a-6fdc-4fff-9b5c-db23adda4228")
 			(effects
 				(font
 					(size 1 1)
@@ -19321,40 +18143,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "88ee47ea-5ae5-4422-96b0-f68c78de22bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e8996464-7b23-4df4-97e6-368a39df5dcf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "df68eef4-ba3c-4e7d-abd6-cfc85c39468c")
 			(effects
 				(font
 					(size 1 1)
@@ -19762,40 +18556,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-27.0HRCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ed2662d5-20a6-436b-82e2-10a3888f94cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Interface" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e78dffa6-7e1f-47cc-b731-87b0b48f9809")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "34216ed2-ac28-4c22-b87f-a9b1b8fda04f")
 			(effects
 				(font
 					(size 1 1)
@@ -20108,20 +18874,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "13dcb4b4-7bd6-4279-8ba9-05a6980dacad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -20142,20 +18894,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0c911dca-0764-42f9-8960-34b59b4ad1a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "47a93cfb-2752-4a7b-840a-82d34e377805")
 			(effects
 				(font
 					(size 1 1)
@@ -20563,34 +19301,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-1.00KHRCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8e4b869e-2beb-4af1-b64f-348198e9990d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "36d1d8a1-cf04-4c16-8751-975e23066d63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C106235"
 			(at 0 0 0)
 			(unlocked yes)
@@ -20893,20 +19603,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-10.0KHRCT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ea93c8fd-4e0d-4c79-b4e5-672496a1ec8c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
@@ -20941,20 +19637,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9e6cc3ef-8fde-40f7-931d-2749fc56eb05")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d3c1c306-7894-40fe-9be6-766bdefbacb8")
 			(effects
 				(font
 					(size 1 1)
@@ -21265,20 +19947,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-51.0KHRCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5dc294da-e78d-4061-ae02-04b276f795ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
@@ -21313,20 +19981,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f56943c4-504f-46a1-b725-d4d12ab049c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "90d92145-fe63-4337-b6ef-cf3b1c579379")
 			(effects
 				(font
 					(size 1 1)
@@ -21644,34 +20298,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d33bde53-470f-4214-a771-d8331b988098")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "add02565-e1bd-4b9d-86f4-b70f067e979f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "14d0275d-e797-4895-a54f-14f32768061a")
 			(effects
 				(font
 					(size 1 1)
@@ -22081,40 +20707,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d3e16a8a-d456-429b-9248-3be2a235d307")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "54031939-6639-46f3-98a6-2c8cad4fce41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "eee41255-0f5c-4e41-b3ca-1b7d9ebdceef")
 			(effects
 				(font
 					(size 1 1)
@@ -22499,20 +21097,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "2073-USB4105-GF-ACT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a7b2c283-435a-4ca8-b970-58cb21914265")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "GCT"
 			(at 0 0 180)
 			(unlocked yes)
@@ -22533,20 +21117,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6ef96262-d3be-4754-a7e8-79088055fe68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "924d2f2e-17c0-45ca-b03d-4e14987f5185")
 			(effects
 				(font
 					(size 1 1)
@@ -23043,34 +21613,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ae4f0017-2377-4b6f-bbd9-03610ce9bd0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "24820a26-141b-43e7-ae5a-aa4fc86ed019")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
@@ -23456,20 +21998,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "51e7398a-e4f8-4d02-9192-94a325577532")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -23490,20 +22018,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6c2dcc71-07ca-4488-87c1-d9983878a8d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "523244cf-1ec3-44eb-b863-17eda5c75c5c")
 			(effects
 				(font
 					(size 1 1)
@@ -23899,20 +22413,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "2648-SC0914(13)CT-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2e487d7d-3905-4018-810b-57cff1c19c9b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "Raspberry Pi"
 			(at 0 0 90)
 			(unlocked yes)
@@ -23933,20 +22433,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "28ce4452-75d8-481d-8c1a-d62dd21d7ba3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8121fff1-ae26-4fda-bbc2-04caf5c8b57e")
 			(effects
 				(font
 					(size 1 1)
@@ -25045,20 +23531,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C2886570"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f4d97f26-8f44-4398-bf89-134288e99884")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "OPSCO OPTOELECTRONICS"
 			(at 0 0 0)
 			(unlocked yes)
@@ -25482,20 +23954,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5289eb32-d118-4e82-9024-fc462a1e0c8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "be89f00d-d328-432d-832b-d71ae83e7594")
 			(effects
 				(font
 					(size 1 1)
@@ -25981,34 +24439,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a131ffd4-d8f2-4216-9a3f-86b4a6b814b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5b138330-7085-495f-b4ec-0a12c91b814a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 270)
 			(unlocked yes)
@@ -26314,20 +24744,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fe9f87b8-af12-430e-bef9-b18df503cdda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 90)
 			(unlocked yes)
@@ -26348,20 +24764,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "84d51624-5b6d-4dac-8387-797be405993c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bc932397-e78d-4844-9bd3-189354ba78fa")
 			(effects
 				(font
 					(size 1 1)
@@ -26756,20 +25158,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1727-4792-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dc756032-e52d-4854-b2fc-85b378c106f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 180)
 			(unlocked yes)
@@ -26790,20 +25178,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "53d36a97-f2ce-478d-bd35-8ce396475378")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "beb8a194-784a-4bba-80d7-061f346ed97b")
 			(effects
 				(font
 					(size 1 1)
@@ -27202,34 +25576,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7bb15cc0-52cf-4f79-90aa-08c95a8b7789")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fe48e083-a37f-4d01-9f1a-d15b6be5fdb9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 270)
 			(unlocked yes)
@@ -27539,34 +25885,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "36f86a46-936c-4f88-8611-20659ba27453")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4f8e8040-b427-435f-8ebc-c0e6766b54cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "52e6e3fe-2d0b-4aa1-a91a-8dff7e017307")
 			(effects
 				(font
 					(size 1 1)
@@ -27973,34 +26291,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "59db8f6b-c3a7-4ff9-b4fa-4c9ff2e0a9b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "06a6de2f-9ec4-4671-a987-5e5327b074de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
@@ -28380,20 +26670,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d58d69d8-3006-4140-a07a-1e1b617d13c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "C2886570"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9dfde9fa-be41-40b5-8beb-ebad2c2e1854")
 			(effects
 				(font
 					(size 1 1)
@@ -28819,20 +27095,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-1869-1-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fe645313-096c-4146-b373-b8b6b5bb0658")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
@@ -28853,20 +27115,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "da13085e-7853-42e7-82fb-c646485430ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8b20c54d-d840-44d7-a6c9-08c3db8d7992")
 			(effects
 				(font
 					(size 1 1)
@@ -29184,34 +27432,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7827747c-1b6d-479b-a70a-5704bfbabf70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "621d6910-ba50-4899-b43d-290d7bd84c19")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "50602405-1217-43aa-a084-cd2a986b32dc")
 			(effects
 				(font
 					(size 1 1)
@@ -29618,34 +27838,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ca69eb36-b826-4fc9-9a26-29771cd6eea3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "37f2a418-a4e0-4c45-9b2a-db3d49e006de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 0)
 			(unlocked yes)
@@ -29955,34 +28147,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6fd3b944-d7b2-4bb3-9bc1-132b13228d45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a35f8ba8-4b61-44fd-8c5d-2cb9673e4a3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6b1d49c4-0e4f-42b6-aab4-469a05262b45")
 			(effects
 				(font
 					(size 1 1)
@@ -30374,20 +28538,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "faacc792-a14f-4e55-8de9-0e200eda3e49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
@@ -30408,20 +28558,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "88ad538f-c52d-4200-8b89-afb0e48fd135")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fddfc749-b874-4c3f-b90c-235d01d1258d")
 			(effects
 				(font
 					(size 1 1)
@@ -30741,34 +28877,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "170140e0-41a7-43d0-91f5-3b9cc9a93c64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "311-1869-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f366d42a-d683-4ba3-9e76-216d3c7b7c83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a400c812-a178-497a-a6d8-a04ad4d0b0f2")
 			(effects
 				(font
 					(size 1 1)
@@ -31099,34 +29207,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "84e5563c-f086-416d-ae86-e935ea4ba843")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "311-5.10KHRCT-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "972bfde8-f4c5-44f0-a7ea-ed084c861224")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a57a516d-e93c-4b39-952e-a0653e3e3e5c")
 			(effects
 				(font
 					(size 1 1)
@@ -31472,34 +29552,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "70c883bd-d6b5-4282-97b1-61e94d8a14da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c18b7c3c-2341-45d0-ba40-557bf6ad3eb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "740efae4-f562-455a-8bf3-e25e8e1a3dc3")
 			(effects
 				(font
 					(size 1 1)
@@ -31906,34 +29958,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8283a7f9-df5c-437a-826e-2b87cb1f29c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "373f7c77-9987-4c61-8766-b5501cee4f56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 270)
 			(unlocked yes)
@@ -32242,34 +30266,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "caf132bb-a170-4284-bdab-4e1823255d28")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "311-5.10KHRCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f20fb30d-0a31-4064-a222-38648cf81ae5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5de78cd5-ea1f-4fba-b4eb-861650aa81dd")
 			(effects
 				(font
 					(size 1 1)
@@ -32587,34 +30583,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "00361fc7-05c7-4914-a933-b338d2a50a71")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "32a39681-354e-4b3e-922c-f30ff531fb72")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8926c2ba-a3b0-4895-a12a-d67a07e70100")
 			(effects
 				(font
 					(size 1 1)
@@ -33008,20 +30976,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ea18bbf1-a284-4bd2-b53d-38fd7d2d074c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -33267,20 +31221,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "75a6ce87-6d1e-4317-b093-1e1a26bfca3f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
@@ -33301,20 +31241,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "520b2c7a-ae3f-48a0-ad26-4a1d2d8cfb8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "31c6257d-f5de-4b08-8bfe-4f26c5406dcf")
 			(effects
 				(font
 					(size 1 1)
@@ -33630,20 +31556,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "496ea248-5966-4542-8317-7ed8ba398236")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -33874,20 +31786,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "490-5220-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c45545fd-21f5-4e8b-a015-1879b9c02d21")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
@@ -33908,20 +31806,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "26fef1f4-b0d5-4b57-8889-e232cc89dbd2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dbd6a57c-acf5-4185-9758-b931ea4501d9")
 			(effects
 				(font
 					(size 1 1)
@@ -34235,20 +32119,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a061791c-8709-4a89-a207-95fe1626a85d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -34269,20 +32139,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c1374b98-8722-43f5-83f4-e0944c9e6a90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "05778aaa-adc0-4997-a4d6-70244f7e1b3c")
 			(effects
 				(font
 					(size 1 1)
@@ -34693,40 +32549,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8e948e19-f8c4-463b-a33d-d694aa234c47")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a0f363be-85d9-4d1e-b725-e5c31f7954ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "96fd2701-38f3-488d-8b10-718756056a69")
 			(effects
 				(font
 					(size 1 1)
@@ -35106,20 +32934,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-10.0KHRCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cac74b14-9c4e-40ba-b36a-e5cd159ca25c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -35154,20 +32968,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9bb3dfff-5c21-472d-be41-a3665f0757f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9cbcff00-6571-4a83-a38e-81ea28c0bc82")
 			(effects
 				(font
 					(size 1 1)
@@ -35496,40 +33296,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "982d1ecd-93d0-44c0-8941-35536dd15af0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2a447621-7bb0-4cb3-b5e6-3d97aaef4e9f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2280223e-4260-4327-9236-f3b167d0c566")
 			(effects
 				(font
 					(size 1 1)
@@ -35923,34 +33695,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c7b06e04-24f5-4743-a801-744de4ac91ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8a35e10e-2bde-4cc0-a492-e31a765ae51d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 0)
 			(unlocked yes)
@@ -36257,20 +34001,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a0b9bff4-d155-40d3-9b34-e3f8967c0935")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -36497,20 +34227,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "84fe1a84-28c1-4502-a5fc-c1a280bca631")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "C2886570"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "50448cbc-c0b9-4310-a6f9-9378aa734735")
 			(effects
 				(font
 					(size 1 1)
@@ -36935,20 +34651,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0fcad78a-2898-45f1-b45b-d067ffdb187d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -36969,20 +34671,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ded8f78c-3aee-46c5-85d2-89feda844f0f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "478570d3-4ab2-491e-9b36-993d225f17b0")
 			(effects
 				(font
 					(size 1 1)
@@ -37375,20 +35063,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-10.0KHRCT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a94dab0c-8121-42fa-af6f-716fd60c7eb5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
@@ -37423,20 +35097,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1f76773-03d7-4dfe-9f9d-3697fbb4aa36")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ca470f83-4ab0-41f7-a0af-1d2177b5dad9")
 			(effects
 				(font
 					(size 1 1)
@@ -37749,20 +35409,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b362dc1b-bb19-41e2-85ed-c60cf811ae3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -37783,20 +35429,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "100dc115-3ed6-47f7-8dba-e41fd546174a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1fcb6e7d-0a73-4d12-8821-ddc2f3f31d0e")
 			(effects
 				(font
 					(size 1 1)
@@ -38192,20 +35824,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "51885624-4afd-46a6-858a-15e933b9ce62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 90)
 			(unlocked yes)
@@ -38226,20 +35844,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "161dd1b9-a53a-4dda-abc9-73b30d248892")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "aa5a7570-f862-4159-9a8c-aea1de86ee8f")
 			(effects
 				(font
 					(size 1 1)
@@ -38634,20 +36238,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-1869-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "116c24e9-dbe3-4732-bcbe-95f07e474a1b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -38668,20 +36258,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee1dc779-48ba-41f3-9623-b9e85941f4dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "20ab3894-460b-49c8-97ab-880c234c9d5d")
 			(effects
 				(font
 					(size 1 1)
@@ -38994,20 +36570,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "323119cb-faba-40e6-afc7-f317345a8327")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -39028,20 +36590,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4157ca92-73fd-45b6-a53a-a4d755d4a11e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0a0f7860-f2d0-4999-9731-41d5977994d6")
 			(effects
 				(font
 					(size 1 1)
@@ -39451,40 +36999,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "W25Q128JVSIQ-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f9b4e061-e575-4e28-a955-a1e38929d59e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "W25Q128JVSIQ"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "957d0c9f-4669-4d36-8541-6799884d6efd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e7255efc-44a8-44dc-afb5-1e8a69bd660a")
 			(effects
 				(font
 					(size 1 1)
@@ -39954,34 +37474,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2f7001fe-bfd7-494e-984b-61359b769862")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ce67306c-65bb-4811-b1fd-6bd87bdd9084")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
@@ -40379,34 +37871,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4570a78f-5ece-4c44-a1c7-7e2fa3b3a424")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8f0d3102-f4c7-4be2-9608-2dd4487ad39f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 180)
 			(unlocked yes)
@@ -40709,20 +38173,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-1.00KHRCT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "38d82a68-4bd7-4b0d-9647-7c1604e2f6f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -40757,20 +38207,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8179b6b0-b52c-4e87-96cc-2493ba587fac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e54307d9-b130-40d8-a340-611ef5c70c79")
 			(effects
 				(font
 					(size 1 1)
@@ -41083,20 +38519,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "093ba7eb-2b88-4c67-8de8-8d9dc6fe0cf4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 270)
 			(unlocked yes)
@@ -41117,20 +38539,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "048d33a3-4076-49e1-a252-3deb42123315")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2057d6cc-0147-4876-ab3a-49cd02db81ce")
 			(effects
 				(font
 					(size 1 1)
@@ -41525,20 +38933,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e574363e-c933-496f-baa3-54c706548e13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -41559,20 +38953,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bfb82b51-286b-4c27-88cf-1b05cbdc3db7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fde0d6fc-90c0-4a00-80ad-198a9362cb59")
 			(effects
 				(font
 					(size 1 1)
@@ -41979,34 +39359,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "450cb58e-a28c-4372-918d-11ba0ce2c669")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "369b4fdb-7504-47c5-b32e-e5728dbcee20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C432917"
 			(at 0 0 90)
 			(unlocked yes)
@@ -42327,40 +39679,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dfc4ccce-0345-4f79-8552-7ba363989ba5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f819a257-e24d-48d5-b5f8-900f9e3089e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d3b160a3-b231-47dc-9e78-24325bbdf91b")
 			(effects
 				(font
 					(size 1 1)
@@ -42741,20 +40065,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "daf96ca9-a4d1-431d-8268-e54b9d913242")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
@@ -42775,20 +40085,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8bab1b26-0425-4443-bb30-4aa887d6636d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "29ee0498-e054-45ab-8c14-155894e4c2ac")
 			(effects
 				(font
 					(size 1 1)
@@ -43103,20 +40399,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cd3950ce-1c47-4be4-9aa8-279460d2d519")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -43365,40 +40647,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "P13348SCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7872740d-d4a3-4224-a8dc-e2d510b9ce66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "EVPAA202K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f38300fb-57b3-4d65-a7a6-0fc774b716e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b3de8304-83f8-41c9-bcc5-67af2a2f2368")
 			(effects
 				(font
 					(size 1 1)
@@ -43668,20 +40922,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "RB520S30T5GOSCT-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ca6f91e6-d169-419d-a6d5-39e8239e8dc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 270)
 			(unlocked yes)
@@ -43702,20 +40942,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "94860ff3-f27a-4b08-a7c5-6f625cf28279")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "07fcac3b-3782-4af9-ba37-855ff3f3db68")
 			(effects
 				(font
 					(size 1 1)
@@ -44115,20 +41341,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e5394710-9b1b-41a3-99cf-a6f80d913a5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -44149,20 +41361,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c9ec0383-268e-4a11-a7d8-3251aa00966a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "baac9bd0-c02e-4b88-ad9f-fa727147716e")
 			(effects
 				(font
 					(size 1 1)
@@ -44551,20 +41749,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "73247871-82ee-441c-95a3-b025b70203f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "C2886570"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5b6ba480-86c0-4d7e-8b8a-b78d16dd3834")
 			(effects
 				(font
 					(size 1 1)
@@ -45004,20 +42188,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "NCP1117LPST33T3GOSCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ff6537e3-7278-428e-83d6-b4f0f90bcba2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
@@ -45038,20 +42208,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4cd2305e-3152-45cd-b18b-514ae347ed96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "be165c59-f2c7-49e4-a160-4318bb453227")
 			(effects
 				(font
 					(size 1 1)
@@ -45426,20 +42582,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "490-5220-1-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1f98e654-8fe5-4908-bbec-a2cc0fe137a8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
@@ -45460,20 +42602,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ccef56c1-e317-4103-9478-ec1f21e4ba7f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "52af59ec-9e8c-45d4-b017-c935a568d88a")
 			(effects
 				(font
 					(size 1 1)
@@ -45788,20 +42916,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d8f80446-1aea-4195-971b-51ca821773e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -46038,34 +43152,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1111ddc0-5e5b-492a-ab5c-57adc6c8b015")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Supplier PN" "311-3567-1-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dd463b99-2916-40e8-ae46-fd4b51c43321")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e17b87a9-ccd0-4cd5-994b-592fb2ed2299")
 			(effects
 				(font
 					(size 1 1)
@@ -46394,40 +43480,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "C5149201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "26f1e8ac-41e5-4217-8466-3260916c99a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "SK6812MINI-E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6dd18e70-d6e3-46df-9db5-50627fc6574f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ae3256c8-eefb-436c-ac1b-84be58ead236")
 			(effects
 				(font
 					(size 1 1)
@@ -46807,20 +43865,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "311-5.10KHRCT-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "013d73f0-1c02-431d-8dfe-82e137099402")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
@@ -46855,20 +43899,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9f0e9285-66fd-413d-a844-ff9b4ead4092")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Substitute" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6ef54908-b17d-46e1-89f6-539ca2d67c3b")
 			(effects
 				(font
 					(size 1 1)
