@@ -959,8 +959,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": ""
+      "sort_asc": false,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
