@@ -12487,7 +12487,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12501,7 +12501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
