@@ -142,6 +142,14 @@
         [
           "silk_over_copper|189459049|107064303|3a580328-5fc1-44f0-8749-23700de7cacb|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "track_width|170793750|48725000|7db1530c-8aa3-47ca-b0fb-750b2f30fc52|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|170793750|49125000|19be9440-cad8-47d3-b445-fb6308a70784|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -719,6 +727,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
