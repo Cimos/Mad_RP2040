@@ -76,14 +76,6 @@
           ""
         ],
         [
-          "silk_over_copper|132309049|88014303|7b860420-4cbf-4e37-b646-aa260713f08b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|132935512|104454896|f5d63cc0-168c-4798-83aa-14fc68ed1e8e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_over_copper|133102603|125628012|4a98e0a8-4a7a-4641-80a8-8c58aeb2f55e|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -100,19 +92,7 @@
           ""
         ],
         [
-          "silk_over_copper|146359049|66764303|66100a99-1b68-4097-a05d-9448b6be223e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_over_copper|152152603|125628012|0266a4bc-d060-464d-955d-955eef3ffef7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|152152603|87528012|dc266962-8d90-47af-a857-460685eb9d91|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|164939348|66801270|13064d5c-1fb8-4ecf-8ecd-1891df68a7f7|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -889,7 +869,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -925,7 +905,7 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -937,30 +917,42 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Rating",
           "name": "Rating",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Digikey",
           "name": "digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Mouser",
           "name": "mouser",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": false
         }
       ],

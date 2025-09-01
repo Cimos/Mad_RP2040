@@ -1723,173 +1723,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:LL4148"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LL4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, MiniMELF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*MiniMELF*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LL4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LL4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -2307,6 +2140,232 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Diode_AKL:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode 1N4148W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1N4148W_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -7902,41 +7961,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 337.82 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01a6bed0-ffa9-4801-a02b-15bc25cd14e7")
 		(property "Reference" "D34"
-			(at 337.82 95.25 0)
+			(at 337.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 337.82 97.79 0)
+		(property "Value" "1N4148W"
+			(at 337.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 337.82 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -7945,7 +7995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -7954,7 +8004,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 337.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -7972,7 +8031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -7990,7 +8049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -7999,7 +8058,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -8008,7 +8067,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -8017,7 +8076,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -8026,7 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -9698,41 +9757,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 337.82 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24b187b0-4105-4ec9-b173-798b3fd3adf7")
 		(property "Reference" "D31"
-			(at 337.82 57.15 0)
+			(at 337.82 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 337.82 59.69 0)
+		(property "Value" "1N4148W"
+			(at 337.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 337.82 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -9741,7 +9791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -9750,7 +9800,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 337.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -9768,7 +9827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -9786,7 +9845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -9795,7 +9854,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -9804,7 +9863,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -9813,7 +9872,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -9822,7 +9881,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -11098,8 +11157,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 279.4 53.34 0)
+		(lib_id "PCM_Diode_AKL:1N4148W")
+		(at 279.4 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11115,7 +11174,7 @@
 				)
 			)
 		)
-		(property "Value" "LL4148"
+		(property "Value" "1N4148W"
 			(at 279.4 49.53 0)
 			(effects
 				(font
@@ -11123,16 +11182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 279.4 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11141,7 +11191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11150,7 +11200,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 279.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11168,7 +11227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11186,7 +11245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11195,7 +11254,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11204,7 +11263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11213,7 +11272,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11222,7 +11281,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
+			(at 279.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11247,41 +11315,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 367.03 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4524f263-1f66-4824-9cd4-4d6f494baa8d")
 		(property "Reference" "D47"
-			(at 367.03 82.55 0)
+			(at 367.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 367.03 85.09 0)
+		(property "Value" "1N4148W"
+			(at 367.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 367.03 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11290,7 +11349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11299,7 +11358,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 367.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11317,7 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11335,7 +11403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11344,7 +11412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11353,7 +11421,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11362,7 +11430,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11371,7 +11439,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11544,41 +11612,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 367.03 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "48294b16-4c18-4f05-9ccf-814e496d202a")
 		(property "Reference" "D48"
-			(at 367.03 95.25 0)
+			(at 367.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 367.03 97.79 0)
+		(property "Value" "1N4148W"
+			(at 367.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 367.03 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -11587,7 +11646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -11596,7 +11655,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 367.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -11614,7 +11682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -11632,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -11641,7 +11709,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -11650,7 +11718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -11659,7 +11727,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -11668,7 +11736,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -12142,8 +12210,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 308.61 53.34 0)
+		(lib_id "PCM_Diode_AKL:1N4148W")
+		(at 308.61 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12152,31 +12220,22 @@
 		(fields_autoplaced yes)
 		(uuid "4ba431d1-f132-4f24-9c7c-26acc2094904")
 		(property "Reference" "D17"
-			(at 308.61 57.15 0)
+			(at 308.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 308.61 59.69 0)
+		(property "Value" "1N4148W"
+			(at 308.61 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 308.61 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12185,7 +12244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12194,7 +12253,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 308.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12212,7 +12280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12230,7 +12298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12239,7 +12307,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12248,7 +12316,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12257,7 +12325,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12266,7 +12334,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12593,8 +12661,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 279.4 91.44 0)
+		(lib_id "PCM_Diode_AKL:1N4148W")
+		(at 279.4 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12603,31 +12671,22 @@
 		(fields_autoplaced yes)
 		(uuid "566a3dd4-98ff-483e-896d-3475aed7fa68")
 		(property "Reference" "D4"
-			(at 279.4 95.25 0)
+			(at 279.4 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 279.4 97.79 0)
+		(property "Value" "1N4148W"
+			(at 279.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 279.4 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12636,7 +12695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12645,7 +12704,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 279.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12663,7 +12731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12681,7 +12749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12690,7 +12758,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12699,7 +12767,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12708,7 +12776,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12717,7 +12785,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12890,8 +12958,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 279.4 66.04 0)
+		(lib_id "PCM_Diode_AKL:1N4148W")
+		(at 279.4 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12900,31 +12968,22 @@
 		(fields_autoplaced yes)
 		(uuid "61d65471-a063-45aa-b30b-5e4acf9cfa73")
 		(property "Reference" "D2"
-			(at 279.4 69.85 0)
+			(at 279.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 279.4 72.39 0)
+		(property "Value" "1N4148W"
+			(at 279.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 279.4 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -12933,7 +12992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -12942,7 +13001,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 279.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -12960,7 +13028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -12978,7 +13046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -12987,7 +13055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -12996,7 +13064,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -13005,7 +13073,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -13014,7 +13082,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -13986,41 +14054,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 337.82 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78b8d17c-b170-4de6-98a4-67565632ab92")
 		(property "Reference" "D33"
-			(at 337.82 82.55 0)
+			(at 337.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 337.82 85.09 0)
+		(property "Value" "1N4148W"
+			(at 337.82 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 337.82 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14029,7 +14088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14038,7 +14097,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 337.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14056,7 +14124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14074,7 +14142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14083,7 +14151,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14092,7 +14160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14101,7 +14169,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14110,7 +14178,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14509,8 +14577,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 279.4 78.74 0)
+		(lib_id "PCM_Diode_AKL:1N4148W")
+		(at 279.4 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14519,31 +14587,22 @@
 		(fields_autoplaced yes)
 		(uuid "8570f0bb-940c-4518-a312-e554dbc291b8")
 		(property "Reference" "D3"
-			(at 279.4 82.55 0)
+			(at 279.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 279.4 85.09 0)
+		(property "Value" "1N4148W"
+			(at 279.4 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 279.4 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14552,7 +14611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14561,7 +14620,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 279.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14579,7 +14647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14597,7 +14665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14606,7 +14674,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14615,7 +14683,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14624,7 +14692,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14633,7 +14701,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14658,41 +14726,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 367.03 66.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86e0c10a-e4ee-4d77-b293-a5cbe3fe4320")
 		(property "Reference" "D46"
-			(at 367.03 69.85 0)
+			(at 367.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 367.03 72.39 0)
+		(property "Value" "1N4148W"
+			(at 367.03 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 367.03 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -14701,7 +14760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -14710,7 +14769,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 367.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -14728,7 +14796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -14746,7 +14814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -14755,7 +14823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -14764,7 +14832,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -14773,7 +14841,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -14782,7 +14850,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -15645,41 +15713,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 367.03 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "969b039b-7eae-418b-ac05-afea27d3c72c")
 		(property "Reference" "D45"
-			(at 367.03 57.15 0)
+			(at 367.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 367.03 59.69 0)
+		(property "Value" "1N4148W"
+			(at 367.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 367.03 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -15688,7 +15747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -15697,7 +15756,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 367.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -15715,7 +15783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -15733,7 +15801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -15742,7 +15810,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -15751,7 +15819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -15760,7 +15828,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -15769,7 +15837,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -17200,41 +17268,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 337.82 66.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b58e4ffd-0b45-45db-a85d-ff98d8a098bf")
 		(property "Reference" "D32"
-			(at 337.82 69.85 0)
+			(at 337.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 337.82 72.39 0)
+		(property "Value" "1N4148W"
+			(at 337.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 337.82 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -17243,7 +17302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -17252,7 +17311,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 337.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -17270,7 +17338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -17288,7 +17356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -17297,7 +17365,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -17306,7 +17374,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -17315,7 +17383,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -17324,7 +17392,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -18627,41 +18695,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
+		(lib_id "PCM_Diode_AKL:1N4148W")
 		(at 308.61 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c9b0be85-0bf8-4369-9576-70299fe9762e")
 		(property "Reference" "D20"
-			(at 308.61 95.25 0)
+			(at 308.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 308.61 97.79 0)
+		(property "Value" "1N4148W"
+			(at 308.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 308.61 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -18670,7 +18729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -18679,7 +18738,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 308.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -18697,7 +18765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -18715,7 +18783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -18724,7 +18792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -18733,7 +18801,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -18742,7 +18810,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -18751,7 +18819,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -19725,8 +19793,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 308.61 78.74 0)
+		(lib_id "PCM_Diode_AKL:1N4148W")
+		(at 308.61 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19735,31 +19803,22 @@
 		(fields_autoplaced yes)
 		(uuid "ef10b08f-3e1a-4813-8872-1718410c023f")
 		(property "Reference" "D19"
-			(at 308.61 82.55 0)
+			(at 308.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 308.61 85.09 0)
+		(property "Value" "1N4148W"
+			(at 308.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 308.61 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -19768,7 +19827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -19777,7 +19836,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 308.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -19795,7 +19863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -19813,7 +19881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -19822,7 +19890,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -19831,7 +19899,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -19840,7 +19908,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -19849,7 +19917,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -20022,8 +20090,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 308.61 66.04 0)
+		(lib_id "PCM_Diode_AKL:1N4148W")
+		(at 308.61 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20032,31 +20100,22 @@
 		(fields_autoplaced yes)
 		(uuid "f6b759de-5170-4ff0-a89c-5fd6c864db68")
 		(property "Reference" "D18"
-			(at 308.61 69.85 0)
+			(at 308.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 308.61 72.39 0)
+		(property "Value" "1N4148W"
+			(at 308.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 308.61 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -20065,7 +20124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148W-HE3-18-Vishay-datasheet-17291302.pdf"
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -20074,7 +20133,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18"
+		(property "Description" "SOD-123 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 308.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.21 "
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -20092,7 +20160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+		(property "Rating" "DIODE STANDARD 75V 250MA SOD123"
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -20110,7 +20178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "SMC Diode Solutions"
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -20119,7 +20187,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
+		(property "MPN" "1N4148W"
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -20128,7 +20196,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C435829"
+		(property "LCSC" "C241939"
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -20137,7 +20205,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "LL4148FSCT-ND"
+		(property "digikey" "1655-1N4148WCT-ND"
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -20146,7 +20214,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "512-LL4148"
+		(property "mouser" "637-1N4148W "
 			(at 308.61 66.04 0)
 			(effects
 				(font
