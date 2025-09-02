@@ -151,7 +151,7 @@
   # 1-2 Layers (1oz)
   # (constraint track_width (min 0.127mm))
   # 4-6 Layers (1oz and 0.5oz)
-	(constraint track_width (min 0.09mm))
+	(constraint track_width (min 5mil))
   # 1-6 Layers (2oz)
   # (constraint track_width (min 0.2mm))
 )
@@ -162,7 +162,7 @@
   # 1-2 Layers (1oz)
   # (constraint clearance (min 0.127mm))
   # 4-6 Layers (1oz and 0.5oz)
-	(constraint clearance (min 0.09mm))
+	(constraint clearance (min 5mil))
   # 1-6 Layers (2oz)
   # (constraint clearance (min 0.2mm))
 )
@@ -172,7 +172,7 @@
 	(condition "A.Type == 'Track'")
   # Choose between:
   # 4-6 Layers (1oz and 0.5oz)
-	(constraint track_width (min 0.09mm))
+	(constraint track_width (min 5mil))
   # 4-6 Layers (2oz)
   # (constraint track_width (min 0.2mm))
 )
@@ -182,7 +182,7 @@
 	(condition "A.Type == 'Track' && B.Type == 'Track'")
   # Choose between:
   # 4-6 Layers (1oz and 0.5oz)
-	(constraint clearance (min 0.09mm))
+	(constraint clearance (min 5mil))
   # 4-6 Layers (2oz)
   # (constraint clearance (min 0.2mm))
 )
@@ -239,8 +239,8 @@
 	# Differential Pair Rule for a 4 Layer 1.6mm PCB. F.Cu and B.Cu layers only: 100 Ohm
     (layer outer)
 	(condition "A.NetClass == 'USB")
-	(constraint track_width (min 10.8mil) (opt 11mil) (max 11.2mil))
-	# Define min and max otherwise no errers will be thrown	
+	(constraint track_width (min 8mil) (opt 11mil) (max 11.2mil))
+	# Define min and max otherwise no errors will be thrown
 	(constraint diff_pair_gap (min 8.5mil) (opt 9mil) (max 9.5mil))
 #	(constraint clearance (opt 4mil))
 )
