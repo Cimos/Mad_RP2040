@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "${TITLE}")
-		(date "2025-08-06")
+		(date "2025-09-02")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 		(comment 1 "${COMMENT1}")
@@ -7986,7 +7986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 337.82 91.44 0)
 			(effects
 				(font
@@ -9782,7 +9782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 337.82 53.34 0)
 			(effects
 				(font
@@ -11182,7 +11182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11340,7 +11340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 367.03 78.74 0)
 			(effects
 				(font
@@ -11637,7 +11637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 367.03 91.44 0)
 			(effects
 				(font
@@ -12235,7 +12235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 308.61 53.34 0)
 			(effects
 				(font
@@ -12686,7 +12686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -12983,7 +12983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -14079,7 +14079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 337.82 78.74 0)
 			(effects
 				(font
@@ -14602,7 +14602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 279.4 78.74 0)
 			(effects
 				(font
@@ -14751,7 +14751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -15738,7 +15738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -17293,7 +17293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -18720,7 +18720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 308.61 91.44 0)
 			(effects
 				(font
@@ -19818,7 +19818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -20115,7 +20115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+		(property "Footprint" "localLib:D_SOD-123"
 			(at 308.61 66.04 0)
 			(effects
 				(font

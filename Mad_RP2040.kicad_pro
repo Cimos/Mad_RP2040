@@ -717,7 +717,8 @@
     "pinned_footprint_libs": [
       "mad_footprints",
       "Mad_Footprints",
-      "kbd"
+      "kbd",
+      "localLib"
     ],
     "pinned_symbol_libs": [
       "Mad_Symbols",
