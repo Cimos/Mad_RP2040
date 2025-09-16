@@ -1,5 +1,5 @@
-name: Generate PCB datapack
-on: 
+name: Build Panel Datapack
+on:
   push:
     branches:
       - '**'
@@ -8,8 +8,8 @@ on:
       - master
 
 jobs:
-  KiKit:
-    name: Panel 
+  generate_panel:
+    name: Panel
     runs-on: ubuntu-latest
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
 
@@ -22,50 +22,48 @@ jobs:
     - name: Get KiCad project name
       run: echo "PROJECT_NAME=$(basename *.kicad_pro .kicad_pro)" >> $GITHUB_ENV
 
-    - name: Clone and Checkout our KiBot config
+    - name: Clone and Checkout KiBot config
       uses: actions/checkout@v4
       with:
         repository: Cimos/kibot-config
         path: ./kibot-config
-        ref: 1-add-penalization-to-build
+        ref: main
 
     - name: Check for panel file existence
       id: check_files
       uses: andstor/file-existence-action@v3
       with:
-        files: "panelization.yaml"
-        
+        files: "build-panel.yaml"
+
     - name: Generate panel file
       if: steps.check_files.outputs.files_exists == 'true'
-      uses: Cimos/kibot-config@1-add-penalization-to-build
+      uses: Cimos/kibot-config@main
       with:
-        config: kibot-config/build.panel.yaml
-        dir: output
+        config: build-panel.yaml
+        dir: output_panel
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
-        logfile: 'logfile/logfile.log'
-        verbose: 3
-    
-    # - name: Build panel datapack
-    #   if: steps.check_files.outputs.files_exists == 'true'
-    #   uses: Cimos/kibot-config@1-add-penalization-to-build
-    #   with:
-    #     config: kibot-config/build.kibot.yaml
-    #     dir: output
-    #     schema: '${{ env.PROJECT_NAME }}.kicad_sch'
-    #     board: '${{ env.PROJECT_NAME }}.kicad_pcb'
-    #     logfile: 'logfile/logfile.log'
-    #     # verbose: 2
+        logfile: 'logfile/logfile-panel.log'
 
-    - name: Upload logfile
+    - name: Build panel datapack
+      if: steps.check_files.outputs.files_exists == 'true'
+      uses: Cimos/kibot-config@main
+      with:
+        config: kibot-config/build-panel-kibot.yaml
+        dir: output_panel
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: 'output_panel/Panel/${{ env.PROJECT_NAME }}-panel.kicad_pcb'
+        logfile: 'logfile_panel/logfile.log'
+
+    - name: Upload panel logfile
       if: always()
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.PROJECT_NAME }}-panel-logfile
-        path: logfile/logfile.log
+        path: logfile_panel
 
-    - name: Upload datapack results
+    - name: Upload Panel Results
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.PROJECT_NAME }}-panel-datapack
-        path: output
+        path: output_panel

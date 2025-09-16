@@ -1,0 +1,11 @@
+kibot:
+  version: 1
+
+import:
+  - file: kibot-config/panelization-base.yaml
+
+...
+definitions:
+
+  LAYOUT_ROWS: 1
+  LAYOUT_COLS: 2

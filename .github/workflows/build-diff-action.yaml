@@ -1,52 +1,55 @@
-name: Generate Datapack
-on: 
+name: Build PCB Diff
+on:
   push:
-    branches:
-      - '**'
+    branches-ignore:
+      - master
+
   pull_request:
     branches:
       - master
 
 jobs:
-  build:
+  generate_diff:
     runs-on: ubuntu-latest
-    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
+    if: github.event_name != 'pull_request' ||
+      github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
 
     steps:
     - name: Checkout (only last commit)
       uses: actions/checkout@v4
       with:
         submodules: recursive
+        fetch-depth: 0
 
     - name: Get KiCad project name
       run: echo "PROJECT_NAME=$(basename *.kicad_pro .kicad_pro)" >> $GITHUB_ENV
 
-    - name: Clone and Checkout our KiBot config
+    - name: Clone and Checkout KiBot config
       uses: actions/checkout@v4
       with:
         repository: Cimos/kibot-config
         path: ./kibot-config
         ref: main
 
-    - name: Build Datapack
-      uses: Cimos/kibot-config@1-add-penalization-to-build
+    - name: Generate Project Diff
+      uses: Cimos/kibot-config@main
       with:
-        config: kibot-config/build.kibot.yaml
-        dir: output
+        config: kibot-config/build-diff-kibot.yaml
+        dir: output_diff
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
-        logfile: 'logfile/logfile.log'
+        logfile: 'logfile_cad/logfile.log'
         # verbose: 2
 
-    - name: Upload logfile
+    - name: Upload Diff logfile
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.PROJECT_NAME }}-logfile
-        path: logfile
-      
-    - name: Upload Results
+        name: ${{ env.PROJECT_NAME }}-diff-logfile
+        path: logfile_cad
+
+    - name: Upload Diff
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.PROJECT_NAME }}-datapack
-        path: output
+        name: ${{ env.PROJECT_NAME }}-diff
+        path: output_diff
