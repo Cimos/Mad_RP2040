@@ -2,6 +2,8 @@
 
 A small RP2040-based keypad PCB. Originally a minimal 2-key board to build confidence with the RP2040 ahead of a full-size keyboard, it has since grown into a 4x4 "anything" keypad with a rotary encoder and per-key RGB.
 
+**Status:** Rev A — fabricated and tested. Released CAD lives under [`resources/rev_a/`](resources/rev_a/).
+
 <!-- TODO: replace with rendered PCB image from build-images CI artifact -->
 ![PCB render](TODO-render-url)
 
