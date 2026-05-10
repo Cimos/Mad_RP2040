@@ -4355,7 +4355,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -7694,7 +7694,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -10876,7 +10876,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -13622,7 +13622,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -14880,7 +14880,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -18427,7 +18427,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -20282,7 +20282,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -23190,7 +23190,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -24805,7 +24805,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -30322,7 +30322,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -30764,7 +30764,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -32023,7 +32023,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -32804,7 +32804,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -34319,7 +34319,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -35438,7 +35438,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
@@ -43589,7 +43589,7 @@
 				(xyz 0 180 0)
 			)
 		)
-		(model "${KIPRJMOD}/localLib.pretty/minspaced-choc-keycap.step"
+		(model "${KIPRJMOD}/3dmodels/minspaced-choc-keycap.step"
 			(offset
 				(xyz 0 0 -9.6)
 			)
