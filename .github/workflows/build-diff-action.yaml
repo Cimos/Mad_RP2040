@@ -2,11 +2,11 @@ name: Build PCB Diff
 on:
   push:
     branches-ignore:
-      - master
+      - main
 
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   generate_diff:
