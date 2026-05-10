@@ -55,6 +55,12 @@ GitHub Actions in [`.github/workflows/`](.github/workflows/) drive the build via
 
 Each workflow uploads its results as a GitHub Actions artifact on every push.
 
+## Firmware
+
+The board runs [QMK](https://qmk.fm/). Keymap and configuration files live in a separate repository.
+
+<!-- TODO: link QMK config repo -->
+
 ## Enclosure
 
 A FreeCAD-exported case is included at [`resources/enclosures/MadRP2040 Case v44.step`](resources/enclosures/). Released board CAD (STEP) snapshots live under [`resources/rev_a/`](resources/rev_a/).
