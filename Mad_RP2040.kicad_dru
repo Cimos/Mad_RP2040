@@ -9,10 +9,6 @@
 # - https://gist.github.com/darkxst/f713268e5469645425eed40115fb8b49 (with comments)
 # - https://gist.github.com/denniskupec/e163d13b0a64c2044bd259f64659485e (with comments)
 
-# TODO new rule: NPTH pads.
-# Inner diameter of pad should be 0.4-0.5 mm larger than NPTH drill diameter.
-# JLCPCB: "We make NPTH via dry sealing film process, if customer would like a NPTH but around with pad/copper, our engineer will dig out around pad/copper about 0.2mm-0.25mm, otherwise the metal potion will be flowed into the hole and it becomes a PTH. (there will be no copper dig out optimization for single board)."
-
 # TODO: new rule for plated slots: min diameter/width 0.5mm
 # JLCPCB: "The minimum plated slot width is 0.5mm, which is drawn with a pad."
 
@@ -74,6 +70,9 @@
 	(constraint annular_width (min 0.075mm))
 )
 
+# JLCPCB requires the inner diameter of an NPTH pad to be 0.4-0.5mm larger
+# than the drill diameter so the dry-sealing-film process does not flow metal
+# into the hole. annular_width is per-side, so min 0.25mm gives 0.5mm overall.
 (rule "NPTH Annular Ring"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated()")
 	(constraint annular_width (min 0.25mm))
