@@ -62,7 +62,6 @@
 	(constraint hole_size (min 0.5mm))
 )
 
-# TODO: Hole to board edge ≥ 1 mm. Min. board size 10 × 10 mm.
 (rule "Castellated Hole Size"
 	(layer outer)
 	(condition "A.Type == 'Pad' && A.Fabrication_Property == 'Castellated pad'")
@@ -217,6 +216,14 @@
 	(constraint edge_clearance (min 0.3mm))
   # V-Cut Panel
 	# (constraint edge_clearance (min 0.4mm))
+)
+
+# JLCPCB: Hole to board edge ≥ 1mm. Castellated pads are intentionally at the
+# edge and are excluded. Min. board size 10 × 10mm is enforced via the board
+# outline, not as a DRC rule.
+(rule "Hole to Board Edge"
+	(condition "(A.Type == 'Pad' && (A.Pad_Type == 'Through-hole' || A.Pad_Type == 'NPTH, mechanical') && A.Fabrication_Property != 'Castellated pad') || A.Type == 'Via'")
+	(constraint edge_clearance (min 1mm))
 )
 
 
