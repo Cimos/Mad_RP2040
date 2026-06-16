@@ -1,0 +1,124 @@
+name: Publish Release
+
+# Auto-publish build artifacts to a GitHub Release whenever a version tag is pushed.
+#   git tag v1.0.0 && git push origin v1.0.0
+# Builds the datapacks fresh from the tagged commit, zips each into a versioned
+# archive, and publishes a release with auto-generated notes.
+on:
+  push:
+    tags:
+      - 'v*'
+
+# Required so the workflow can create the release and upload assets.
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build & Publish Release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout (full history for submodules + release notes)
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        fetch-depth: 0
+
+    - name: Get KiCad project name
+      run: echo "PROJECT_NAME=$(basename *.kicad_pro .kicad_pro)" >> $GITHUB_ENV
+
+    - name: Clone and Checkout KiBot config
+      uses: actions/checkout@v4
+      with:
+        repository: Cimos/kibot-config
+        path: ./kibot-config
+        ref: main
+
+    # --- PCB datapack: gerbers, drill, BOM, position files ---
+    - name: Build PCB Datapack
+      uses: Cimos/kibot-config@main
+      with:
+        config: kibot-config/build-pcb-kibot.yaml
+        dir: output_pcb
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: '${{ env.PROJECT_NAME }}.kicad_pcb'
+        logfile: 'logfile_pcb/logfile.log'
+
+    # --- 3D model: STEP / CAD export ---
+    - name: Build 3D Model
+      uses: Cimos/kibot-config@main
+      with:
+        config: kibot-config/build-3d_model-kibot.yaml
+        dir: output_cad
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: '${{ env.PROJECT_NAME }}.kicad_pcb'
+        logfile: 'logfile_cad/logfile.log'
+
+    # --- 2D images: rendered board views ---
+    - name: Build 2D Images
+      uses: Cimos/kibot-config@main
+      with:
+        config: kibot-config/build-2d_images-kibot.yaml
+        dir: output_images
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: '${{ env.PROJECT_NAME }}.kicad_pcb'
+        logfile: 'logfile_images/logfile.log'
+        verbose: 3
+
+    # --- Panel datapack: only built when a build-panel.yaml exists ---
+    - name: Check for panel file existence
+      id: check_panel
+      uses: andstor/file-existence-action@v3
+      with:
+        files: "build-panel.yaml"
+
+    - name: Generate panel file
+      if: steps.check_panel.outputs.files_exists == 'true'
+      uses: Cimos/kibot-config@main
+      with:
+        config: build-panel.yaml
+        dir: output_panel
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: '${{ env.PROJECT_NAME }}.kicad_pcb'
+        logfile: 'logfile_panel/logfile-gen.log'
+
+    - name: Build Panel Datapack
+      if: steps.check_panel.outputs.files_exists == 'true'
+      uses: Cimos/kibot-config@main
+      with:
+        config: kibot-config/build-panel-kibot.yaml
+        dir: output_panel
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: 'output_panel/Panel/${{ env.PROJECT_NAME }}-panel.kicad_pcb'
+        logfile: 'logfile_panel/logfile.log'
+
+    # --- Package each produced output dir into a versioned zip ---
+    - name: Package release assets
+      run: |
+        set -euo pipefail
+        mkdir -p release_assets
+        zip_if_present() {
+          local src="$1" suffix="$2"
+          if [ -d "$src" ] && [ -n "$(ls -A "$src" 2>/dev/null)" ]; then
+            zip -r "release_assets/${PROJECT_NAME}-${GITHUB_REF_NAME}-${suffix}.zip" "$src"
+            echo "Packaged ${suffix}"
+          else
+            echo "Skipping ${suffix} (no output at ${src})"
+          fi
+        }
+        zip_if_present output_pcb    pcb-datapack
+        zip_if_present output_cad    3d-model
+        zip_if_present output_images 2d-images
+        zip_if_present output_panel  panel-datapack
+        echo "--- release_assets ---"
+        ls -la release_assets
+
+    - name: Publish GitHub Release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh release create "${GITHUB_REF_NAME}" \
+          release_assets/*.zip \
+          --title "${PROJECT_NAME} ${GITHUB_REF_NAME}" \
+          --generate-notes
