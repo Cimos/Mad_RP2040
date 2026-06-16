@@ -1,0 +1,69 @@
+name: KiCad Analysis (kicad-happy)
+
+# Tier-1 (deterministic) AI-design-review analysis via aklofas/kicad-happy.
+# Fork-safe pattern: this workflow runs on `pull_request` with a READ-ONLY token
+# (safe for fork PRs) and only produces a report artifact. A companion workflow
+# (kicad-happy-comment.yml) posts the comment with write permissions via the
+# trusted `workflow_run` trigger.
+#
+# Mitigations from the security audit of kicad-happy @ v1.3.2:
+#  - kicad-happy SHA-pinned (not @v1).
+#  - No distributor API keys passed  -> no DigiKey/Mouser/element14 egress.
+#  - No AI step (no claude-code-action) -> nothing sent to any LLM.
+#  - Least privilege: contents: read only.
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - 'mad_lib/**'
+      - '.github/workflows/kicad-happy.yml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    name: Deterministic analysis
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v5
+      with:
+        submodules: recursive
+
+    - name: Install analysis dependencies
+      run: sudo apt-get install -y ngspice poppler-utils
+
+    - name: KiCad design review (no AI, no distributor keys)
+      id: analysis
+      uses: aklofas/kicad-happy@839d9b03c42358ab16f2eedfdea6c4bc6469826f  # v1.3.2
+
+    - name: Upload report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: kicad-review
+        path: ${{ steps.analysis.outputs.report-path }}
+        retention-days: 1
+
+    - name: Save PR number for the comment workflow
+      if: always()
+      env:
+        PR_NUMBER: ${{ github.event.pull_request.number }}
+      run: echo "$PR_NUMBER" > pr-number.txt
+
+    - name: Upload meta
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: kicad-review-meta
+        path: pr-number.txt
+        retention-days: 1
