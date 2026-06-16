@@ -1,0 +1,59 @@
+name: KiCad Review Comment
+
+# Companion to kicad-happy.yml. Runs in the trusted base-repo context after the
+# analysis workflow completes, and posts the report as a PR comment. This is the
+# only job that holds `pull-requests: write`, and it runs NO third-party analysis
+# code — it just downloads the artifact and comments.
+#
+# NOTE: workflow_run only fires from the default branch, so this activates once
+# merged to main (it won't post on its own introducing PR).
+on:
+  workflow_run:
+    workflows: ['KiCad Analysis (kicad-happy)']
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read            # required to download artifacts from the triggering run
+  pull-requests: write     # post the comment
+
+jobs:
+  comment:
+    name: Post review comment
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'pull_request'
+    steps:
+    - name: Download report
+      uses: actions/download-artifact@v4
+      with:
+        name: kicad-review
+        run-id: ${{ github.event.workflow_run.id }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Download meta
+      uses: actions/download-artifact@v4
+      with:
+        name: kicad-review-meta
+        run-id: ${{ github.event.workflow_run.id }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Read & validate PR number
+      id: pr
+      run: |
+        set -uo pipefail
+        num=$(cat pr-number.txt)
+        # The artifact comes from a (possibly fork) PR run — validate before use.
+        if [[ "$num" =~ ^[0-9]+$ ]]; then
+          echo "number=$num" >> "$GITHUB_OUTPUT"
+        else
+          echo "Refusing to use non-numeric PR number: '$num'"
+          exit 1
+        fi
+
+    - name: Post / update review comment
+      uses: thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b  # v3.0.1
+      with:
+        file-path: report.md
+        comment-tag: kicad-happy-review
+        mode: upsert
+        pr-number: ${{ steps.pr.outputs.number }}
