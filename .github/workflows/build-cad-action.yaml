@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Checkout (only last commit)
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         submodules: recursive
 
@@ -22,7 +22,7 @@ jobs:
       run: echo "PROJECT_NAME=$(basename *.kicad_pro .kicad_pro)" >> $GITHUB_ENV
 
     - name: Clone and Checkout KiBot config
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         repository: Cimos/kibot-config
         path: ./kibot-config
