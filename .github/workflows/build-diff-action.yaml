@@ -1,21 +1,34 @@
 name: Build PCB Diff
-on:
-  push:
-    branches-ignore:
-      - main
 
+# Diffs the PR branch against the base. PR-triggered only (the diff is
+# meaningless without a base to compare against).
+on:
   pull_request:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - '**.kicad_pcb'
+      - '**.kicad_sch'
+      - '**.kicad_pro'
+      - '**.kicad_dru'
+      - '**.kicad_mod'
+      - '**.pretty/**'
+      - 'mad_lib/**'
+      - 'options.yaml'
+      - '.github/workflows/build-diff-action.yaml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
   generate_diff:
     runs-on: ubuntu-latest
-    if: github.event_name != 'pull_request' ||
-      github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
 
     steps:
-    - name: Checkout (only last commit)
+    - name: Checkout (full history for diff)
       uses: actions/checkout@v5
       with:
         submodules: recursive
@@ -39,7 +52,6 @@ jobs:
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
         logfile: 'logfile_cad/logfile.log'
-        # verbose: 2
 
     - name: Upload Diff logfile
       if: always()
