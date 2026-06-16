@@ -1,0 +1,158 @@
+name: Build Datapacks
+
+# Consolidates the former build-pcb / build-cad / build-images / build-panel
+# workflows. The three simple single-step builds run via a matrix; the panel
+# build is a separate job because it is two-step and conditional.
+on:
+  push:
+    branches: [main]
+    paths: &kicad_paths
+      - '**.kicad_pcb'
+      - '**.kicad_sch'
+      - '**.kicad_pro'
+      - '**.kicad_dru'
+      - '**.kicad_mod'
+      - '**.pretty/**'
+      - 'mad_lib/**'
+      - '3dmodels/**'
+      - 'fp-lib-table'
+      - 'sym-lib-table'
+      - 'options.yaml'
+      - 'build-panel.yaml'
+      - '.github/workflows/build-datapacks.yaml'
+  pull_request:
+    branches: [main]
+    paths: *kicad_paths
+
+# Cancel a superseded run when a newer commit lands on the same ref.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Least privilege: these jobs only read the repo and upload artifacts.
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: PCB Datapack
+            config: kibot-config/build-pcb-kibot.yaml
+            dir: output_pcb
+            artifact: pcb-datapack
+            verbose: '0'
+          - name: 3D Model
+            config: kibot-config/build-3d_model-kibot.yaml
+            dir: output_cad
+            artifact: 3d_model
+            verbose: '0'
+          - name: 2D Images
+            config: kibot-config/build-2d_images-kibot.yaml
+            dir: output_images
+            artifact: 2d_images
+            verbose: '3'
+
+    steps:
+    - name: Checkout (only last commit)
+      uses: actions/checkout@v5
+      with:
+        submodules: recursive
+
+    - name: Get KiCad project name
+      run: echo "PROJECT_NAME=$(basename *.kicad_pro .kicad_pro)" >> $GITHUB_ENV
+
+    - name: Clone and Checkout KiBot config
+      uses: actions/checkout@v5
+      with:
+        repository: Cimos/kibot-config
+        path: ./kibot-config
+        ref: main
+
+    - name: Build ${{ matrix.name }}
+      uses: Cimos/kibot-config@main
+      with:
+        config: ${{ matrix.config }}
+        dir: ${{ matrix.dir }}
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: '${{ env.PROJECT_NAME }}.kicad_pcb'
+        logfile: 'logfile/${{ matrix.artifact }}.log'
+        verbose: ${{ matrix.verbose }}
+
+    - name: Upload ${{ matrix.name }} logfile
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ env.PROJECT_NAME }}-${{ matrix.artifact }}-logfile
+        path: logfile
+
+    - name: Upload ${{ matrix.name }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ env.PROJECT_NAME }}-${{ matrix.artifact }}
+        path: ${{ matrix.dir }}
+
+  panel:
+    name: Panel Datapack
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
+
+    steps:
+    - name: Checkout (only last commit)
+      uses: actions/checkout@v5
+      with:
+        submodules: recursive
+
+    - name: Get KiCad project name
+      run: echo "PROJECT_NAME=$(basename *.kicad_pro .kicad_pro)" >> $GITHUB_ENV
+
+    - name: Clone and Checkout KiBot config
+      uses: actions/checkout@v5
+      with:
+        repository: Cimos/kibot-config
+        path: ./kibot-config
+        ref: main
+
+    - name: Check for panel file existence
+      id: check_files
+      uses: andstor/file-existence-action@v3
+      with:
+        files: "build-panel.yaml"
+
+    - name: Generate panel file
+      if: steps.check_files.outputs.files_exists == 'true'
+      uses: Cimos/kibot-config@main
+      with:
+        config: build-panel.yaml
+        dir: output_panel
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: '${{ env.PROJECT_NAME }}.kicad_pcb'
+        logfile: 'logfile/panel-gen.log'
+
+    - name: Build panel datapack
+      if: steps.check_files.outputs.files_exists == 'true'
+      uses: Cimos/kibot-config@main
+      with:
+        config: kibot-config/build-panel-kibot.yaml
+        dir: output_panel
+        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
+        board: 'output_panel/Panel/${{ env.PROJECT_NAME }}-panel.kicad_pcb'
+        logfile: 'logfile/panel.log'
+
+    - name: Upload panel logfile
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ env.PROJECT_NAME }}-panel-logfile
+        path: logfile
+
+    - name: Upload Panel Results
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ env.PROJECT_NAME }}-panel-datapack
+        path: output_panel

@@ -13,6 +13,16 @@ on:
 permissions:
   contents: write
 
+# Never cancel a release mid-publish; serialize per tag.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+# NOTE: kibot-config is SHA-pinned (not @main) so a tagged release rebuilds
+# byte-identically on re-run, independent of upstream changes. `uses:` cannot
+# take an env var, so the SHA is hardcoded in each step below.
+# Pinned to Cimos/kibot-config main @ 2026-06-16 (b6991f9). Bump deliberately.
+
 jobs:
   release:
     name: Build & Publish Release
@@ -33,11 +43,11 @@ jobs:
       with:
         repository: Cimos/kibot-config
         path: ./kibot-config
-        ref: main
+        ref: b6991f98895c28b3a7b605feb401b1fc4e9a393b
 
     # --- PCB datapack: gerbers, drill, BOM, position files ---
     - name: Build PCB Datapack
-      uses: Cimos/kibot-config@main
+      uses: Cimos/kibot-config@b6991f98895c28b3a7b605feb401b1fc4e9a393b
       with:
         config: kibot-config/build-pcb-kibot.yaml
         dir: output_pcb
@@ -47,7 +57,7 @@ jobs:
 
     # --- 3D model: STEP / CAD export ---
     - name: Build 3D Model
-      uses: Cimos/kibot-config@main
+      uses: Cimos/kibot-config@b6991f98895c28b3a7b605feb401b1fc4e9a393b
       with:
         config: kibot-config/build-3d_model-kibot.yaml
         dir: output_cad
@@ -57,7 +67,7 @@ jobs:
 
     # --- 2D images: rendered board views ---
     - name: Build 2D Images
-      uses: Cimos/kibot-config@main
+      uses: Cimos/kibot-config@b6991f98895c28b3a7b605feb401b1fc4e9a393b
       with:
         config: kibot-config/build-2d_images-kibot.yaml
         dir: output_images
@@ -75,7 +85,7 @@ jobs:
 
     - name: Generate panel file
       if: steps.check_panel.outputs.files_exists == 'true'
-      uses: Cimos/kibot-config@main
+      uses: Cimos/kibot-config@b6991f98895c28b3a7b605feb401b1fc4e9a393b
       with:
         config: build-panel.yaml
         dir: output_panel
@@ -85,7 +95,7 @@ jobs:
 
     - name: Build Panel Datapack
       if: steps.check_panel.outputs.files_exists == 'true'
-      uses: Cimos/kibot-config@main
+      uses: Cimos/kibot-config@b6991f98895c28b3a7b605feb401b1fc4e9a393b
       with:
         config: kibot-config/build-panel-kibot.yaml
         dir: output_panel
