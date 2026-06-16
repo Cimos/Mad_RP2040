@@ -4,6 +4,11 @@ name: Design Review (ERC/DRC)
 # custom .kicad_dru) on pull requests, uploads the reports, and posts/updates a
 # single summary comment on the PR. It never fails the check (warn-only) — the
 # comment is the signal.
+#
+# Privilege separation: the `erc_drc` job runs the third-party kibot-config
+# action with `contents: read` ONLY. The `comment` job holds the
+# `pull-requests: write` token but runs only first-party code (gh CLI). This
+# keeps the write token out of reach of the third-party action.
 on:
   pull_request:
     branches: [main]
@@ -22,16 +27,18 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-# Least privilege: read the repo, write PR comments. (Fork PRs get a read-only
-# token regardless, so the comment step is guarded + best-effort for those.)
 permissions:
   contents: read
-  pull-requests: write
 
 jobs:
   erc_drc:
     name: ERC + DRC
     runs-on: ubuntu-latest
+    permissions:
+      contents: read          # third-party action runs with read-only token
+    outputs:
+      project_name: ${{ steps.proj.outputs.name }}
+      outcome: ${{ steps.checks.outcome }}
 
     steps:
     - name: Checkout
@@ -40,7 +47,8 @@ jobs:
         submodules: recursive
 
     - name: Get KiCad project name
-      run: echo "PROJECT_NAME=$(basename *.kicad_pro .kicad_pro)" >> $GITHUB_ENV
+      id: proj
+      run: echo "name=$(basename *.kicad_pro .kicad_pro)" >> $GITHUB_OUTPUT
 
     - name: Run ERC + DRC (warn-only)
       id: checks
@@ -49,49 +57,87 @@ jobs:
       with:
         config: design-review.kibot.yaml
         dir: design_review
-        schema: '${{ env.PROJECT_NAME }}.kicad_sch'
-        board: '${{ env.PROJECT_NAME }}.kicad_pcb'
+        schema: '${{ steps.proj.outputs.name }}.kicad_sch'
+        board: '${{ steps.proj.outputs.name }}.kicad_pcb'
         logfile: 'design_review/erc-drc.log'
 
-    - name: Assemble PR comment
+    - name: Upload ERC/DRC report
       if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: design-review-report
+        path: design_review
+
+  comment:
+    name: PR comment
+    runs-on: ubuntu-latest
+    needs: erc_drc
+    # Only same-repo PRs get a writable token; skip (don't fail) on forks.
+    if: always() && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name
+    permissions:
+      contents: read
+      pull-requests: write     # write token here — no third-party action runs in this job
+    env:
+      PROJECT_NAME: ${{ needs.erc_drc.outputs.project_name }}
+      CHECKS_OUTCOME: ${{ needs.erc_drc.outputs.outcome }}
+
+    steps:
+    - name: Download ERC/DRC report
+      uses: actions/download-artifact@v4
+      with:
+        name: design-review-report
+        path: design_review
+
+    - name: Assemble PR comment
       run: |
         set -uo pipefail
         MARKER='<!-- kibot-design-review -->'
+        ERC="design_review/${PROJECT_NAME}-erc.txt"
+        DRC="design_review/${PROJECT_NAME}-drc.txt"
+
+        # Count severities from the KiBot report files (robust to missing files).
+        count() { if [ -f "$1" ]; then grep -cE "$2" "$1" || true; else echo 0; fi; }
+        erc_err=$(count "$ERC" '; *error');   erc_warn=$(count "$ERC" '; *warning')
+        drc_err=$(count "$DRC" '; *error');   drc_warn=$(count "$DRC" '; *warning')
+        total_err=$(( erc_err + drc_err ))
+
         {
           echo "$MARKER"
           echo "## 🔍 Design Review — ERC / DRC"
           echo
-          if [ "${{ steps.checks.outcome }}" = "success" ]; then
-            echo "✅ **ERC and DRC passed** — no errors reported."
+          if [ "$total_err" -eq 0 ]; then
+            echo "✅ **No ERC or DRC errors.** ($erc_warn ERC + $drc_warn DRC warnings — review below.)"
           else
-            echo "⚠️ **ERC and/or DRC reported issues.** This check is **warn-only** and does not block merge. Review the details below and the uploaded \`design-review-report\` artifact."
+            echo "❌ **$total_err error(s) found** ($erc_err ERC, $drc_err DRC). Warn-only — does not block merge, but please review."
           fi
           echo
-          echo "Validated with the project's custom design rules (\`${PROJECT_NAME}.kicad_dru\`)."
+          echo "| Check | Errors | Warnings |"
+          echo "| --- | --- | --- |"
+          echo "| ERC | $erc_err | $erc_warn |"
+          echo "| DRC | $drc_err | $drc_warn |"
           echo
-          echo "<details><summary>KiBot ERC/DRC log (tail)</summary>"
+          echo "_DRC run against the project's custom rules (\`${PROJECT_NAME}.kicad_dru\`). \"warn-only\" — the \`design-review-report\` artifact has the full reports._"
           echo
-          echo '```'
-          tail -n 120 design_review/erc-drc.log 2>/dev/null || echo "(no log captured)"
-          echo '```'
+          # Category breakdown — surfaces that most issues are library-sync noise vs real violations.
+          breakdown=$(cat "$ERC" "$DRC" 2>/dev/null | grep -oE '^\[[a-z_]+\]' | sort | uniq -c | sort -rn | head -12)
+          if [ -n "$breakdown" ]; then
+            echo "<details><summary>Issues by category</summary>"
+            echo; echo '```'; echo "$breakdown"; echo '```'
+            echo "</details>"
+            echo
+          fi
+          echo "<details><summary>ERC report (tail)</summary>"
+          echo; echo '```'; tail -n 60 "$ERC" 2>/dev/null || echo "(no ERC report)"; echo '```'
+          echo "</details>"
+          echo "<details><summary>DRC report (tail)</summary>"
+          echo; echo '```'; tail -n 60 "$DRC" 2>/dev/null || echo "(no DRC report)"; echo '```'
           echo "</details>"
           echo
           echo "<sub>Updated automatically on each push to this PR.</sub>"
         } > comment.md
         echo "Wrote comment.md ($(wc -l < comment.md) lines)"
 
-    - name: Upload ERC/DRC report
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.PROJECT_NAME }}-design-review-report
-        path: design_review
-
     - name: Post / update PR comment
-      # Only same-repo PRs get a writable token; skip (don't fail) on forks.
-      if: always() && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name
-      continue-on-error: true
       env:
         GH_TOKEN: ${{ github.token }}
         PR_NUMBER: ${{ github.event.pull_request.number }}
