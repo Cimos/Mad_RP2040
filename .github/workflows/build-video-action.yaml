@@ -1,7 +1,6 @@
 name: Generate Video Frames
 
-# Renders animation frames on pushes to main.
-# TODO: add a step to assemble the frames into an MP4 (e.g. ffmpeg) and upload it.
+# Renders animation frames on pushes to main and stitches them into an MP4.
 on:
   push:
     branches: [main]
@@ -50,6 +49,37 @@ jobs:
         schema: '${{ env.PROJECT_NAME }}.kicad_sch'
         board: '${{ env.PROJECT_NAME }}.kicad_pcb'
         logfile: 'logfile_video/logfile.log'
+
+    - name: Assemble MP4 from frames
+      # Non-fatal: a stitching hiccup must not fail the frame upload below.
+      # ffmpeg is preinstalled on ubuntu-latest; install only if missing.
+      continue-on-error: true
+      run: |
+        set -uo pipefail
+        command -v ffmpeg >/dev/null || { sudo apt-get update && sudo apt-get install -y ffmpeg; }
+        # Collect rendered PNG frames in deterministic order (blender_export
+        # writes them with a _NNN suffix, possibly under a subdir).
+        mapfile -t frames < <(find output_video -type f -name '*.png' | sort)
+        echo "Found ${#frames[@]} frame(s)"
+        if [ "${#frames[@]}" -eq 0 ]; then
+          echo "No PNG frames found — skipping MP4 assembly."
+          exit 0
+        fi
+        # Renumber into a clean sequence so ffmpeg's image2 reader is happy
+        # regardless of the original frame names.
+        mkdir -p .frames_seq
+        i=0
+        for f in "${frames[@]}"; do
+          cp "$f" "$(printf '.frames_seq/f_%05d.png' "$i")"
+          i=$((i + 1))
+        done
+        # pad to even dimensions (libx264 requirement); yuv420p flattens alpha.
+        ffmpeg -y -framerate 30 -i '.frames_seq/f_%05d.png' \
+          -c:v libx264 -pix_fmt yuv420p \
+          -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" \
+          "output_video/${PROJECT_NAME}-3d.mp4"
+        rm -rf .frames_seq
+        echo "Wrote output_video/${PROJECT_NAME}-3d.mp4"
 
     - name: Upload Video logfile
       if: always()
