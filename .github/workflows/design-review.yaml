@@ -153,3 +153,5 @@ jobs:
           echo "Creating new comment"
           gh api -X POST "repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/comments" -F body=@comment.md >/dev/null
         fi
+
+# CI verification touch — throwaway, will be reverted.

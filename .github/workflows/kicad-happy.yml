@@ -69,3 +69,5 @@ jobs:
         name: kicad-review-meta
         path: pr-number.txt
         retention-days: 1
+
+# CI verification touch — throwaway, will be reverted.
