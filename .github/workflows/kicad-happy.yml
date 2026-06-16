@@ -40,7 +40,9 @@ jobs:
         submodules: recursive
 
     - name: Install analysis dependencies
-      run: sudo apt-get install -y ngspice poppler-utils
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ngspice poppler-utils
 
     - name: KiCad design review (no AI, no distributor keys)
       id: analysis
