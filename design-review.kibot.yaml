@@ -1,0 +1,17 @@
+# Project-local KiBot config for the PR design-review gate.
+#
+# The shared Cimos/kibot-config options.yaml disables validation
+# (run_erc/run_drc/check_zone_fills = false) because the datapack builds don't
+# need it. This config re-enables ERC + DRC so the gate actually validates the
+# design. DRC automatically picks up Mad_RP2040.kicad_dru (the custom JLCPCB /
+# PCBWay rules) since it lives in the project directory.
+#
+# No `outputs:` are defined on purpose — KiBot runs the preflight checks and
+# generates nothing else, keeping the gate fast (no gerbers / renders).
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
