@@ -16,12 +16,6 @@
 # TODO: new rule for plated slots: min diameter/width 0.5mm
 # JLCPCB: "The minimum plated slot width is 0.5mm, which is drawn with a pad."
 
-# JLCPCB: "The minimum Non-Plated Slot Width is 1.0mm, please draw the slot outline in the mechanical layer(GML or GKO)"
-(rule "Non-Plated Slot Width"
-	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
-	(constraint hole_size (min 1.0mm))
-)
-
 
 # --- Drill/Hole Size ---
 
@@ -63,6 +57,13 @@
 (rule "NPTH Hole Size"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated()")
 	(constraint hole_size (min 0.5mm))
+)
+
+# Must stay after "NPTH Hole Size": later rules take precedence in KiCad.
+# JLCPCB: "The minimum Non-Plated Slot Width is 1.0mm, please draw the slot outline in the mechanical layer(GML or GKO)"
+(rule "Non-Plated Slot Width"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
+	(constraint hole_size (min 1.0mm))
 )
 
 # TODO: Hole to board edge ≥ 1 mm. Min. board size 10 × 10 mm.
