@@ -4344,7 +4344,7 @@
 			(uuid "a56977da-45bf-4db9-80c4-3304d15f9c72")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -7683,7 +7683,7 @@
 			(uuid "3fffaeed-cd4e-4ffc-bce2-ef8fe89941d4")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -10865,7 +10865,7 @@
 			(uuid "0326587f-dab9-4cfe-8233-2911d9466e4a")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -13611,7 +13611,7 @@
 			(uuid "ad083faf-e61a-4dc9-a1db-9399d0e57ece")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -14869,7 +14869,7 @@
 			(uuid "8211e9d7-10f3-4913-b156-053547597d55")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -18416,7 +18416,7 @@
 			(uuid "4703cc35-312b-49e3-9a11-db86371aafe7")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -20271,7 +20271,7 @@
 			(uuid "c6c599e9-805b-4f6f-8214-0bedf5b7f16a")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -23179,7 +23179,7 @@
 			(uuid "d59ffdc1-7fca-4cd8-a15e-bdc469a63819")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -24794,7 +24794,7 @@
 			(uuid "465f54d2-f802-4ddf-bb72-24db99abfcf4")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -30311,7 +30311,7 @@
 			(uuid "62aa20d9-8340-413c-acb3-900e2579fb8f")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -30753,7 +30753,7 @@
 			(uuid "11e54d77-9265-4e9f-bf80-13bd73e616cf")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -32012,7 +32012,7 @@
 			(uuid "145bd091-1b61-4093-b6f6-053593441734")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -32793,7 +32793,7 @@
 			(uuid "08e6ed53-d0f0-45f7-ad08-4dff8c263228")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -34308,7 +34308,7 @@
 			(uuid "dc26f5fd-ff4b-464d-87c8-eaaf4ed51842")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -35427,7 +35427,7 @@
 			(uuid "13afe776-052d-47a2-a921-bfba7f12da29")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
@@ -43578,7 +43578,7 @@
 			(uuid "fa24d428-5337-4587-9437-3bd47af9e2f5")
 		)
 		(embedded_fonts no)
-		(model ":KICAD_KBD_DIR:kicad-packages3D/kbd.3dshapes/kailh_choc_socket.step"
+		(model "${KIPRJMOD}/3dmodels/kailh_choc_socket.step"
 			(offset
 				(xyz 0 0 1.6)
 			)
